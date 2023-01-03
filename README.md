@@ -18,7 +18,7 @@
   </p>
 </div>
 
-Cloudy by RoboLaunch is an open source, autonomous wheeled DIY robot that allows users to learn about robotics in a hands-on and interactive way.
+Cloudy by robolaunch is an open source, autonomous wheeled DIY robot that allows users to learn about robotics in a hands-on and interactive way.
 
 ## Table of Contents
 
