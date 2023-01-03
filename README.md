@@ -1,21 +1,26 @@
 # <img src="https://raw.githubusercontent.com/robolaunch/trademark/main/logos/svg/rocket.svg" width="40" height="40" align="top"> robolaunch Cloudy
 
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/logos/svg/rocket.svg" width="40" height="40" align="top">
+
+Official repository of the robolaunch Cloudy
+
 
 <div align="center">
   <p align="center">
   <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/robolaunch/cloudy?color=green"/></a>
+        <img src="https://img.shields.io/github/contributors/robolaunch/cloudy?color=brightgreen"/></a>
     <a href="https://github.com/robolaunch/cloudy/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/robolaunch/cloudy" alt="license">
     </a>
-    <a href="https://github.com/robolaunch/template/issues">
+    <a href="https://github.com/robolaunch/cloudy/issues">
       <img src="https://img.shields.io/github/issues/robolaunch/cloudy" alt="issues">
     </a>
-
+  <a href="https://github.com/robolaunch/cloudy/pulse" alt="Activity">
+        <img src="https://img.shields.io/github/commit-activity/m/robolaunch/cloudy" /></a>
   </p>
 </div>
 
-robolaunch Template helps organization members to have a generic project template before opening a repository. [Use this repository as a template](https://github.com/robolaunch/template/generate) for the new [robolaunch Organization](https://github.com/robolaunch) repository and specialize it according to project's needs.
+Introducing Cloudy from robolaunch: An open-source, 3D-printed robot that's ready to take on the world (or at least your living room)
 
 ## Table of Contents
 
