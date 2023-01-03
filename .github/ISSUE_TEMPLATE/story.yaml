@@ -1,0 +1,10 @@
+name: Story
+description: Describe the high-level requirements or use-cases for robots
+labels: ["story"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: "The Story"
+    validations:
+      required: true

@@ -1,0 +1,10 @@
+name: Documentation Issue
+description: Describe the need for documentation change
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: feature
+    attributes:
+      label: What would you like to be updated?
+    validations:
+      required: true
