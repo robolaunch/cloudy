@@ -1,6 +1,7 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
   <xacro:property name="M_PI" value="3.1415926535897931" />
   <xacro:macro name="depth_sensor" params="*origin">
+
     <link name="camera_link">
       <visual>
         <origin xyz="-0.05 -0.105 0" rpy="1.57 0 1.57"/>
@@ -8,9 +9,9 @@
 <!--      <box size="0.030 0.124 0.030"/> -->
           <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/realsense.stl" />
         </geometry>
-        <material name="red">
-          <color rgba="0.416 0.051 0.047 1.0"/>
-        </material>
+  <material name="lightgray">
+        <color rgba="0.6 0.6 0.6 1"/>
+    </material>
       </visual>
       
       <collision>
@@ -29,16 +30,7 @@
       </inertial>
     </link>
     
-    <gazebo reference="camera_link">  
-      <visual>  
-        <material>
-          <ambient>0.416 0.051 0.047 1.0</ambient>  
-          <diffuse>0.416 0.051 0.047 1.0</diffuse>  
-          <specular>0.416 0.051 0.047 1.0</specular>  
-          <emissive>0.416 0.051 0.047 1.0</emissive>  
-        </material>
-      </visual> 
-    </gazebo>rgb(213,28,40)
+
 
     <joint name="camera_to_base_link" type="fixed">
       <parent link="base_link"/>
