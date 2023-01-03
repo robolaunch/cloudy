@@ -5,7 +5,8 @@
   <version>0.0.0</version>
   <description>Package with launch files and run-time configurations for robolaunch Cloudy.</description>
 
-  <maintainer email="mertsaadetcs@gmail.com">Mert Saadet</maintainer>
+  <maintainer email="mert.saadet@robolaunch.io">Mert Saadet</maintainer>
+  <maintainer email="samet.elmaci@robolaunch.io">Samet Elmacı</maintainer>
 
   <license>Apache-2.0</license>
 
