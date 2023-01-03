@@ -2,8 +2,9 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
     <xacro:include filename="inertial_macros.xacro"/>
-    <xacro:include filename="$(find robolaunch_diffbot_description)/sensors/generic_laser.urdf.xacro" />
-    <xacro:include filename="$(find robolaunch_diffbot_description)/urdf/properties.urdf.xacro" />
+    <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/generic_laser.urdf.xacro" />
+    <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/properties.urdf.xacro" />
+    <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/depth_sensor.urdf.xacro" />
 
    <xacro:property name="scale_ratio" value="0.0015" />
    <link name="base_footprint"/>
@@ -52,7 +53,7 @@
         <visual>
             <origin xyz="0 0.15 0" rpy="1.57 0 0"/>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_diffbot_description)/urdf/meshes/body.stl"/>
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/body.stl"/>
             </geometry>
             <material name="gray"/>
         </visual>
@@ -85,7 +86,7 @@
     <link name="right_wheel">
         <visual>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_diffbot_description)/urdf/meshes/wheel.stl" />
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel.stl" />
             </geometry>
             <material name="white"/>
             <origin xyz="-0.049 -0.049 0" rpy="0 ${pi/2} 0" />
@@ -115,7 +116,7 @@
     <link name="left_wheel">
         <visual>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_diffbot_description)/urdf/meshes/wheel.stl" />
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel.stl" />
             </geometry>
             <origin xyz="-0.049 -0.049 0" rpy="0 ${pi/2} 0" />
             <material name="white"/>

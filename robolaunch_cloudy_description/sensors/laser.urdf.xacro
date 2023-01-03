@@ -5,7 +5,7 @@
       <visual>
         <origin xyz="-0.05 0.03 -0.02" rpy="1.57 0 0"/>
         <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_diffbot_description)/urdf/meshes/lidar.stl" />
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/lidar.stl" />
         </geometry>
         <material name="green">
             <color rgba="0.003 0.639 0.223 1.0"/>

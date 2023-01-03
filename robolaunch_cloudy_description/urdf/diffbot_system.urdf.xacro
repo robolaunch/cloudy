@@ -2,7 +2,7 @@
 <!-- Basic differential drive mobile base -->
 <!--
 Copied and modified from ROS1 example -
-https://github.com/ros-simulation/gazebo_ros_demos/blob/kinetic-devel/robolaunch_diffbot_description/urdf/diffbot.xacro
+https://github.com/ros-simulation/gazebo_ros_demos/blob/kinetic-devel/robolaunch_cloudy_description/urdf/diffbot.xacro
 -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="diffdrive_robot">
   <xacro:arg name="use_sim" default="false" />
@@ -12,18 +12,18 @@ https://github.com/ros-simulation/gazebo_ros_demos/blob/kinetic-devel/robolaunch
   <xacro:arg name="fake_sensor_commands" default="false" />
   <xacro:arg name="prefix" default="" />
 
-  <xacro:include filename="$(find robolaunch_diffbot_description)/urdf/robot_core.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robot_core.xacro" />
 <xacro:generic_laser>
         <xacro:insert_block name="laser_pose" />
     </xacro:generic_laser>
   <!-- Import all Gazebo-customization elements, including Gazebo colors -->
-<!--   <xacro:include filename="$(find robolaunch_diffbot_description)/gazebo/diffbot.gazebo.xacro" />
+<!--   <xacro:include filename="$(find robolaunch_cloudy_description)/gazebo/diffbot.gazebo.xacro" />
  -->
   <!-- Import Rviz colors -->
-<!--   <xacro:include filename="$(find robolaunch_diffbot_description)/gazebo/diffbot.materials.xacro" />
+<!--   <xacro:include filename="$(find robolaunch_cloudy_description)/gazebo/diffbot.materials.xacro" />
  -->
   <!-- Import diffbot ros2_control description -->
-  <xacro:include filename="$(find robolaunch_diffbot_description)/ros2_control/diffbot_system.ros2_control.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/ros2_control/diffbot_system.ros2_control.xacro" />
 
 <!--   <xacro:diffbot prefix="$(arg prefix)" />
  -->
