@@ -1,13 +1,11 @@
 # <img src="https://raw.githubusercontent.com/robolaunch/trademark/main/logos/svg/rocket.svg" width="40" height="40" align="top"> robolaunch Cloudy
-
-<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/logos/svg/rocket.svg" width="40" height="40" align="top">
-
-Official repository of the robolaunch Cloudy
-
+<p align="center">
+<img src="https://github.com/robolaunch/cloudy/blob/main/docs/cloudy-v2.png" width="500">
+</p>
 
 <div align="center">
   <p align="center">
-  <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+  <a href="https://github.com/badges/robolaunch/cloudy/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/robolaunch/cloudy?color=brightgreen"/></a>
     <a href="https://github.com/robolaunch/cloudy/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/robolaunch/cloudy" alt="license">
@@ -20,7 +18,7 @@ Official repository of the robolaunch Cloudy
   </p>
 </div>
 
-Introducing Cloudy from robolaunch: An open-source, 3D-printed robot that's ready to take on the world (or at least your living room)
+Cloudy by RoboLaunch is an open source, autonomous wheeled DIY robot that allows users to learn about robotics in a hands-on and interactive way.
 
 ## Table of Contents
 
