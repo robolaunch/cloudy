@@ -5,7 +5,7 @@
 
 <div align="center">
   <p align="center">
-  <a href="https://github.com/badges/robolaunch/cloudy/contributors" alt="Contributors">
+  <a href="https://github.com/robolaunch/cloudy/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/robolaunch/cloudy?color=brightgreen"/></a>
     <a href="https://github.com/robolaunch/cloudy/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/robolaunch/cloudy" alt="license">
