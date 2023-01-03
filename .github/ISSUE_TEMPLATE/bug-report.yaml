@@ -6,9 +6,7 @@ body:
     id: problem
     attributes:
       label: What happened?
-      description: |
-        Please provide as much info as possible. Not doing so may result in your bug not being addressed in a timely manner.
-        If this matter is security related, please disclose it privately via https://kubernetes.io/security
+      description: 
     validations:
       required: true
 
@@ -26,27 +24,4 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: kubeVersion
-    attributes:
-      label: Kubernetes version
-      value: |
-        <details>
 
-        ```console
-        $ kubectl version
-        # paste output here
-        ```
-
-        </details>
-    validations:
-      required: true
-
-  - type: textarea
-    id: network
-    attributes:
-      label: Container network interface (CNI) and version
-      value: |
-        <details>
-
-        </details>
