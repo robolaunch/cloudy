@@ -163,4 +163,4 @@ source install/setup.bash && ros2 run teleop_twist_keyboard teleop_twist_keyboar
 
 ## Contributing
 
-Please see [this guide](./CONTRIBUTING) if you want to contribute.
+Please see [this guide](./CONTRIBUTING.md) if you want to contribute.
