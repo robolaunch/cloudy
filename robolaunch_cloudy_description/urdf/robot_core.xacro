@@ -5,6 +5,9 @@
     <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/generic_laser.urdf.xacro" />
     <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/properties.urdf.xacro" />
     <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/depth_sensor.urdf.xacro" />
+    <xacro:property name="depth_sensor_pose">
+        <origin xyz="0.4 0 0.05" rpy="0 0 0"/>
+    </xacro:property>
 
    <xacro:property name="scale_ratio" value="0.0015" />
    <link name="base_footprint"/>
