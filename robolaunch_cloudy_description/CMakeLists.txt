@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(robolaunch_diffbot_description)
+project(robolaunch_cloudy_description)
 
 find_package(ament_cmake REQUIRED)
 

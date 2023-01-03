@@ -19,38 +19,38 @@
  * library cannot have, but the consuming code must have inorder to link.
  */
 
-#ifndef ROBOLAUNCH_DIFFBOT_HARDWARE__VISIBILITY_CONTROL_H_
-#define ROBOLAUNCH_DIFFBOT_HARDWARE__VISIBILITY_CONTROL_H_
+#ifndef robolaunch_diffbot_hardware__VISIBILITY_CONTROL_H_
+#define robolaunch_diffbot_hardware__VISIBILITY_CONTROL_H_
 
 // This logic was borrowed (then namespaced) from the examples on the gcc wiki:
 //     https://gcc.gnu.org/wiki/Visibility
 
 #if defined _WIN32 || defined __CYGWIN__
 #ifdef __GNUC__
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_EXPORT __attribute__((dllexport))
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_IMPORT __attribute__((dllimport))
+#define robolaunch_diffbot_hardware_EXPORT __attribute__((dllexport))
+#define robolaunch_diffbot_hardware_IMPORT __attribute__((dllimport))
 #else
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_EXPORT __declspec(dllexport)
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_IMPORT __declspec(dllimport)
+#define robolaunch_diffbot_hardware_EXPORT __declspec(dllexport)
+#define robolaunch_diffbot_hardware_IMPORT __declspec(dllimport)
 #endif
-#ifdef ROBOLAUNCH_DIFFBOT_HARDWARE_BUILDING_DLL
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC ROBOLAUNCH_DIFFBOT_HARDWARE_EXPORT
+#ifdef robolaunch_diffbot_hardware_BUILDING_DLL
+#define robolaunch_diffbot_hardware_PUBLIC robolaunch_diffbot_hardware_EXPORT
 #else
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC ROBOLAUNCH_DIFFBOT_HARDWARE_IMPORT
+#define robolaunch_diffbot_hardware_PUBLIC robolaunch_diffbot_hardware_IMPORT
 #endif
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC_TYPE ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_LOCAL
+#define robolaunch_diffbot_hardware_PUBLIC_TYPE robolaunch_diffbot_hardware_PUBLIC
+#define robolaunch_diffbot_hardware_LOCAL
 #else
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_EXPORT __attribute__((visibility("default")))
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_IMPORT
+#define robolaunch_diffbot_hardware_EXPORT __attribute__((visibility("default")))
+#define robolaunch_diffbot_hardware_IMPORT
 #if __GNUC__ >= 4
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC __attribute__((visibility("default")))
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_LOCAL __attribute__((visibility("hidden")))
+#define robolaunch_diffbot_hardware_PUBLIC __attribute__((visibility("default")))
+#define robolaunch_diffbot_hardware_LOCAL __attribute__((visibility("hidden")))
 #else
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_LOCAL
+#define robolaunch_diffbot_hardware_PUBLIC
+#define robolaunch_diffbot_hardware_LOCAL
 #endif
-#define ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC_TYPE
+#define robolaunch_diffbot_hardware_PUBLIC_TYPE
 #endif
 
-#endif  // ROBOLAUNCH_DIFFBOT_HARDWARE__VISIBILITY_CONTROL_H_
+#endif  // robolaunch_diffbot_hardware__VISIBILITY_CONTROL_H_

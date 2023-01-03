@@ -1,5 +1,5 @@
-#ifndef ROBOLAUNCH_DIFFBOT_HARDWARE__DIFFBOT_SYSTEM_HPP_
-#define ROBOLAUNCH_DIFFBOT_HARDWARE__DIFFBOT_SYSTEM_HPP_
+#ifndef robolaunch_diffbot_hardware__DIFFBOT_SYSTEM_HPP_
+#define robolaunch_diffbot_hardware__DIFFBOT_SYSTEM_HPP_
 
 #include <memory>
 #include <string>
@@ -42,25 +42,25 @@ class DiffBotSystemHardware
 public:
   RCLCPP_SHARED_PTR_DEFINITIONS(DiffBotSystemHardware);
 
-  ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
+  robolaunch_diffbot_hardware_PUBLIC
   CallbackReturn on_init(const hardware_interface::HardwareInfo & info) override;
 
-  ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
+  robolaunch_diffbot_hardware_PUBLIC
   std::vector<hardware_interface::StateInterface> export_state_interfaces() override;
 
-  ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
+  robolaunch_diffbot_hardware_PUBLIC
   std::vector<hardware_interface::CommandInterface> export_command_interfaces() override;
 
-  ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
+  robolaunch_diffbot_hardware_PUBLIC
   CallbackReturn on_activate(const rclcpp_lifecycle::State & ) override;
 
-  ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
+  robolaunch_diffbot_hardware_PUBLIC
   CallbackReturn on_deactivate(const rclcpp_lifecycle::State & ) override;
 
-  ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
+  robolaunch_diffbot_hardware_PUBLIC
   hardware_interface::return_type read(const rclcpp::Time& time, const rclcpp::Duration& period) override;
 
-  ROBOLAUNCH_DIFFBOT_HARDWARE_PUBLIC
+  robolaunch_diffbot_hardware_PUBLIC
   hardware_interface::return_type write(const rclcpp::Time& time, const rclcpp::Duration& period) override;
 
   std::shared_ptr<HardwareCommandPub> hw_cmd_pub_;
@@ -80,4 +80,4 @@ private:
 
 }  // namespace robolaunch_diffbot_hardware
 
-#endif  // ROBOLAUNCH_DIFFBOT_HARDWARE__DIFFBOT_SYSTEM_HPP_
+#endif  // robolaunch_diffbot_hardware__DIFFBOT_SYSTEM_HPP_
