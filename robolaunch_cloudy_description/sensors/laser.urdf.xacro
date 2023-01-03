@@ -3,16 +3,19 @@
   <xacro:macro name="laser" params="*origin update_rate ray_count min_angle max_angle min_range max_range frame_id topic_name">
     <link name="${frame_id}">
       <visual>
-        <origin xyz="-0.05 0.03 -0.02" rpy="1.57 0 0"/>
+        <origin xyz="0.04 -0.038 -0.08" rpy="1.57 0 3.14"/>
         <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/lidar.stl" />
-        </geometry>
-        <material name="green">
-            <color rgba="0.003 0.639 0.223 1.0"/>
-        </material>
+              <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/lidar.stl" />
+           <!--   <cylinder radius="0.0375" length="0.05"/> -->   
+
+         </geometry>
+  <material name="darkgray">
+        <color rgba="0.2 0.2 0.2 1"/>
+    </material>
+    
       </visual>
       <collision>
-        <origin xyz="0 0 -0.025" rpy="0 0 0"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
           <cylinder radius="0.0375" length="0.05"/>
         </geometry>
@@ -27,18 +30,13 @@
       </inertial>
     </link>
 
-    <gazebo reference="${frame_id}">  
-      <visual>  
-        <material>
-          <ambient>0.003 0.639 0.223 1.0</ambient>  
-          <diffuse>0.003 0.639 0.223 1.0</diffuse>  
-          <specular>0.003 0.639 0.223 1.0</specular>  
-          <emissive>0.0 0.0 0.0 0.0</emissive>  
-        </material>
-      </visual> 
-    </gazebo>
 
+    <gazebo reference="${frame_id}">
+    <material>Gazebo/Black</material>
+    </gazebo>
     <joint name="${frame_id}_to_base_link" type="fixed">
+      <origin xyz="0 -0.01 0.26" rpy="0 0 0"/>
+
       <parent link="base_link"/>
       <child link="${frame_id}"/>
       <xacro:insert_block name="origin" />
@@ -49,7 +47,7 @@
         <always_on>true</always_on>
         <update_rate>${update_rate}</update_rate>
         <pose>0 0 0 0 0 0</pose>
-        <visualize>false</visualize>
+        <visualize>false</visualize> <!-- if you want to see laser scan lines into the gazebo you should enable this -->
         <ray>
           <scan>
             <horizontal>

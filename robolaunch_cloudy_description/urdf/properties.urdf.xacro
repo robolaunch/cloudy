@@ -2,7 +2,7 @@
 <robot xmlns:xacro="http://ros.org/wiki/xacro"> 
 
   <xacro:property name="laser_pose">
-    <origin xyz="-0.01 -0.018 0.2" rpy="0 0 3.14"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
   </xacro:property>
 
 </robot>
