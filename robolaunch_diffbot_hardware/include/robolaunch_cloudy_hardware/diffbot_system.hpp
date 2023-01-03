@@ -1,11 +1,11 @@
-#ifndef robolaunch_diffbot_hardware__DIFFBOT_SYSTEM_HPP_
-#define robolaunch_diffbot_hardware__DIFFBOT_SYSTEM_HPP_
+#ifndef robolaunch_cloudy_hardware__DIFFBOT_SYSTEM_HPP_
+#define robolaunch_cloudy_hardware__DIFFBOT_SYSTEM_HPP_
 
 #include <memory>
 #include <string>
 #include <vector>
 
-#include "robolaunch_diffbot_hardware/visibility_control.h"
+#include "robolaunch_cloudy_hardware/visibility_control.h"
 
 #include "rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp"
 #include "rclcpp_lifecycle/state.hpp"
@@ -20,7 +20,7 @@
 #include "std_msgs/msg/float32.hpp"
 
 
-namespace robolaunch_diffbot_hardware
+namespace robolaunch_cloudy_hardware
 {
   using CallbackReturn = rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn;
 
@@ -42,25 +42,25 @@ class DiffBotSystemHardware
 public:
   RCLCPP_SHARED_PTR_DEFINITIONS(DiffBotSystemHardware);
 
-  robolaunch_diffbot_hardware_PUBLIC
+  robolaunch_cloudy_hardware_PUBLIC
   CallbackReturn on_init(const hardware_interface::HardwareInfo & info) override;
 
-  robolaunch_diffbot_hardware_PUBLIC
+  robolaunch_cloudy_hardware_PUBLIC
   std::vector<hardware_interface::StateInterface> export_state_interfaces() override;
 
-  robolaunch_diffbot_hardware_PUBLIC
+  robolaunch_cloudy_hardware_PUBLIC
   std::vector<hardware_interface::CommandInterface> export_command_interfaces() override;
 
-  robolaunch_diffbot_hardware_PUBLIC
+  robolaunch_cloudy_hardware_PUBLIC
   CallbackReturn on_activate(const rclcpp_lifecycle::State & ) override;
 
-  robolaunch_diffbot_hardware_PUBLIC
+  robolaunch_cloudy_hardware_PUBLIC
   CallbackReturn on_deactivate(const rclcpp_lifecycle::State & ) override;
 
-  robolaunch_diffbot_hardware_PUBLIC
+  robolaunch_cloudy_hardware_PUBLIC
   hardware_interface::return_type read(const rclcpp::Time& time, const rclcpp::Duration& period) override;
 
-  robolaunch_diffbot_hardware_PUBLIC
+  robolaunch_cloudy_hardware_PUBLIC
   hardware_interface::return_type write(const rclcpp::Time& time, const rclcpp::Duration& period) override;
 
   std::shared_ptr<HardwareCommandPub> hw_cmd_pub_;
@@ -78,6 +78,6 @@ private:
   double base_x_, base_y_, base_theta_;
 };
 
-}  // namespace robolaunch_diffbot_hardware
+}  // namespace robolaunch_cloudy_hardware
 
-#endif  // robolaunch_diffbot_hardware__DIFFBOT_SYSTEM_HPP_
+#endif  // robolaunch_cloudy_hardware__DIFFBOT_SYSTEM_HPP_

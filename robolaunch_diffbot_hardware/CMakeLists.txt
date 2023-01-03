@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(robolaunch_diffbot_hardware)
+project(robolaunch_cloudy_hardware)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -43,7 +43,7 @@ ament_target_dependencies(
 
 #target_compile_definitions(${PROJECT_NAME} PRIVATE "DIFFBOT_HARDWARE_INTERFACES_BUILDING_DLL")
 
-pluginlib_export_plugin_description_file(hardware_interface robolaunch_diffbot_hardware.xml)
+pluginlib_export_plugin_description_file(hardware_interface robolaunch_cloudy_hardware.xml)
 
 # INSTALL
 install(

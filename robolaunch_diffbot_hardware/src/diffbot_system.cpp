@@ -1,4 +1,4 @@
-#include "robolaunch_diffbot_hardware/diffbot_system.hpp"
+#include "robolaunch_cloudy_hardware/diffbot_system.hpp"
 
 #include <chrono>
 #include <cmath>
@@ -12,7 +12,7 @@
 
 //#include <rclcpp_components/register_node_macro.hpp>
 
-namespace robolaunch_diffbot_hardware
+namespace robolaunch_cloudy_hardware
 {
   HardwareCommandPub::HardwareCommandPub() : Node("hardware_command_publisher")
 {
@@ -212,7 +212,7 @@ hardware_interface::return_type DiffBotSystemHardware::read(const rclcpp::Time&,
   return hardware_interface::return_type::OK;
 }
 
-hardware_interface::return_type robolaunch_diffbot_hardware::DiffBotSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)
+hardware_interface::return_type robolaunch_cloudy_hardware::DiffBotSystemHardware::write(const rclcpp::Time&, const rclcpp::Duration&)
 {
   RCLCPP_INFO(rclcpp::get_logger("DiffBotSystemHardware"), "Writing...");
     //publish to topic
@@ -229,8 +229,8 @@ hardware_interface::return_type robolaunch_diffbot_hardware::DiffBotSystemHardwa
   return hardware_interface::return_type::OK;
 }
 
-}  // namespace robolaunch_diffbot_hardware
+}  // namespace robolaunch_cloudy_hardware
 
 #include "pluginlib/class_list_macros.hpp"
 PLUGINLIB_EXPORT_CLASS(
-  robolaunch_diffbot_hardware::DiffBotSystemHardware, hardware_interface::SystemInterface)
+  robolaunch_cloudy_hardware::DiffBotSystemHardware, hardware_interface::SystemInterface)
