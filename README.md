@@ -11,7 +11,7 @@
       <img src="https://img.shields.io/github/license/robolaunch/cloudy" alt="license">
     </a>
     <a href="https://github.com/robolaunch/cloudy/issues">
-      <img src="https://img.shields.io/github/issues/robolaunch/cloudy" alt="issues">
+      <img src="https://img.shields.io/github/issues/robolaunch/cloudy?color=brightgreen" alt="issues">
     </a>
   <a href="https://github.com/robolaunch/cloudy/pulse" alt="Activity">
         <img src="https://img.shields.io/github/commit-activity/m/robolaunch/cloudy" /></a>
@@ -36,14 +36,13 @@ Cloudy is an open-source, 3D-printed robot designed and built by Robolaunch. Wit
 
 
 ## Quick Start
-
+\
 **Simulation**
 \
 \
 If you do not currently have access to a physical Cloudy robot, you can use the Gazebo simulation for experimentation. 
 \
 To clone the Cloudy repository, you will need to have Git and ROS installed on your system. You can check offical guide for installing <a href="https://github.com/git-guides/install-git">Git</a> and <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html">ROS</a>. Once both are installed, you can use the following commands to clone the repository:
-\
 
 - Create a new workspace
 
