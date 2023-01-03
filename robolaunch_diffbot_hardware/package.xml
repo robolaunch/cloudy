@@ -3,9 +3,10 @@
 <package format="3">
   <name>robolaunch_cloudy_hardware</name>
   <version>0.0.0</version>
-  <description>Robolaunch diffbot hardware interface.</description>
+  <description>Robolaunch Cloudy hardware interface.</description>
 
-  <maintainer email="mertsaadetcs@gmail.com">Mert Saadet</maintainer>
+  <maintainer email="mert.saadet@robolaunch.io">Mert Saadet</maintainer>
+  <maintainer email="samet.elmaci@robolaunch.io">Samet Elmacı</maintainer>
 
   <license>Apache-2.0</license>
 
