@@ -3,21 +3,15 @@
 
 <div align="center">
   <p align="center">
-    <a href="https://github.com/robolaunch/template/releases">
-      <img src="https://img.shields.io/badge/python-3.7-blue" alt="release">
-    </a>
-    <a href="https://github.com/robolaunch/template/releases">
-      <img src="https://img.shields.io/badge/release-v2.0.7-green" alt="release">
-    </a>
-    <a href="https://github.com/robolaunch/template/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/robolaunch/template" alt="license">
+  <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/github/contributors/robolaunch/cloudy?color=green"/></a>
+    <a href="https://github.com/robolaunch/cloudy/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/robolaunch/cloudy" alt="license">
     </a>
     <a href="https://github.com/robolaunch/template/issues">
-      <img src="https://img.shields.io/github/issues/robolaunch/template" alt="issues">
+      <img src="https://img.shields.io/github/issues/robolaunch/cloudy" alt="issues">
     </a>
-    <a href="https://github.com/robolaunch/template/actions">
-      <img src="https://img.shields.io/badge/build-passing-dgreen" alt="build">
-    </a>
+
   </p>
 </div>
 
