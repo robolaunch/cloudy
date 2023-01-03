@@ -37,55 +37,72 @@ Cloudy is an open-source, 3D-printed robot designed and built by Robolaunch. Wit
 
 ## Quick Start
 
+**Simulation**
+\
 If you do not currently have access to a physical Cloudy robot, you can use the Gazebo simulation for experimentation. 
 \
 To clone the Cloudy repository, you will need to have Git and ROS installed on your system. You can check offical guide for installing <a href="https://github.com/git-guides/install-git">Git</a> and <a href="https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html">ROS</a>. Once both are installed, you can use the following commands to clone the repository:
 \
 \
 Create a new workspace
-\
-```mkdir cloudy_ws/src -p && cd cloudy_ws/src```
-\
+
+```bash
+mkdir cloudy_ws/src -p && cd cloudy_ws/src
+```
 \
 Clone the repository
-\
-```git clone https://github.com/robolaunch/cloudy.git && cd ..```
-\
+
+```bash
+git clone https://github.com/robolaunch/cloudy.git && cd ..
+```
 \
 Source ROS installation
-\
-```source /opt/ros/$ROS_DISTRO/setup.bash```
-\
+
+```bash
+source /opt/ros/$ROS_DISTRO/setup.bash
+```
 \
 Install dependencies
-\
-```sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-src -y ```
-\
+
+```bash
+sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-src -y
+```
 \
 Build the repository
-\
-```colcon build && source install/setup.bash```
-\
+
+```bash
+colcon build && source install/setup.bash
+```
 \
 Launch the simulation
-\
-```ros2 launch robolaunch_cloudy_simulator launch_sim.launch.py```
-\
+
+```bash
+ros2 launch robolaunch_cloudy_simulator launch_sim.launch.py
+```
 \
 Control the robot
-\
+
 - In a separate terminal, source the ROS installation and run teleop node
+
+```bash
+source /opt/ros/$ROS_DISTRO/setup.bash && ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
 \
-```ros2 run teleop_twist_keyboard teleop_twist_keyboard```
+**Real Robot**
+\
+If you have access to a physical Cloudy robot, you have to install the firmware to the ESP32 and ROS packages to the internal board computer.
+\
+Install firmware code to the ESP32
 \
 \
-
-
-
-
-- Create first release to stage new features
-- Add custom workflows for CI/CD
-- Specialize issue & PR templates if needed
+- Install Arduino IDE 2.0 from <a href="https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing">official website</a>
+- Open Arduino IDE->Boards Manager, find esp32 by Espressif Systems, install **(version 2.0.2)**.
+- Check the available micro-ros-arduino library from the [official releases](https://github.com/micro-ROS/micro_ros_arduino/releases). Download zip library, go to Arduino IDE -> Sketch -> Include Library -> Add .ZIP library and choose the downloaded library
+- Choose the board from Tools -> Board -> esp32 -> DOIT ESP32 DEVKIT V1
+- Open library manager, install FastAccelStepper **(version 0.28.3)**
+- Open the firmware file from File -> Open and choose cloudy_ws/robolaunch_diffbot_hardware/firmware/firmware.ino
+- Choose the correct port from Tools -> Port (/dev/ttyUSB0 in an example case)
+- Upload the file to the ESP32
 
 ## Aims & Roadmap
 
