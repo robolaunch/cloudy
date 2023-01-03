@@ -160,6 +160,16 @@ Use the teleop keyboard, in a new terminal :
 source install/setup.bash && ros2 run teleop_twist_keyboard teleop_twist_keyboard cmd_vel:=diffbot_base_controller/cmd_vel_unstamped
 ```
 
+## Community
+
+- [LinkedIn](https://www.linkedin.com/company/robolaunch)
+- [Twitter](https://twitter.com/robolaunch)
+- [Slack]() - *soon*
+- [Discord]() - *soon*
+- [robolaunch Forum]() - *soon*
+
 ## Contributing
 
 Please see [this guide](./CONTRIBUTING.md) if you want to contribute.
+
+
