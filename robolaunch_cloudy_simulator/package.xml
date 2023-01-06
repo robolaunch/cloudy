@@ -3,9 +3,10 @@
 <package format="3">
   <name>robolaunch_cloudy_simulator</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="my_email@email.com">MY NAME</maintainer>
-  <license>TODO: License declaration</license>
+  <description>Simulation package for robolaunch Cloudy</description>
+  <maintainer email="mert.saadet@robolaunch.io">Mert Saadet</maintainer>
+  <maintainer email="samet.elmaci@robolaunch.io">Samet Elmacı</maintainer>
+  <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
