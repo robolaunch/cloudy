@@ -117,7 +117,7 @@ source /opt/ros/$ROS_DISTRO/setup.bash
 
 # Go to Cloudy workspace and download the micro-ROS tools
 cd cloudy_ws
-git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup src/micro_ros_setup
+git clone -b $ROS_DISTRO https://github.com/micro-ROS/micro_ros_setup.git src/micro_ros_setup
 
 # Update dependencies using rosdep
 sudo apt update && rosdep update
