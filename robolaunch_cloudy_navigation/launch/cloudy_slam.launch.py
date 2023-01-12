@@ -37,7 +37,9 @@ def generate_launch_description():
         [FindPackageShare('robolaunch_cloudy_navigation'), 'rviz', 'slam.rviz']
     )
 
-   
+    ekf_config_path = PathJoinSubstitution(
+        [FindPackageShare("robolaunch_cloudy_navigation"), "config", "ekf.yaml"]
+    )
     
     lc = LaunchContext()
     ros_distro = EnvironmentVariable('ROS_DISTRO')
@@ -52,39 +54,37 @@ def generate_launch_description():
             default_value='false',
             description='Enable use_sime_time to true'
         ),
-
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(slam_launch_path),
-            launch_arguments={
-                'use_sim_time': LaunchConfiguration("sim"),
-                slam_param_name: slam_config_path
-            }.items()
-        ),
-
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(PathJoinSubstitution(
-                [FindPackageShare('rplidar_ros'), 'launch', 'rplidar_s1.launch.py']
-            )),
-            
-        ),
-
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(PathJoinSubstitution(
-                [FindPackageShare('rf2o_laser_odometry'), 'launch', 'rf2o_laser_odometry.launch.py']
-            )),
-            
-        ),
-
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(PathJoinSubstitution(
-        #         [FindPackageShare('linorobot2_description'), 'launch', 'description.launch.py']
-        #     )),
-            
-        # ),
         Node(
-            package='mecanum_control',
-            executable='serial_com',
-            name='serial_com',
-            )
-        ,
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            output='screen',
+            parameters=[
+                ekf_config_path
+            ],
+            remappings=[("odometry/filtered", "odom")]
+        )
     ])
+    """ IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(slam_launch_path),
+        launch_arguments={
+            'use_sim_time': LaunchConfiguration("sim"),
+            slam_param_name: slam_config_path
+        }.items()
+    ), """
+
+    #IncludeLaunchDescription(
+    #    PythonLaunchDescriptionSource(PathJoinSubstitution(
+    #        [FindPackageShare('rplidar_ros'), 'launch', 'rplidar.launch.py']
+    #    )),
+    #    launch_arguments={
+    #       'serial_port': LaunchConfiguration("serial_port"),
+    #    }.items()
+        
+    #),
+
+
+
+
+
+       
