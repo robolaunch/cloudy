@@ -180,16 +180,16 @@ hardware_interface::return_type DiffBotSystemHardware::read(const rclcpp::Time&,
   RCLCPP_INFO(rclcpp::get_logger("DiffBotSystemHardware"), "Reading...");
 
   double radius = 0.03535;  // radius of the wheels
-  double dist_w = 0.164;   // distance between the wheels
+  double dist_w = 0.19;   // distance between the wheels
   double dt = 0.01;      // Control period
   for (uint i = 0; i < hw_commands_.size(); i++)
   {
     // Simulate DiffBot wheels's movement as a first-order system
     // Update the joint status: this is a revolute joint without any limit.
     // Simply integrates
-    hw_positions_[i] = hw_positions_[1] + dt * hw_commands_[i];
+    hw_positions_[i] = hw_positions_[i] + dt * hw_commands_[i] * 3.5;
     hw_velocities_[i] = hw_commands_[i];
-
+    
     RCLCPP_INFO(
       rclcpp::get_logger("DiffBotSystemHardware"),
       "Got position state %.5f and velocity state %.5f for '%s'!", hw_positions_[i],
