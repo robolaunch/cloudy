@@ -20,8 +20,10 @@
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>nav2_simple_commander</depend>
-  
+  <depend>slam_toolbox</depend>
   <depend>rplidar_ros</depend>
+  <depend>nav2_bringup</depend>
+
 
 
   <export>

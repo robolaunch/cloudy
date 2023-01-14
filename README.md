@@ -47,25 +47,24 @@ To clone the Cloudy repository, you will need to have Git and ROS installed on y
 - Create a new workspace
 
 ```bash
-mkdir cloudy_ws/src -p && cd cloudy_ws/src
+mkdir cloudy_ws/src -p && cd cloudy_ws/
 ```
 
 - Clone the repository
 
 ```bash
-git clone https://github.com/robolaunch/cloudy.git && cd ..
+git clone https://github.com/robolaunch/cloudy.git src
 ```
 
-- Source ROS installation
-
+- Init rosdep if you have not already
 ```bash
-source /opt/ros/$ROS_DISTRO/setup.bash
+sudo rosdep init
 ```
 
 - Install dependencies
 
 ```bash
-sudo rosdep init && rosdep update && rosdep install --from-paths src --ignore-src -y
+sudo rosdep update && rosdep install --from-paths src --ignore-src -y
 ```
 
 - Build the repository
