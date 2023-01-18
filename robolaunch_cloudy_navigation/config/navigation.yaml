@@ -201,7 +201,7 @@ local_costmap:
           marking: True
           data_type: "LaserScan"
         base_scan:
-          topic: /base/scan
+          topic: /base/scan_filtered
           max_obstacle_height: 2.0
           clearing: True
           marking: True

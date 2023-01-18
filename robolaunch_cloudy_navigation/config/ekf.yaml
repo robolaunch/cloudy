@@ -21,9 +21,9 @@ ekf_filter_node:
                        false, false, true,
                        false, false, false]
         odom1: /odom_rf2o
-        odom1_config: [true, true, false,
+        odom1_config: [false, false, false,
+                       false, false, false,
+                       true, true, false,
                        false, false, true,
-                       false, false, false,
-                       false, false, false,
                        false, false, false]
 

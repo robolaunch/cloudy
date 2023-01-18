@@ -3,7 +3,7 @@
   <xacro:macro name="laser" params="*origin update_rate ray_count min_angle max_angle min_range max_range frame_id topic_name">
     <link name="${frame_id}">
       <visual>
-        <origin xyz="0.04 -0.038 -0.08" rpy="1.57 0 3.14"/>
+        <origin xyz="0.04 -0.038 -0.03" rpy="1.57 0 3.14"/>
         <geometry>
               <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/lidar.stl" />
            <!--   <cylinder radius="0.0375" length="0.05"/> -->   
@@ -15,9 +15,9 @@
     
       </visual>
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0.02 0 -0.018" rpy="0 0 0"/>
         <geometry>
-          <cylinder radius="0.0375" length="0.05"/>
+          <cylinder radius="0.0375" length="0.02"/>
         </geometry>
       </collision>
 
@@ -35,7 +35,7 @@
     <material>Gazebo/Black</material>
     </gazebo>
     <joint name="${frame_id}_to_base_link" type="fixed">
-      <origin xyz="0 -0.01 0.26" rpy="0 0 0"/>
+      <origin xyz="0.32 -0.01 0.085" rpy="0 0 0"/>
 
       <parent link="base_link"/>
       <child link="${frame_id}"/>

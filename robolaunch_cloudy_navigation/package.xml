@@ -21,11 +21,14 @@
   <depend>sensor_msgs</depend>
   <depend>nav2_simple_commander</depend>
   <exec_depend>robot_localization</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
 
   <depend>rplidar_ros</depend>
 
 
   <export>
     <build_type>ament_cmake</build_type>
+    <exec_depend>nav2_bringup</exec_depend>
+
   </export>
 </package>
