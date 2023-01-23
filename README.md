@@ -67,6 +67,12 @@ sudo rosdep init
 sudo rosdep update && rosdep install --from-paths src --ignore-src -y
 ```
 
+- Source your ROS distribution
+
+```bash
+source  /opt/ros/$ROS_DISTRO/setup.bash
+```
+
 - Build the repository
 
 ```bash
