@@ -13,6 +13,7 @@
 # limitations under the License.
 
 import os
+import launch_ros
 from launch import LaunchDescription
 from launch import LaunchContext
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
@@ -35,6 +36,18 @@ def generate_launch_description():
 
     rviz_config_path = PathJoinSubstitution(
         [FindPackageShare('robolaunch_cloudy_navigation'), 'rviz', 'slam.rviz']
+    )
+
+    ekf_config_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'ekf.yaml']
+    )
+
+    robot_localization_node = launch_ros.actions.Node(
+       package='robot_localization',
+       executable='ekf_node',
+       name='ekf_filter_node',
+       output='screen',
+       parameters=[ekf_config_path , {'use_sim_time': LaunchConfiguration('sim')}]
     )
     
     lc = LaunchContext()
@@ -64,6 +77,8 @@ def generate_launch_description():
             }.items()
         ),
 
+        robot_localization_node,
+
         Node(
             package='rviz2',
             executable='rviz2',
@@ -73,4 +88,6 @@ def generate_launch_description():
             condition=IfCondition(LaunchConfiguration("rviz")),
             parameters=[{'use_sim_time': LaunchConfiguration("sim")}]
         )
+
+
     ])
