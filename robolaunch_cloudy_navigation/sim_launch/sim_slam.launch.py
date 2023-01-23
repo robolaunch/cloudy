@@ -1,22 +1,7 @@
-# Copyright (c) 2021 Juan Miguel Jimeno
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http:#www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-
-import os
 from launch import LaunchDescription
 from launch import LaunchContext
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
-from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, PythonExpression
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.conditions import IfCondition
 from launch.substitutions import EnvironmentVariable
@@ -29,12 +14,20 @@ def generate_launch_description():
         [FindPackageShare('slam_toolbox'), 'launch', 'online_async_launch.py']
     )
 
+    filter_launch_path = PathJoinSubstitution(
+        [FindPackageShare('laser_filters'), 'examples', 'shadow_filter_example.launch.py']
+    )
+
     slam_config_path = PathJoinSubstitution(
         [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'sim_slam.yaml']
     )
 
     rviz_config_path = PathJoinSubstitution(
         [FindPackageShare('robolaunch_cloudy_navigation'), 'rviz', 'slam.rviz']
+    )
+
+    filter_config_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'range_filter.yaml']
     )
     
     lc = LaunchContext()
@@ -56,12 +49,29 @@ def generate_launch_description():
             description='Run rviz'
         ),
 
+        DeclareLaunchArgument(
+            name='vehicle', 
+            default_value="'cloudy_v2'",
+            description='vehicle name'
+        ),
+
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(slam_launch_path),
             launch_arguments={
                 'use_sim_time': LaunchConfiguration("sim"),
                 slam_param_name: slam_config_path
             }.items()
+        ),
+
+        Node(
+            package="laser_filters",
+            executable="scan_to_scan_filter_chain",
+            parameters=[filter_config_path],
+            condition=IfCondition(
+                PythonExpression(
+                    [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
+                )
+            ),
         ),
 
         Node(

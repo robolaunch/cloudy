@@ -44,10 +44,10 @@
 
     <gazebo reference="${frame_id}">
       <sensor type="ray" name="${frame_id}_head_hokuyo_sensor">
-        <always_on>true</always_on>
+        <always_on>false</always_on>
         <update_rate>${update_rate}</update_rate>
         <pose>0 0 0 0 0 0</pose>
-        <visualize>false</visualize> <!-- if you want to see laser scan lines into the gazebo you should enable this -->
+        <visualize>true</visualize> <!-- if you want to see laser scan lines into the gazebo you should enable this -->
         <ray>
           <scan>
             <horizontal>

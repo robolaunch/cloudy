@@ -15,7 +15,7 @@ def generate_launch_description():
     )
 
     gazebo_launch_path = PathJoinSubstitution(
-        [FindPackageShare('robolaunch_cloudy_simulator'), 'launch', 'launch_sim.launch.py']
+        [FindPackageShare('robolaunch_cloudy_simulator'), 'launch', 'gazebo.launch.py']
     )
 
     rviz_config_path = PathJoinSubstitution(

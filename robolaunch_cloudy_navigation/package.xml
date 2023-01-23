@@ -20,6 +20,8 @@
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
   <depend>nav2_simple_commander</depend>
+  <depend>laser_filters</depend>
+
   <exec_depend>robot_localization</exec_depend>
   <exec_depend>nav2_bringup</exec_depend>
 
