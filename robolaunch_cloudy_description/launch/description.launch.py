@@ -10,17 +10,28 @@ from launch_ros.substitutions import FindPackageShare
 def generate_launch_description():
 
     use_sim_time = LaunchConfiguration('use_sim_time'),
+    
 
-    urdf_path = PathJoinSubstitution(
-        [FindPackageShare('robolaunch_cloudy_description'), 'urdf', 'robot.urdf.xacro']
+    cloudy_v1_urdf_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_description'), 'urdf', 'cloudy_v1.urdf.xacro']
+    ),
+
+    cloudy_v2_urdf_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_description'), 'urdf', 'cloudy_v2.urdf.xacro']
     )
 
     
     return LaunchDescription([
 
         DeclareLaunchArgument(
-            name='urdf', 
-            default_value=urdf_path,
+            name='cloudy_v1_urdf', 
+            default_value=cloudy_v1_urdf_path,
+            description='URDF path'
+        ),
+
+        DeclareLaunchArgument(
+            name='cloudy_v2_urdf', 
+            default_value=cloudy_v2_urdf_path,
             description='URDF path'
         ),
 
@@ -40,9 +51,22 @@ def generate_launch_description():
             executable='robot_state_publisher',
             output='screen',
             parameters=[{
-                'robot_description': Command(['xacro ', LaunchConfiguration('urdf')]), 
+                'robot_description': Command(['xacro ', LaunchConfiguration('cloudy_v1_urdf')]), 
+                'use_sim_time': use_sim_time
+            }],
+            condition=IfCondition(PythonExpression([LaunchConfiguration("vehicle"), " == 'cloudy_v1'"]))
+        ),
+
+        Node(
+            package='robot_state_publisher',
+            executable='robot_state_publisher',
+            output='screen',
+            parameters=[{
+                'robot_description': Command(['xacro ', LaunchConfiguration('cloudy_v2_urdf')]), 
                 'use_sim_time': use_sim_time
             }],
             condition=IfCondition(PythonExpression([LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]))
-        )
+        ),
+
+        
     ])

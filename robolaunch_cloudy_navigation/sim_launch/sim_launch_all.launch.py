@@ -28,12 +28,24 @@ def generate_launch_description():
 
     return LaunchDescription([
 
+        DeclareLaunchArgument(
+            name="vehicle",
+            default_value="'cloudy_v2'",
+            description="vehicle type"
+        ),
+
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(gazebo_launch_path),
+            launch_arguments=({
+                'vehicle': LaunchConfiguration("vehicle")
+            }).items()
         ),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(slam_launch_path),
+            launch_arguments=({
+                'vehicle': LaunchConfiguration("vehicle")
+            }).items()
         ),
 
         IncludeLaunchDescription(

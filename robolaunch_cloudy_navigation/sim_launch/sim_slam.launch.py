@@ -67,11 +67,11 @@ def generate_launch_description():
             package="laser_filters",
             executable="scan_to_scan_filter_chain",
             parameters=[filter_config_path],
-            condition=IfCondition(
-                PythonExpression(
-                    [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
-                )
-            ),
+            # condition=IfCondition(
+            #     PythonExpression(
+            #         [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
+            #     )
+            # ),
         ),
 
         Node(

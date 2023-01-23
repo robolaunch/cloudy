@@ -1,7 +1,7 @@
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import PathJoinSubstitution
+from launch.substitutions import PathJoinSubstitution, LaunchConfiguration
 from launch_ros.substitutions import FindPackageShare
 
 from launch_ros.actions import Node
@@ -23,9 +23,18 @@ def generate_launch_description():
 
     return LaunchDescription([
 
+        DeclareLaunchArgument(
+            name="vehicle",
+            default_value="'cloudy_v2'",
+            description="vehicle type"
+        ),
+
         IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(description_launch_path), 
-                launch_arguments={'use_sim_time': 'true'}.items()
+                launch_arguments={
+                    'use_sim_time': 'true',
+                    'vehicle': LaunchConfiguration("vehicle")
+                }.items()
         ),
 
         IncludeLaunchDescription(

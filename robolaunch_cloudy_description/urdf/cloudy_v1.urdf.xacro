@@ -5,7 +5,7 @@
 
 
     <!-- Example link -->
-    <xacro:include filename="robot_core.xacro"/>
+    <xacro:include filename="cloudy_v1_core.xacro"/>
     <xacro:include filename="gazebo_control.xacro"/>
 
 

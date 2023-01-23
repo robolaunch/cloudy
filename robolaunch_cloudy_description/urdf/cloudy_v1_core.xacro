@@ -3,10 +3,10 @@
 
     <xacro:include filename="inertial_macros.xacro"/>
     <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/generic_laser.urdf.xacro" />
-    <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/properties.urdf.xacro" />
+    <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/cloudy_v1_properties.urdf.xacro" />
     <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/depth_sensor.urdf.xacro" />
     <xacro:property name="depth_sensor_pose">
-        <origin xyz="0.38 0 0.11" rpy="0 -0.15 0"/>
+        <origin xyz="0.4 0 0.05" rpy="0 0 0"/>
     </xacro:property>
 
    <xacro:property name="scale_ratio" value="0.0015" />
@@ -49,25 +49,25 @@
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
         <child link="chassis"/>
-        <origin xyz="0 -0.2 0" rpy="0 0 1.57 "/>
+        <origin xyz="-0.1 0 0"/>
     </joint>
 
     <link name="chassis">
         <visual>
-            <origin xyz="0 0.15 -0.02" rpy="1.57 0 0"/>
+            <origin xyz="0 0.15 0" rpy="1.57 0 0"/>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/body_v2.stl"/>
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/body.stl"/>
             </geometry>
             <material name="gray"/>
         </visual>
         <collision>
-            <origin xyz="0.20 -0.1 0.075"/>
+            <origin xyz="0.25 0 0.075"/>
             <geometry>
-                <box size="0.3 0.5 0.15"/>
+                <box size="0.5 0.3 0.15"/>
             </geometry>
         </collision>
         <xacro:inertial_box mass="0.5" x="0.3" y="0.3" z="0.15">
-            <origin xyz="0.15 0 0.072" rpy="0 0 0"/>
+            <origin xyz="0.15 0 0.075" rpy="0 0 0"/>
         </xacro:inertial_box>
     </link>
     <gazebo reference="chassis">
@@ -82,17 +82,17 @@
     <joint name="left_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="left_wheel"/>
-        <origin xyz="0.11 0.14 0.046" rpy="-${pi/2} 0 0" />
+        <origin xyz="0.145 0.14 0.048" rpy="-${pi/2} 0 0" />
         <axis xyz="0 0 1"/>
     </joint>
 
     <link name="right_wheel">
         <visual>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel_v2.stl" />
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel.stl" />
             </geometry>
             <material name="white"/>
-            <origin xyz="-0.067 -0.05 -0.15" rpy="0 0 0" />
+            <origin xyz="-0.049 -0.049 0" rpy="0 ${pi/2} 0" />
 
         </visual>
         <collision>
@@ -112,16 +112,16 @@
     <joint name="right_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="right_wheel"/>
-        <origin xyz="0.11 -0.14 0.046" rpy="-${pi/2} 0 0" />
+        <origin xyz="0.145 -0.14 0.048" rpy="-${pi/2} 0 0" />
         <axis xyz="0 0 1"/>
     </joint>
 
     <link name="left_wheel">
         <visual>
             <geometry>
-                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel_v2.stl" />
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel.stl" />
             </geometry>
-            <origin xyz="-0.067 -0.05 -0.15" rpy="0 0 0" />
+            <origin xyz="-0.049 -0.049 0" rpy="0 ${pi/2} 0" />
             <material name="white"/>
         </visual>
         <collision>
