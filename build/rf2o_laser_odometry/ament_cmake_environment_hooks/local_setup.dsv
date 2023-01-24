@@ -1,0 +1,2 @@
+source;share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+source;share/rf2o_laser_odometry/environment/path.sh

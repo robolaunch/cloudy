@@ -1,0 +1,475 @@
+[0.194s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.194s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb00ae40bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb00b7cd480>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb00b7cd480>>)
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.208s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mert/cloudy_ws/src'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_bringup) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'robolaunch_cloudy_bringup' with type 'ros.ament_cmake' and name 'robolaunch_cloudy_bringup'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_description) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'robolaunch_cloudy_description' with type 'ros.ament_cmake' and name 'robolaunch_cloudy_description'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_hardware) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'robolaunch_cloudy_hardware' with type 'ros.ament_cmake' and name 'robolaunch_cloudy_hardware'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_navigation) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'robolaunch_cloudy_navigation' with type 'ros.ament_cmake' and name 'robolaunch_cloudy_navigation'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(robolaunch_cloudy_simulator) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'robolaunch_cloudy_simulator' with type 'ros.ament_cmake' and name 'robolaunch_cloudy_simulator'
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.245s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/mert/cloudy_ws/install
+[0.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 368 installed packages in /opt/ros/humble
+[0.248s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mert/cloudy_ws/src/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/mert/cloudy_ws/src/rf2o_laser_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'robolaunch_cloudy_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description', 'merge_install': False, 'path': '/home/mert/cloudy_ws/src/robolaunch_cloudy_description', 'symlink_install': False, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'robolaunch_cloudy_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware', 'merge_install': False, 'path': '/home/mert/cloudy_ws/src/robolaunch_cloudy_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'robolaunch_cloudy_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation', 'merge_install': False, 'path': '/home/mert/cloudy_ws/src/robolaunch_cloudy_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'robolaunch_cloudy_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator', 'merge_install': False, 'path': '/home/mert/cloudy_ws/src/robolaunch_cloudy_simulator', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'robolaunch_cloudy_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'robolaunch_cloudy_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup', 'merge_install': False, 'path': '/home/mert/cloudy_ws/src/robolaunch_cloudy_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.297s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.299s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_description' with build type 'ament_cmake'
+[0.300s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_description'
+[0.302s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.303s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.303s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_hardware' with build type 'ament_cmake'
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_hardware'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.309s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mert/cloudy_ws/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[0.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mert/cloudy_ws/src/rf2o_laser_odometry'
+[0.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.313s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_navigation' with build type 'ament_cmake'
+[0.313s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_navigation'
+[0.314s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.314s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.317s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_simulator' with build type 'ament_cmake'
+[0.317s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_simulator'
+[0.318s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.318s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_description -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_hardware -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry
+[0.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_navigation -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_simulator -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator
+[0.769s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_description -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description -- -j16 -l16
+[0.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description -- -j16 -l16
+[0.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_simulator -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator -- -j16 -l16
+[0.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description
+[0.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator -- -j16 -l16
+[0.837s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_description)
+[0.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description' for CMake module files
+[0.841s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description' for CMake config files
+[0.841s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_description', 'cmake_prefix_path')
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/hook/cmake_prefix_path.ps1'
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/hook/cmake_prefix_path.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/hook/cmake_prefix_path.sh'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/bin'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/lib/pkgconfig/robolaunch_cloudy_description.pc'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/lib/python3.10/site-packages'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/bin'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.ps1'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.dsv'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.sh'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.bash'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.zsh'
+[0.848s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/colcon-core/packages/robolaunch_cloudy_description)
+[0.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_simulator)
+[0.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_simulator
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator' for CMake module files
+[0.858s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator' for CMake config files
+[0.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_simulator', 'cmake_prefix_path')
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/hook/cmake_prefix_path.ps1'
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/hook/cmake_prefix_path.dsv'
+[0.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/hook/cmake_prefix_path.sh'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/bin'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/lib/pkgconfig/robolaunch_cloudy_simulator.pc'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/lib/python3.10/site-packages'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/bin'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.ps1'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.dsv'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.sh'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.bash'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.zsh'
+[0.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/colcon-core/packages/robolaunch_cloudy_simulator)
+[0.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_description)
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description' for CMake module files
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description' for CMake config files
+[0.867s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_description', 'cmake_prefix_path')
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/hook/cmake_prefix_path.ps1'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/hook/cmake_prefix_path.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/hook/cmake_prefix_path.sh'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/bin'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/lib/pkgconfig/robolaunch_cloudy_description.pc'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/lib/python3.10/site-packages'
+[0.869s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/bin'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.ps1'
+[0.870s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.sh'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.bash'
+[0.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.zsh'
+[0.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/colcon-core/packages/robolaunch_cloudy_description)
+[0.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_simulator)
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator' for CMake module files
+[0.878s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator' for CMake config files
+[0.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_simulator', 'cmake_prefix_path')
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/hook/cmake_prefix_path.ps1'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/hook/cmake_prefix_path.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/hook/cmake_prefix_path.sh'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/bin'
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/lib/pkgconfig/robolaunch_cloudy_simulator.pc'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/lib/python3.10/site-packages'
+[0.881s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/bin'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.dsv'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.sh'
+[0.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.bash'
+[0.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.zsh'
+[0.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_simulator/share/colcon-core/packages/robolaunch_cloudy_simulator)
+[1.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_navigation -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation -- -j16 -l16
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation -- -j16 -l16
+[1.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation
+[1.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_navigation)
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation' for CMake module files
+[1.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation
+[1.674s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation' for CMake config files
+[1.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_navigation', 'cmake_prefix_path')
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/hook/cmake_prefix_path.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/hook/cmake_prefix_path.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/hook/cmake_prefix_path.sh'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/bin'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib/pkgconfig/robolaunch_cloudy_navigation.pc'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib/python3.10/site-packages'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/bin'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.ps1'
+[1.679s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.dsv'
+[1.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.sh'
+[1.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.bash'
+[1.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.zsh'
+[1.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/colcon-core/packages/robolaunch_cloudy_navigation)
+[1.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry
+[1.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/rf2o_laser_odometry -- -j16 -l16
+[1.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_navigation)
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation' for CMake module files
+[1.696s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation' for CMake config files
+[1.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_navigation', 'cmake_prefix_path')
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/hook/cmake_prefix_path.ps1'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/hook/cmake_prefix_path.dsv'
+[1.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/hook/cmake_prefix_path.sh'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/bin'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib/pkgconfig/robolaunch_cloudy_navigation.pc'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib/python3.10/site-packages'
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/bin'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.ps1'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.dsv'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.sh'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.bash'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.zsh'
+[1.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/colcon-core/packages/robolaunch_cloudy_navigation)
+[1.946s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_hardware -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware
+[1.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware -- -j16 -l16
+[5.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware -- -j16 -l16
+[5.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware
+[5.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_hardware)
+[5.868s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware' for CMake module files
+[5.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_hardware
+[5.869s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware' for CMake config files
+[5.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_hardware', 'cmake_prefix_path')
+[5.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/cmake_prefix_path.ps1'
+[5.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/cmake_prefix_path.dsv'
+[5.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/cmake_prefix_path.sh'
+[5.870s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib'
+[5.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_hardware', 'ld_library_path_lib')
+[5.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/ld_library_path_lib.ps1'
+[5.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/ld_library_path_lib.dsv'
+[5.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/ld_library_path_lib.sh'
+[5.872s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/bin'
+[5.872s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib/pkgconfig/robolaunch_cloudy_hardware.pc'
+[5.872s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib/python3.10/site-packages'
+[5.872s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/bin'
+[5.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.ps1'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.dsv'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.sh'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.bash'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.zsh'
+[5.874s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/colcon-core/packages/robolaunch_cloudy_hardware)
+[5.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_hardware)
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware' for CMake module files
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware' for CMake config files
+[5.892s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_hardware', 'cmake_prefix_path')
+[5.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/cmake_prefix_path.ps1'
+[5.893s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/cmake_prefix_path.dsv'
+[5.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/cmake_prefix_path.sh'
+[5.894s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib'
+[5.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_hardware', 'ld_library_path_lib')
+[5.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/ld_library_path_lib.ps1'
+[5.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/ld_library_path_lib.dsv'
+[5.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/hook/ld_library_path_lib.sh'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/bin'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib/pkgconfig/robolaunch_cloudy_hardware.pc'
+[5.895s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib/python3.10/site-packages'
+[5.896s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/bin'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.ps1'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.dsv'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.sh'
+[5.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.bash'
+[5.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.zsh'
+[5.898s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/share/colcon-core/packages/robolaunch_cloudy_hardware)
+[5.898s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_bringup' with build type 'ament_cmake'
+[5.898s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mert/cloudy_ws/src/robolaunch_cloudy_bringup'
+[5.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.899s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble LD_LIBRARY_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_bringup -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup
+[6.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup' returned '0': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble LD_LIBRARY_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_bringup -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup
+[6.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble LD_LIBRARY_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup -- -j16 -l16
+[6.395s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup' returned '0': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble LD_LIBRARY_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup -- -j16 -l16
+[6.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble LD_LIBRARY_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup
+[6.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_bringup)
+[6.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup' returned '0': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble LD_LIBRARY_PATH=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_bringup
+[6.420s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup' for CMake module files
+[6.421s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup' for CMake config files
+[6.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_bringup', 'cmake_prefix_path')
+[6.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/hook/cmake_prefix_path.ps1'
+[6.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/hook/cmake_prefix_path.dsv'
+[6.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/hook/cmake_prefix_path.sh'
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/bin'
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/lib/pkgconfig/robolaunch_cloudy_bringup.pc'
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/lib/python3.10/site-packages'
+[6.423s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/bin'
+[6.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.ps1'
+[6.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.dsv'
+[6.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.sh'
+[6.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.bash'
+[6.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.zsh'
+[6.426s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/colcon-core/packages/robolaunch_cloudy_bringup)
+[6.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robolaunch_cloudy_bringup)
+[6.441s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup' for CMake module files
+[6.441s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup' for CMake config files
+[6.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('robolaunch_cloudy_bringup', 'cmake_prefix_path')
+[6.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/hook/cmake_prefix_path.ps1'
+[6.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/hook/cmake_prefix_path.dsv'
+[6.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/hook/cmake_prefix_path.sh'
+[6.443s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/bin'
+[6.443s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/lib/pkgconfig/robolaunch_cloudy_bringup.pc'
+[6.444s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/lib/python3.10/site-packages'
+[6.444s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/bin'
+[6.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.ps1'
+[6.445s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.dsv'
+[6.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.sh'
+[6.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.bash'
+[6.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/robolaunch_cloudy_bringup/package.zsh'
+[6.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/robolaunch_cloudy_bringup/share/colcon-core/packages/robolaunch_cloudy_bringup)
+[19.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/rf2o_laser_odometry -- -j16 -l16
+[19.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mert/cloudy_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/rf2o_laser_odometry
+[19.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[19.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mert/cloudy_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/rf2o_laser_odometry
+[19.095s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry' for CMake module files
+[19.096s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry' for CMake config files
+[19.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[19.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[19.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[19.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[19.098s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/lib'
+[19.098s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/bin'
+[19.099s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[19.099s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[19.099s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/bin'
+[19.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[19.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[19.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[19.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[19.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[19.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[19.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[19.123s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry' for CMake module files
+[19.123s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry' for CMake config files
+[19.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[19.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[19.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[19.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[19.126s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/lib'
+[19.126s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/bin'
+[19.126s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[19.127s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[19.127s] Level 1:colcon.colcon_core.environment:checking '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/bin'
+[19.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[19.129s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[19.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[19.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[19.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[19.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mert/cloudy_ws/src/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[19.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.130s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[19.131s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.136s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.136s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.157s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mert/cloudy_ws/src/install/local_setup.ps1'
+[19.159s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mert/cloudy_ws/src/install/_local_setup_util_ps1.py'
+[19.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mert/cloudy_ws/src/install/setup.ps1'
+[19.162s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mert/cloudy_ws/src/install/local_setup.sh'
+[19.163s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mert/cloudy_ws/src/install/_local_setup_util_sh.py'
+[19.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mert/cloudy_ws/src/install/setup.sh'
+[19.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mert/cloudy_ws/src/install/local_setup.bash'
+[19.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mert/cloudy_ws/src/install/setup.bash'
+[19.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mert/cloudy_ws/src/install/local_setup.zsh'
+[19.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mert/cloudy_ws/src/install/setup.zsh'

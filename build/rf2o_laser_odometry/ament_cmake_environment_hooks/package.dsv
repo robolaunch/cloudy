@@ -1,0 +1,4 @@
+source;share/rf2o_laser_odometry/local_setup.bash
+source;share/rf2o_laser_odometry/local_setup.dsv
+source;share/rf2o_laser_odometry/local_setup.sh
+source;share/rf2o_laser_odometry/local_setup.zsh

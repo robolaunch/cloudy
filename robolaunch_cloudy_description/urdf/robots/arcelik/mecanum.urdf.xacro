@@ -9,7 +9,7 @@
   <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/generic_laser.urdf.xacro" />
   <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/depth_sensor.urdf.xacro" />
   <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/suspention.urdf.xacro" />
-  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/gazebo_control.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/omni_drive.urdf.xacro" />
 
 
  <xacro:property name="teker" value="-0.4" />
@@ -129,6 +129,6 @@
     <xacro:insert_block name="depth_sensor_pose" />
   </xacro:depth_sensor>
 
-  <xacro:diff_drive/>
+  <xacro:omni_drive_controller/>
   
 </robot>
