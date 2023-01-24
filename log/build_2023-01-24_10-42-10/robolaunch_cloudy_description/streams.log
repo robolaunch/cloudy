@@ -1,0 +1,89 @@
+[0.024s] Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_description -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description
+[0.080s] -- The C compiler identification is GNU 11.3.0
+[0.117s] -- The CXX compiler identification is GNU 11.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.165s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.166s] -- Detecting C compile features
+[0.166s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.218s] -- Detecting CXX compiler ABI info - done
+[0.227s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.227s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.352s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.463s] -- Configuring done
+[0.465s] -- Generating done
+[0.465s] -- Build files have been written to: /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description
+[0.469s] Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_description -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_description
+[0.471s] Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description -- -j16 -l16
+[0.494s] Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description -- -j16 -l16
+[0.512s] Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description
+[0.516s] -- Install configuration: ""
+[0.516s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/config
+[0.516s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/config/diffbot.rviz
+[0.516s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/ros2_control
+[0.516s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/ros2_control/diffbot_system.ros2_control.xacro
+[0.516s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf
+[0.517s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/diffbot_system.urdf.xacro
+[0.517s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/inertial_macros.xacro
+[0.517s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/omni_drive.urdf.xacro
+[0.517s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/gazebo_control.urdf.xacro
+[0.517s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes
+[0.517s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/wheel_v2.stl
+[0.517s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/wheel.stl
+[0.517s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/body.stl
+[0.518s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik
+[0.518s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/UstPlaka.stl
+[0.518s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/son_rigs.stl
+[0.520s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/Intel_realsense.stl
+[0.520s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/UstPlaka2.stl
+[0.521s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/chassis_red.stl
+[0.522s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/suspention_son.dae
+[0.524s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/teker_cw.dae
+[0.528s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/suspention_son (1).dae
+[0.531s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/lidar.stl
+[0.531s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/body_v2.stl
+[0.532s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/realsense.stl
+[0.532s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/lidar.stl
+[0.532s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots
+[0.532s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v2_properties.urdf.xacro
+[0.532s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v1_core.xacro
+[0.532s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v1_properties.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v2.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/base.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/mecanum.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/mecanum_properties.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/caster_wheel.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/mecanum_wheel.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/wheel.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/mecanum_wheel2.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/suspention.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v1.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v2_core.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/diffbot.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/depth_sensor.urdf.xacro
+[0.533s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/generic_laser.urdf.xacro
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/imu.urdf.xacro
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/laser.urdf.xacro
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/launch
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/launch/description.launch.py
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_description
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_description
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/environment/ament_prefix_path.sh
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/environment/ament_prefix_path.dsv
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/environment/path.sh
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/environment/path.dsv
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/local_setup.bash
+[0.534s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/local_setup.sh
+[0.535s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/local_setup.zsh
+[0.535s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/local_setup.dsv
+[0.535s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.dsv
+[0.535s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/ament_index/resource_index/packages/robolaunch_cloudy_description
+[0.535s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/cmake/robolaunch_cloudy_descriptionConfig.cmake
+[0.535s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/cmake/robolaunch_cloudy_descriptionConfig-version.cmake
+[0.535s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.xml
+[0.537s] Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_description

@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+    <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/inertial_macros.xacro"/>
+    <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/generic_laser.urdf.xacro" />
+    <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/cloudy_v2_properties.urdf.xacro" />
+    <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/depth_sensor.urdf.xacro" />
+    <xacro:property name="depth_sensor_pose">
+        <origin xyz="0.38 0 0.11" rpy="0 -0.15 0"/>
+    </xacro:property>
+
+   <xacro:property name="scale_ratio" value="0.0015" />
+   <link name="base_footprint"/>
+
+    <material name="white">
+        <color rgba="1 1 1 1" />
+    </material>
+
+    <material name="orange">
+        <color rgba="1 0.3 0.1 1"/>
+    </material>
+
+    <material name="blue">
+        <color rgba="0.2 0.2 1 1"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+  <material name="gray">
+        <color rgba="0.3 0.3 0.3 1"/>
+    </material>
+    
+    <!-- BASE LINK -->
+
+    <link name="base_link">
+
+    </link>
+
+    <joint name="base_to_footprint" type="fixed">
+      <parent link="base_footprint"/>
+      <child link="base_link"/>
+      <origin xyz="0 0 0.035" rpy="0 0 0"/>
+    </joint>
+
+
+    <!-- CHASSIS LINK -->
+
+    <joint name="chassis_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="chassis"/>
+        <origin xyz="0 -0.2 0" rpy="0 0 1.57 "/>
+    </joint>
+
+    <link name="chassis">
+        <visual>
+            <origin xyz="0 0.15 -0.02" rpy="1.57 0 0"/>
+            <geometry>
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/body_v2.stl"/>
+            </geometry>
+            <material name="gray"/>
+        </visual>
+        <collision>
+            <origin xyz="0.20 -0.1 0.075"/>
+            <geometry>
+                <box size="0.3 0.5 0.15"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_box mass="0.5" x="0.3" y="0.3" z="0.15">
+            <origin xyz="0.15 0 0.072" rpy="0 0 0"/>
+        </xacro:inertial_box>
+    </link>
+    <gazebo reference="chassis">
+    <material>Gazebo/DarkGrey</material>
+      <mu1>0.2</mu1>
+      <mu2>0.2</mu2>
+
+    </gazebo>
+    
+    <!-- LEFT WHEEL LINK -->
+
+    <joint name="left_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel"/>
+        <origin xyz="0.11 0.14 0.048" rpy="-${pi/2} 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="right_wheel">
+        <visual>
+            <geometry>
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel_v2.stl" />
+            </geometry>
+            <material name="white"/>
+            <origin xyz="-0.067 -0.05 -0.15" rpy="0 0 0" />
+
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+    <gazebo reference="left_wheel">
+    <material>Gazebo/White</material>
+    </gazebo>
+    <!-- RIGHT WHEEL LINK -->
+
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel"/>
+        <origin xyz="0.11 -0.14 0.048" rpy="-${pi/2} 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="left_wheel">
+        <visual>
+            <geometry>
+                <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/wheel_v2.stl" />
+            </geometry>
+            <origin xyz="-0.067 -0.05 -0.15" rpy="0 0 0" />
+            <material name="white"/>
+        </visual>
+        <collision>
+            <geometry>
+                <cylinder radius="0.05" length="0.04"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="0.1" length="0.04" radius="0.05">
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+        </xacro:inertial_cylinder>
+    </link>
+    <gazebo reference="right_wheel">
+    <material>Gazebo/White</material>
+    </gazebo>
+
+</robot>

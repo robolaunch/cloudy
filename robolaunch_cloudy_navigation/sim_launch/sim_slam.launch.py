@@ -17,7 +17,7 @@ import launch_ros
 from launch import LaunchDescription
 from launch import LaunchContext
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
-from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
+from launch.substitutions import LaunchConfiguration, PathJoinSubstitution, PythonExpression
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.conditions import IfCondition
 from launch.substitutions import EnvironmentVariable
@@ -28,6 +28,10 @@ from launch_ros.actions import Node
 def generate_launch_description():
     slam_launch_path = PathJoinSubstitution(
         [FindPackageShare('slam_toolbox'), 'launch', 'online_async_launch.py']
+    )
+
+    filter_launch_path = PathJoinSubstitution(
+        [FindPackageShare('laser_filters'), 'examples', 'shadow_filter_example.launch.py']
     )
 
     slam_config_path = PathJoinSubstitution(
@@ -42,13 +46,12 @@ def generate_launch_description():
         [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'ekf.yaml']
     )
 
-    robot_localization_node = launch_ros.actions.Node(
-       package='robot_localization',
-       executable='ekf_node',
-       name='ekf_filter_node',
-       output='screen',
-       parameters=[ekf_config_path , {'use_sim_time': LaunchConfiguration('sim')}]
+    filter_config_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'range_filter.yaml']
     )
+
+    
+    
     
     lc = LaunchContext()
     ros_distro = EnvironmentVariable('ROS_DISTRO')
@@ -69,6 +72,12 @@ def generate_launch_description():
             description='Run rviz'
         ),
 
+        DeclareLaunchArgument(
+            name='vehicle', 
+            default_value="'cloudy_v2'",
+            description='vehicle name'
+        ),
+
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(slam_launch_path),
             launch_arguments={
@@ -77,7 +86,24 @@ def generate_launch_description():
             }.items()
         ),
 
-        robot_localization_node,
+        launch_ros.actions.Node(
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            output='screen',
+            parameters=[ekf_config_path , {'use_sim_time': LaunchConfiguration('sim')}]
+        ),
+
+        Node(
+            package="laser_filters",
+            executable="scan_to_scan_filter_chain",
+            parameters=[filter_config_path],
+            # condition=IfCondition(
+            #     PythonExpression(
+            #         [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
+            #     )
+            # ),
+        ),
 
         Node(
             package='rviz2',
