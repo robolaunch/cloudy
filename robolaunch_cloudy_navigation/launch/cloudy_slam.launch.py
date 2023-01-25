@@ -64,7 +64,24 @@ def generate_launch_description():
             description='Run rviz'
         ),
 
-        IncludeLaunchDescription(PythonLaunchDescriptionSource(diffbot_system_launch_path)),
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(diffbot_system_launch_path),
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(rf2o_launch_path),
+        ),
+
+        Node(
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            output='screen',
+            parameters=[
+                ekf_config_path
+            ],
+            remappings=[("odometry/filtered", "odom")]
+        ),
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(slam_launch_path),
@@ -74,32 +91,20 @@ def generate_launch_description():
             }.items()
         ), 
 
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(rf2o_launch_path),
+       
+
+        Node(
+            package="laser_filters",
+            executable="scan_to_scan_filter_chain",
+            parameters=[box_filter_config_path],
+            # condition=IfCondition(
+            #     PythonExpression(
+            #         [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
+            #     )
+            # ),
         ),
 
-        # Node(
-        #     package='robot_localization',
-        #     executable='ekf_node',
-        #     name='ekf_filter_node',
-        #     output='screen',
-        #     parameters=[
-        #         ekf_config_path
-        #     ],
-        #     remappings=[("odometry/filtered", "odom")]
-        # ),
-
-        # Node(
-        #     package="laser_filters",
-        #     executable="scan_to_scan_filter_chain",
-        #     parameters=[box_filter_config_path],
-        #     # condition=IfCondition(
-        #     #     PythonExpression(
-        #     #         [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
-        #     #     )
-        #     # ),
-        #     remappings=[("scan_filtered", "scan")]
-        # ),
+        
 
         Node(
             package='rviz2',

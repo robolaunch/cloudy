@@ -6,9 +6,9 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_hardware/include/**",
+        "/home/mert/develop/cloudy_ws/install/robolaunch_cloudy_hardware/include/**",
         "/opt/ros/humble/include/**",
-        "/home/samet/develop/cloudy_ws/src/cloudy/robolaunch_diffbot_hardware/include/**",
+        "/home/mert/develop/cloudy_ws/src/cloudy/robolaunch_diffbot_hardware/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

@@ -50,7 +50,9 @@ def generate_launch_description():
         [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'range_filter.yaml']
     )
 
-    
+    rf2o_launch_path = PathJoinSubstitution(
+        [FindPackageShare('rf2o_laser_odometry'), 'launch', 'rf2o_laser_odometry.launch.py']
+    )    
     
     
     lc = LaunchContext()
@@ -79,6 +81,10 @@ def generate_launch_description():
         ),
 
         IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(rf2o_launch_path),
+        ),
+
+        IncludeLaunchDescription(
             PythonLaunchDescriptionSource(slam_launch_path),
             launch_arguments={
                 'use_sim_time': LaunchConfiguration("sim"),
@@ -86,13 +92,13 @@ def generate_launch_description():
             }.items()
         ),
 
-        launch_ros.actions.Node(
-            package='robot_localization',
-            executable='ekf_node',
-            name='ekf_filter_node',
-            output='screen',
-            parameters=[ekf_config_path , {'use_sim_time': LaunchConfiguration('sim')}]
-        ),
+        # launch_ros.actions.Node(
+        #     package='robot_localization',
+        #     executable='ekf_node',
+        #     name='ekf_filter_node',
+        #     output='screen',
+        #     parameters=[ekf_config_path , {'use_sim_time': LaunchConfiguration('sim')}]
+        # ),
 
         Node(
             package="laser_filters",
