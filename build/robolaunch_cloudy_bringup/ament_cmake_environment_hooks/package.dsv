@@ -1,4 +1,0 @@
-source;share/robolaunch_cloudy_bringup/local_setup.bash
-source;share/robolaunch_cloudy_bringup/local_setup.dsv
-source;share/robolaunch_cloudy_bringup/local_setup.sh
-source;share/robolaunch_cloudy_bringup/local_setup.zsh

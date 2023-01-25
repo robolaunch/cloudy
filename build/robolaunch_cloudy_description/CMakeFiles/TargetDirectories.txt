@@ -1,9 +1,0 @@
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/uninstall.dir
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/robolaunch_cloudy_description_uninstall.dir
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/test.dir
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/edit_cache.dir
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/rebuild_cache.dir
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/list_install_components.dir
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/install.dir
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/install/local.dir
-/home/mert/cloudy_ws/src/build/robolaunch_cloudy_description/CMakeFiles/install/strip.dir

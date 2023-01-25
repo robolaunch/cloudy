@@ -1,6 +1,0 @@
-setup.py
-robolaunch_cloudy_navigation/__init__.py
-robolaunch_cloudy_navigation.egg-info/PKG-INFO
-robolaunch_cloudy_navigation.egg-info/SOURCES.txt
-robolaunch_cloudy_navigation.egg-info/dependency_links.txt
-robolaunch_cloudy_navigation.egg-info/top_level.txt
