@@ -1,0 +1,121 @@
+[0.005s] Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_navigation -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation
+[0.036s] -- The C compiler identification is GNU 11.3.0
+[0.068s] -- The CXX compiler identification is GNU 11.3.0
+[0.073s] -- Detecting C compiler ABI info
+[0.112s] -- Detecting C compiler ABI info - done
+[0.117s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.118s] -- Detecting C compile features
+[0.118s] -- Detecting C compile features - done
+[0.120s] -- Detecting CXX compiler ABI info
+[0.166s] -- Detecting CXX compiler ABI info - done
+[0.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.171s] -- Detecting CXX compile features
+[0.172s] -- Detecting CXX compile features - done
+[0.174s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.341s] -- Looking for pthread.h
+[0.384s] -- Looking for pthread.h - found
+[0.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.427s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.428s] -- Found Threads: TRUE  
+[0.429s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.464s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.468s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.474s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.498s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.546s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.548s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.606s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.623s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.777s] -- Found rclpy: 3.3.5 (/opt/ros/humble/share/rclpy/cmake)
+[0.778s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.810s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.970s] -- Configuring done
+[0.974s] -- Generating done
+[0.975s] -- Build files have been written to: /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation
+[0.983s] Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation' returned '0': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake /home/mert/cloudy_ws/src/robolaunch_cloudy_navigation -DCMAKE_INSTALL_PREFIX=/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation
+[0.984s] Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation -- -j16 -l16
+[1.019s] Built target ament_cmake_python_copy_robolaunch_cloudy_navigation
+[1.199s] running egg_info
+[1.199s] creating robolaunch_cloudy_navigation.egg-info
+[1.199s] writing robolaunch_cloudy_navigation.egg-info/PKG-INFO
+[1.200s] writing dependency_links to robolaunch_cloudy_navigation.egg-info/dependency_links.txt
+[1.200s] writing top-level names to robolaunch_cloudy_navigation.egg-info/top_level.txt
+[1.200s] writing manifest file 'robolaunch_cloudy_navigation.egg-info/SOURCES.txt'
+[1.201s] reading manifest file 'robolaunch_cloudy_navigation.egg-info/SOURCES.txt'
+[1.202s] writing manifest file 'robolaunch_cloudy_navigation.egg-info/SOURCES.txt'
+[1.225s] Built target ament_cmake_python_build_robolaunch_cloudy_navigation_egg
+[1.231s] Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation' returned '0': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake --build /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation -- -j16 -l16
+[1.245s] Invoking command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation
+[1.249s] -- Install configuration: ""
+[1.249s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/pythonpath.sh
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/pythonpath.dsv
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/joint_state_publisher.py
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/odom_tf_publisher.py
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/waypoints_commander.py
+[1.250s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points.py
+[1.251s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/dynamic_tf_broadcaster.py
+[1.251s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/temp.py
+[1.251s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/__init__.py
+[1.274s] Listing '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation'...
+[1.274s] Compiling '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/__init__.py'...
+[1.274s] Listing '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts'...
+[1.274s] Compiling '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/dynamic_tf_broadcaster.py'...
+[1.274s] Compiling '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/joint_state_publisher.py'...
+[1.274s] Compiling '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/odom_tf_publisher.py'...
+[1.274s] Compiling '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/temp.py'...
+[1.274s] Compiling '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points.py'...
+[1.274s] Compiling '/home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/waypoints_commander.py'...
+[1.277s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/dynamic_tf_broadcaster.py
+[1.277s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/way_points.py
+[1.277s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/waypoints_commander.py
+[1.278s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch
+[1.278s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloudy_slam.launch.py
+[1.278s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloudy_nav.launch.py
+[1.278s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/ekf.launch.py
+[1.278s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/launch_all.launch.py
+[1.278s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz
+[1.278s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz/slam.rviz
+[1.278s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz/nav.rviz
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_ekf.yaml
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/ekf.yaml
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/box_filter.yaml
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_navigation.yaml
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_slam.yaml
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/slam.yaml
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/range_filter.yaml
+[1.279s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/navigation.yaml
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/play_ground.yaml
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_launch_all.launch.py
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_nav.launch.py
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_slam.launch.py
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloud.launch.py
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/galactic_container.launch.py
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/robot.launch.py
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_navigation
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_navigation
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/ament_prefix_path.sh
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/ament_prefix_path.dsv
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/path.sh
+[1.280s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/path.dsv
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.bash
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.sh
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.zsh
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.dsv
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.dsv
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/packages/robolaunch_cloudy_navigation
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/cmake/robolaunch_cloudy_navigationConfig.cmake
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/cmake/robolaunch_cloudy_navigationConfig-version.cmake
+[1.281s] -- Installing: /home/mert/cloudy_ws/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.xml
+[1.283s] Invoked command in '/home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation' returned '0': AMENT_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mert/cloudy_ws/src/install/rf2o_laser_odometry:/home/mert/cloudy_ws/install/robolaunch_cloudy_simulator:/home/mert/cloudy_ws/install/robolaunch_cloudy_navigation:/home/mert/cloudy_ws/install/robolaunch_cloudy_bringup:/home/mert/cloudy_ws/install/robolaunch_cloudy_hardware:/home/mert/cloudy_ws/install/robolaunch_cloudy_description:/home/mert/cloudy_ws/install/rf2o_laser_odometry:/opt/ros/humble /usr/bin/cmake --install /home/mert/cloudy_ws/src/build/robolaunch_cloudy_navigation
