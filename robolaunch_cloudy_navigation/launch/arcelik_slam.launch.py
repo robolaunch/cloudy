@@ -62,7 +62,7 @@ def generate_launch_description():
 
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(PathJoinSubstitution(
-                [FindPackageShare('rplidar_ros'), 'launch', 'rplidar.launch.py']
+                [FindPackageShare('sllidar_ros2'), 'launch', 'sllidar_s1_launch.py ']
             )),
             
         ),
