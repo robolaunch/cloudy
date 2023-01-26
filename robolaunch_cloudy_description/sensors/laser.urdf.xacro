@@ -35,7 +35,7 @@
     <material>Gazebo/Black</material>
     </gazebo>
     <joint name="${frame_id}_to_base_link" type="fixed">
-      <origin xyz="0.32 -0.01 0.085" rpy="0 0 3.14159"/>
+      <origin xyz="0.25 -0.01 0.35" rpy="0 0 3.14159"/>
 
       <parent link="base_link"/>
       <child link="${frame_id}"/>

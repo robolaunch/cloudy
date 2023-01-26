@@ -72,35 +72,6 @@ def generate_launch_description():
             description='Enable use_sime_time to true'
         ),
 
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(slam_launch_path),
-        #     launch_arguments={
-        #         'use_sim_time': LaunchConfiguration("sim"),
-        #         slam_param_name: slam_config_path
-        #     }.items()
-        # ),
-
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(PathJoinSubstitution(
-        #         [FindPackageShare('rplidar_ros'), 'launch', 'rplidar_s1.launch.py']
-        #     )),
-            
-        # ),
-
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(PathJoinSubstitution(
-        #         [FindPackageShare('rf2o_laser_odometry'), 'launch', 'rf2o_laser_odometry.launch.py']
-        #     )),
-            
-        # ),
-
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(PathJoinSubstitution(
-        #         [FindPackageShare('linorobot2_description'), 'launch', 'description.launch.py']
-        #     )),
-            
-        # ),
-
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(nav2_launch_path),
             launch_arguments={

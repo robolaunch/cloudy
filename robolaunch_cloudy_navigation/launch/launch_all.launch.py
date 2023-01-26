@@ -10,25 +10,21 @@ from launch_ros.substitutions import FindPackageShare
 from launch_ros.actions import Node
 
 def generate_launch_description():
-    gazebo_launch_path = PathJoinSubstitution(
-        [FindPackageShare('robolaunch_cloudy_simulator'), 'launch', 'launch_sim.launch.py']
-    )
+
     slam_launch_path = PathJoinSubstitution(
         [FindPackageShare('robolaunch_cloudy_navigation'), 'launch', 'cloudy_slam.launch.py']
     )
     nav_launch_path = PathJoinSubstitution(
         [FindPackageShare('robolaunch_cloudy_navigation'), 'launch', 'cloudy_nav.launch.py']
     )
-    rviz_config_path = PathJoinSubstitution([FindPackageShare('slam'), 'rviz', 'nav.rviz'])
+
+    waypoints_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_navigation'), 'robolaunch_cloudy_navigation', 'scripts', 'way_points.py']
+    )
     
          
     return LaunchDescription([
         
-
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(gazebo_launch_path),
-            
-        ),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(slam_launch_path),
             
@@ -42,19 +38,19 @@ def generate_launch_description():
         ),
 
         # Node(
-        #     package='slam',
+        #     package='robolaunch_cloudy_navigation',
         #     executable='way_points.py',
         #     name='way_points',
         #     output='screen',
         # ),
 
-        Node(
-             package='rviz2',
-             executable='rviz2',
-             name='rviz2',
-             output='screen',
-             arguments=['-d', rviz_config_path],
-        )
+        # Node(
+        #      package='rviz2',
+        #      executable='rviz2',
+        #      name='rviz2',
+        #      output='screen',
+        #      arguments=['-d', rviz_config_path],
+        # )
 
         
     ])

@@ -50,6 +50,10 @@ def generate_launch_description():
         [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'range_filter.yaml']
     )
 
+    box_filter_config_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'box_filter.yaml']
+    )
+
     rf2o_launch_path = PathJoinSubstitution(
         [FindPackageShare('rf2o_laser_odometry'), 'launch', 'rf2o_laser_odometry.launch.py']
     )    
@@ -104,11 +108,22 @@ def generate_launch_description():
             package="laser_filters",
             executable="scan_to_scan_filter_chain",
             parameters=[filter_config_path],
-            # condition=IfCondition(
-            #     PythonExpression(
-            #         [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
-            #     )
-            # ),
+            condition=IfCondition(
+                PythonExpression(
+                    [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
+                )
+            ),
+        ),
+
+        Node(
+            package="laser_filters",
+            executable="scan_to_scan_filter_chain",
+            parameters=[box_filter_config_path],
+            condition=IfCondition(
+                PythonExpression(
+                    [LaunchConfiguration("vehicle"), " == 'arcelik'"]
+                )
+            ),
         ),
 
         Node(
