@@ -37,7 +37,7 @@ amcl:
     z_max: 0.05
     z_rand: 0.5
     z_short: 0.05
-    scan_topic: /scan_filtered
+    scan_topic: /scan
 
 amcl_map_client:
   ros__parameters:
@@ -183,7 +183,7 @@ local_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 3.0
-        inflation_radius: 0.35
+        inflation_radius: 0.15
       voxel2d_layer:
         plugin: "nav2_costmap_2d::VoxelLayer"
         enabled: True
@@ -195,13 +195,13 @@ local_costmap:
         mark_threshold: 0
         observation_sources: scan base_scan
         scan:
-          topic: /scan_filtered
+          topic: /scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
         base_scan:
-          topic: /base/scan_filtered
+          topic: /base/scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True
@@ -234,7 +234,7 @@ global_costmap:
         enabled: True
         observation_sources: scan base_scan
         scan:
-          topic: /scan_filtered
+          topic: /scan
           max_obstacle_height: 2.0
           clearing: True
           marking: True

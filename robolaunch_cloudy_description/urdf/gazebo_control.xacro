@@ -18,7 +18,7 @@
 
         <publish_wheel_tf>true</publish_wheel_tf>
         <publish_odom_tf>true</publish_odom_tf>
-        <publish_odom>true</publish_odom>
+        <publish_odom>false</publish_odom>
 
     </plugin>
 </gazebo>

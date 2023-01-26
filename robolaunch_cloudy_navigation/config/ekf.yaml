@@ -10,13 +10,13 @@ ekf_filter_node:
 # set to true, no 3D information will be used in your state estimate. Use this if you are operating in a planar
 # environment and want to ignore the effect of small variations in the ground plane that might otherwise be detected
 # by, for example, an IMU. Defaults to false if unspecified.
-        two_d_mode: false
+        two_d_mode: true
 
 # Whether to publish the acceleration state. Defaults to false if unspecified.
         publish_acceleration: true
 
 # Whether to broadcast the transformation over the /tf topic. Defaultsto true if unspecified.
-        publish_tf: false
+        publish_tf: true
 
 # 1. Set the map_frame, odom_frame, and base_link frames to the appropriate frame names for your system.
 #     1a. If your system does not have a map_frame, just remove it, and make sure "world_frame" is set to the value of odom_frame.
@@ -32,45 +32,16 @@ ekf_filter_node:
         base_link_frame: base_footprint  # Defaults to "base_link" ifunspecified
         world_frame: odom           # Defaults to the value ofodom_frame if unspecified
 
-        odom_from_gazebo: /odom
-        odom_from_gazebo_config: [true,  true,  true,  # x,     y,      z   
-                                  false, false, false, # roll,  pitch,  yaw
-                                  false, false, false, # vz,    vy,     vz
-                                  false, false, true,  # vroll, vpitch, vyaw
-                                  false, false, false] # ax,    ay,     az
+        odom0: odom_rf2o
+        odom0_config: [true,  true,  true,
+                       false, false, false,
+                       false, false, false,
+                       false, false, true,
+                       false, false, false]
 
-        odom_from_rf2o: /odom_rf2o
-        odom_from_rf2o_config: [true,  true,  true,  # x,     y,      z   
-                                false, false, false, # roll,  pitch,  yaw
-                                false, false, false, # vz,    vy,     vz
-                                false, false, true,  # vroll, vpitch, vyaw
-                                false, false, false] # ax,    ay,     az
-# ekf_filter_node:
-#     ros__parameters:
-#         frequency: 50.0
-#         two_d_mode: true
-#         publish_tf: true
- 
-#         map_frame: map             
-#         odom_frame: odom            
-#         base_link_frame: base_footprint
-#         world_frame: odom 
-
-#         #x     , y     , z,
-#         #roll  , pitch , yaw,
-#         #vx    , vy    , vz,
-#         #vroll , vpitch, vyaw,
-#         #ax    , ay    , az
-#         odom0: /diffbot_base_controller/odom
-#         odom0_config: [false, false, false,
-#                        false, false, false,
-#                        true, true, false,
-#                        false, false, true,
-#                        false, false, false]
-#         odom1: /odom_rf2o
-#         odom1_config: [false, false, false,
-#                        false, false, false,
-#                        true, true, false,
-#                        false, false, true,
-#                        false, false, false]
-
+        imu0: imu
+        imu0_config: [false, false, false,
+                      true,  true,  true,
+                      false, false, false,
+                      false, false, false,
+                      false, false, false]

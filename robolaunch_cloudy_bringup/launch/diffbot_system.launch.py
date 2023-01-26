@@ -44,6 +44,7 @@ def generate_launch_description():
         executable="robot_state_publisher",
         output="screen",
         parameters=[robot_description],
+   
         
     )
 
@@ -52,27 +53,25 @@ def generate_launch_description():
         executable="ros2_control_node",
         parameters=[robot_description, diffbot_diff_drive_controller],
         remappings=[
-            ("/diff_drive_controller/cmd_vel_unstamped", "/cmd_vel"),
+            ("/diffbot_base_controller/cmd_vel_unstamped", "/cmd_vel"),
         ],
         output={
             "stdout": "screen",
             "stderr": "screen",
-        }
-        
-        
+        },
     )
 
     spawn_dd_controller = Node(
         package="controller_manager",
         executable="spawner",
         arguments=["diffbot_base_controller"],
-        output="screen",
+        output="screen"
     )
     spawn_jsb_controller = Node(
         package="controller_manager",
         executable="spawner",
         arguments=["joint_state_broadcaster"],
-        output="screen",
+        output="screen"
     )
 
     rviz_config_file = PathJoinSubstitution(
@@ -85,11 +84,7 @@ def generate_launch_description():
         arguments=["-d", rviz_config_file],
         condition=IfCondition(LaunchConfiguration("start_rviz")),
     )
-    rsp = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory('robolaunch_cloudy_navigation'),'launch','cloudy_slam.launch.py'
-                )]), launch_arguments={'use_sim_time': 'true'}.items()
-    )
+
 
     return LaunchDescription(
         [
@@ -99,6 +94,5 @@ def generate_launch_description():
             spawn_dd_controller,
             spawn_jsb_controller,
             rviz_node,
-            rsp,
         ]
     )

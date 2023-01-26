@@ -72,51 +72,22 @@ def generate_launch_description():
             description='Enable use_sime_time to true'
         ),
 
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(slam_launch_path),
-        #     launch_arguments={
-        #         'use_sim_time': LaunchConfiguration("sim"),
-        #         slam_param_name: slam_config_path
-        #     }.items()
-        # ),
-
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(PathJoinSubstitution(
-        #         [FindPackageShare('rplidar_ros'), 'launch', 'rplidar_s1.launch.py']
-        #     )),
-            
-        # ),
-
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(PathJoinSubstitution(
-        #         [FindPackageShare('rf2o_laser_odometry'), 'launch', 'rf2o_laser_odometry.launch.py']
-        #     )),
-            
-        # ),
-
-        # IncludeLaunchDescription(
-        #     PythonLaunchDescriptionSource(PathJoinSubstitution(
-        #         [FindPackageShare('linorobot2_description'), 'launch', 'description.launch.py']
-        #     )),
-            
-        # ),
-
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(nav2_launch_path),
             launch_arguments={
                 'map': LaunchConfiguration("map"),
                 'use_sim_time': LaunchConfiguration("sim"),
                 'params_file': nav2_config_path
-            }.items()
+            }.items(),
         ),
 
-        # Node(
-        #     package='rviz2',
-        #     executable='rviz2',
-        #     name='rviz2',
-        #     output='screen',
-        #     arguments=['-d', rviz_config_path],
-        #     condition=IfCondition(LaunchConfiguration("rviz")),
-        #     parameters=[{'use_sim_time':  LaunchConfiguration("sim") }]
-        # )
+        Node(
+            package='rviz2',
+            executable='rviz2',
+            name='rviz2',
+            output='screen',
+            arguments=['-d', rviz_config_path],
+            condition=IfCondition(LaunchConfiguration("rviz")),
+            parameters=[{'use_sim_time':  LaunchConfiguration("sim") }]
+        )
     ])
