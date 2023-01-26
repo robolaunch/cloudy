@@ -11,7 +11,12 @@
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
-
+  
+  <depend>image_transport</depend>
+  <depend>realsense2_camera</depend>
+  <depend>cv_bridge</depend>
+  
+  <exec_depend>image_transport_plugins</exec_depend>
   <exec_depend>robolaunch_cloudy_description</exec_depend>
   <exec_depend>force_torque_sensor_broadcaster</exec_depend>
   <exec_depend>forward_command_controller</exec_depend>
