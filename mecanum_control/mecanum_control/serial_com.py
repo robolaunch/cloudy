@@ -24,7 +24,7 @@ class SerialNode(Node):
     def __init__(self):
         super().__init__('serial_node')
 
-        self.SERIAL_PORT = '/dev/ttyUSB0'
+        self.SERIAL_PORT = '/dev/ttyUSB1'
         self.ser = serial.Serial(self.SERIAL_PORT,115200)
         
         self.publisher_ = self.create_publisher(Odometry, 'wheel/odometry', 10)

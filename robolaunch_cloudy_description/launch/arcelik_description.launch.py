@@ -36,21 +36,21 @@ def generate_launch_description():
             description="name of the vehicle"
         ),
 
-        Node(
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            arguments = ['0', '0', '0', '0', '0', '0', 'map', 'odom']
-        ),
-
-        Node(
-            package='joint_state_publisher',
-            executable='joint_state_publisher',
-            name='joint_state_publisher',
-            condition=IfCondition(LaunchConfiguration("publish_joints")),
-            parameters=[
-                {'use_sim_time': LaunchConfiguration('use_sim_time')}
-            ]
-        ),
+        #Node(
+        #    package='tf2_ros',
+        #    executable='static_transform_publisher',
+        #    arguments = ['0', '0', '0', '0', '0', '0', 'map', 'odom']
+        #),
+#
+        #Node(
+        #    package='joint_state_publisher',
+        #    executable='joint_state_publisher',
+        #    name='joint_state_publisher',
+        #    condition=IfCondition(LaunchConfiguration("publish_joints")),
+        #    parameters=[
+        #        {'use_sim_time': LaunchConfiguration('use_sim_time')}
+        #    ]
+        #),
 
         Node(
             package='robot_state_publisher',
