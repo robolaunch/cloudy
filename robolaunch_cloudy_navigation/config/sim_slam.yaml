@@ -14,14 +14,14 @@ slam_toolbox:
     map_frame: map
     base_frame: base_footprint
     scan_topic: /scan_filtered
-    mode: mapping
+    mode: localization # mapping , localization
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
     # will use pose
-    # map_file_name: /home/{{env(USER)}}/
-    # map_start_pose: [0.0, 0.0, 0.0]
-    # map_start_at_dock: true
+    map_file_name: /home/mert/cloudy_ws/src/robolaunch_cloudy_navigation/map/warehouse
+    map_start_pose: [0.0, 0.0, 0.0]
+    map_start_at_dock: true
 
     debug_logging: true
     throttle_scans: 1
@@ -40,7 +40,7 @@ slam_toolbox:
     use_scan_barycenter: true
     minimum_travel_distance: 0.5
     minimum_travel_heading: 0.5
-    scan_buffer_size: 10
+    scan_buffer_size: 5
     scan_buffer_maximum_scan_distance: 10.0
     link_match_minimum_response_fine: 0.1  
     link_scan_maximum_distance: 1.5

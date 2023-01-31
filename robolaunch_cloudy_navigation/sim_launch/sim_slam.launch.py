@@ -43,7 +43,7 @@ def generate_launch_description():
     )
 
     ekf_config_path = PathJoinSubstitution(
-        [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'ekf.yaml']
+        [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'sim_ekf.yaml']
     )
 
     filter_config_path = PathJoinSubstitution(
@@ -67,7 +67,7 @@ def generate_launch_description():
 
     return LaunchDescription([
         DeclareLaunchArgument(
-            name='sim', 
+            name='use_sim_time', 
             default_value='false',
             description='Enable use_sime_time to true'
         ),
@@ -91,23 +91,24 @@ def generate_launch_description():
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(slam_launch_path),
             launch_arguments={
-                'use_sim_time': LaunchConfiguration("sim"),
+                'use_sim_time': LaunchConfiguration("use_sim_time"),
                 slam_param_name: slam_config_path
             }.items()
         ),
 
-        # launch_ros.actions.Node(
-        #     package='robot_localization',
-        #     executable='ekf_node',
-        #     name='ekf_filter_node',
-        #     output='screen',
-        #     parameters=[ekf_config_path , {'use_sim_time': LaunchConfiguration('sim')}]
-        # ),
+        launch_ros.actions.Node(
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            output='screen',
+            parameters=[ekf_config_path , {'use_sim_time': LaunchConfiguration('use_sim_time')}],
+            remappings=[('odometry/filtered', 'odom')]
+        ),
 
         Node(
             package="laser_filters",
             executable="scan_to_scan_filter_chain",
-            parameters=[filter_config_path],
+            parameters=[filter_config_path, {'use_sim_time': LaunchConfiguration('use_sim_time')}],
             condition=IfCondition(
                 PythonExpression(
                     [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]
@@ -118,7 +119,7 @@ def generate_launch_description():
         Node(
             package="laser_filters",
             executable="scan_to_scan_filter_chain",
-            parameters=[box_filter_config_path],
+            parameters=[box_filter_config_path , {'use_sim_time': LaunchConfiguration('use_sim_time')}],
             condition=IfCondition(
                 PythonExpression(
                     [LaunchConfiguration("vehicle"), " == 'arcelik'"]
@@ -133,7 +134,7 @@ def generate_launch_description():
             output='screen',
             arguments=['-d', rviz_config_path],
             condition=IfCondition(LaunchConfiguration("rviz")),
-            parameters=[{'use_sim_time': LaunchConfiguration("sim")}]
+            parameters=[{'use_sim_time': LaunchConfiguration("use_sim_time")}]
         )
 
 

@@ -107,7 +107,7 @@ def generate_launch_description():
         Node(
             package="laser_filters",
             executable="scan_to_scan_filter_chain",
-            parameters=[box_filter_config_path],
+            parameters=[range_filter_config_path],
             # condition=IfCondition(
             #     PythonExpression(
             #         [LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]

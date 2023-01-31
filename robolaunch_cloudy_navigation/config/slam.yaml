@@ -11,17 +11,17 @@ slam_toolbox:
 
     # ROS Parameters
     odom_frame: odom
-    map_frame: map
+    map_frame : map
     base_frame: base_footprint
     scan_topic: /scan_filtered
-    mode: mapping
+    mode      : mapping
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
     # will use pose
-    # map_file_name: /home/{{env(USER)}}/
-    # map_start_pose: [0.0, 0.0, 0.0]
-    # map_start_at_dock: true
+    map_file_name    : /home/{{env(USER)}}/cloudy_ws/src/robolaunch_cloudy_navigation/map/warehouse_filtered
+    map_start_pose   : [0.0, 0.0, 0.0]
+    map_start_at_dock: true
 
     debug_logging: true
     throttle_scans: 1

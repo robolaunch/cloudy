@@ -52,6 +52,13 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(nav2_launch_path),
         ),
 
+        # Node(
+        #     package='robolaunch_cloudy_navigation',
+        #     executable='way_points.py',
+        #     name='way_points',
+        #     output='screen',
+        # ),
+
         Node(
             package='rviz2',
             executable='rviz2',

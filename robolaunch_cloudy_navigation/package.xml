@@ -24,6 +24,7 @@
   <depend>nav2_bringup</depend>
   <depend>rf2o_laser_odometry</depend>
   <depend>robot_localization</depend>
+  <depend>nav2_util</depend>
 
 
 

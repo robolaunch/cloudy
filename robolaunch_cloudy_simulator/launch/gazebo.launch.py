@@ -7,7 +7,7 @@ from launch_ros.substitutions import FindPackageShare
 from launch_ros.actions import Node
 
 world_path = PathJoinSubstitution(
-        [FindPackageShare("robolaunch_cloudy_simulator"), "worlds", "playground.world"]
+        [FindPackageShare("robolaunch_cloudy_simulator"), "worlds", "industrial-warehouse.sdf"]
     )
 
 gazebo_path = PathJoinSubstitution(

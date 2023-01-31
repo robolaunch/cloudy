@@ -50,6 +50,10 @@ def generate_launch_description():
         [FindPackageShare('robolaunch_cloudy_navigation'), 'config', 'navigation.yaml']
     )
 
+    map_filter_launch_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_navigation'), 'launch', 'map_filter.launch.py']
+    )
+
    
     
     lc = LaunchContext()
@@ -79,6 +83,10 @@ def generate_launch_description():
                 'use_sim_time': LaunchConfiguration("sim"),
                 'params_file': nav2_config_path
             }.items(),
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(map_filter_launch_path),
         ),
 
         Node(

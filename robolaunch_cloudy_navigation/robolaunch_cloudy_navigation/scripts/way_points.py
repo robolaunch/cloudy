@@ -97,6 +97,66 @@ def draw_rect(h, w, navigator):
 
     return goal_poses
 
+def follow_path(navigator):
+    goal_pose = PoseStamped()
+    goal_pose.header.frame_id = 'map'
+    goal_pose.header.stamp = navigator.get_clock().now().to_msg()
+    goal_pose.pose.position.x = 0.0
+    goal_pose.pose.position.y = 0.0
+    goal_pose.pose.orientation.w = 1.0
+
+    
+    goal_poses = []
+    for _ in range(10):
+        goal_poses.append(copy.deepcopy(goal_pose))
+
+    goal_poses[0].pose.position.x = 0.0
+    goal_poses[0].pose.position.y = -4.0
+    goal_poses[0] = set_angle(goal_poses[0], 0.0)
+
+    goal_poses[1].pose.position.x = 0.0
+    goal_poses[1].pose.position.y = -8.0
+    goal_poses[1] = set_angle(goal_poses[1], 0.0)
+
+    goal_poses[2].pose.position.x = -4.0
+    goal_poses[2].pose.position.y = -8.0
+    goal_poses[2] = set_angle(goal_poses[2], 90.0)
+
+    goal_poses[3].pose.position.x = -4.0
+    goal_poses[3].pose.position.y = -4.0
+    goal_poses[3] = set_angle(goal_poses[3], 180.0)
+
+    goal_poses[4].pose.position.x = -4.0
+    goal_poses[4].pose.position.y = 0.0
+    goal_poses[4] = set_angle(goal_poses[4], 270.0)
+
+    goal_poses[5].pose.position.x = -4.0
+    goal_poses[5].pose.position.y = 4.0
+    goal_poses[5] = set_angle(goal_poses[5], 270.0)
+
+    goal_poses[6].pose.position.x = -4.0
+    goal_poses[6].pose.position.y = 9.5
+    goal_poses[6] = set_angle(goal_poses[6], -90.0)
+
+    goal_poses[7].pose.position.x = 1.5
+    goal_poses[7].pose.position.y = 8.3
+    goal_poses[7] = set_angle(goal_poses[7], -90.0)
+
+    goal_poses[8].pose.position.x = 0.0
+    goal_poses[8].pose.position.y = 4.0
+    goal_poses[8] = set_angle(goal_poses[8], -90.0)
+
+    goal_poses[9].pose.position.x = 0.0
+    goal_poses[9].pose.position.y = 0.0
+    goal_poses[9] = set_angle(goal_poses[9], -90.0)
+
+
+    print("------- GOAL POSES -------")
+    for pose in goal_poses:
+        print(pose, end="\n\n")
+
+    return goal_poses
+
 
 def main():
     rclpy.init()
@@ -134,7 +194,7 @@ def main():
     # local_costmap = navigator.getLocalCostmap()
 
     # Go to our demos first goal pose
-    goal_poses = draw_rect(6.5, 3.5, navigator)
+    goal_poses = follow_path(navigator)
 
     
 

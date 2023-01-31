@@ -32,12 +32,12 @@ ekf_filter_node:
         base_link_frame: base_footprint  # Defaults to "base_link" ifunspecified
         world_frame: odom           # Defaults to the value ofodom_frame if unspecified
 
-        odom_from_gazebo: /odom
-        odom_from_gazebo_config: [true,  true,  true,  # x,     y,      z   
-                                  false, false, false, # roll,  pitch,  yaw
-                                  false, false, false, # vz,    vy,     vz
-                                  false, false, true,  # vroll, vpitch, vyaw
-                                  false, false, false] # ax,    ay,     az
+        # odom_from_gazebo: /odom
+        # odom_from_gazebo_config: [true,  true,  true,  # x,     y,      z   
+        #                           false, false, false, # roll,  pitch,  yaw
+        #                           false, false, false, # vz,    vy,     vz
+        #                           false, false, true,  # vroll, vpitch, vyaw
+        #                           false, false, false] # ax,    ay,     az
 
         odom_from_rf2o: /odom_rf2o
         odom_from_rf2o_config: [true,  true,  true,  # x,     y,      z   

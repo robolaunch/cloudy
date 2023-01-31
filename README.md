@@ -164,47 +164,6 @@ Use the teleop keyboard, in a new terminal :
 ```bash
 source install/setup.bash && ros2 run teleop_twist_keyboard teleop_twist_keyboard cmd_vel:=diffbot_base_controller/cmd_vel_unstamped
 ```
----
-
-## SLAM and Navigation
-
-**vehicle types**
-- cloudy_v2 (default)
-- cloudy_v1
-- arcelik
-
-### Simulation
-
-First source the workspace
-```bash
-source install/setup.bash
-```
-In order to launch both SLAM and navigation run:
-```bash
-ros2 launch robolaunch_cloudy_navigation sim_launch_all.launch.py
-```
-
-To launch with other robolaunch robots set the `vehicle` launch argument to one of the vehicle types given above. Openning `arcelik` vehicle might take a few minutes since it has detailed parts.
-```bash
-ros2 launch robolaunch_cloudy_navigation sim_launch_all.launch.py vehicle:="'arcelik'"
-```
-
-If you want to launch saperately, first open the simulation. The default vehicle is `cloudy_v2` but if you wish to use another robot, set the `vehicle` parameter to one of the vehicles listed above.
-```bash
-ros2 launch robolaunch_cloudy_simulator gazebo.launch.py
-```
-
-Then launch slam:
-```bash
-ros2 launch robolaunch_cloudy_navigation sim_slam.launch.py
-```
-
-Finally, launch navigation. If you would like to open rviz set rviz parameter true by adding `rviz:=true` at the end of the command.
-```bash
-ros2 launch robolaunch_cloudy_navigation sim_nav.launch.py
-```
-
-### Physical
 
 ## Community
 - [Website](https://www.robolaunch.io/)
