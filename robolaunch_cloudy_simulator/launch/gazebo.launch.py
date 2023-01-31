@@ -1,13 +1,18 @@
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import PathJoinSubstitution, LaunchConfiguration
+from launch.substitutions import PathJoinSubstitution, LaunchConfiguration, PythonExpression
+from launch.conditions import IfCondition
 from launch_ros.substitutions import FindPackageShare
 
 from launch_ros.actions import Node
 
-world_path = PathJoinSubstitution(
+playground_world_path = PathJoinSubstitution(
         [FindPackageShare("robolaunch_cloudy_simulator"), "worlds", "playground.world"]
+    )
+
+warehouse_world_path = PathJoinSubstitution(
+        [FindPackageShare("robolaunch_cloudy_simulator"), "worlds", "industrial-warehouse.sdf"]
     )
 
 gazebo_path = PathJoinSubstitution(
@@ -29,6 +34,12 @@ def generate_launch_description():
             description="vehicle type"
         ),
 
+        DeclareLaunchArgument(
+            name="world",
+            default_value="warehouse",
+            description="gazebo world name"
+        ),
+
         IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(description_launch_path), 
                 launch_arguments={
@@ -41,8 +52,26 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(gazebo_path),
             launch_arguments={
                 'use_sim_time': str("true"),
-                'world': world_path,
-            }.items()
+                'world': playground_world_path,
+            }.items(),
+            condition=IfCondition(
+                PythonExpression(
+                    ["'", LaunchConfiguration("world"), "' == 'playground'"]
+                )
+            ),
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(gazebo_path),
+            launch_arguments={
+                'use_sim_time': str("true"),
+                'world': warehouse_world_path,
+            }.items(),
+            condition=IfCondition(
+                PythonExpression(
+                    ["'", LaunchConfiguration("world"), "' == 'warehouse'"]
+                )
+            ),
         ),
          
         Node(

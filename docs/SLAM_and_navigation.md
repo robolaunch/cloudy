@@ -24,7 +24,7 @@ To launch with other robolaunch robots set the `vehicle` launch argument to one 
 ros2 launch robolaunch_cloudy_navigation sim_launch_all.launch.py vehicle:="'arcelik'"
 ```
 
-If you want to launch saperately, first open the simulation. The default vehicle is `cloudy_v2` but if you wish to use another robot, set the `vehicle` parameter to one of the vehicles listed above.
+If you want to launch saperately, first open the simulation. The default vehicle is `cloudy_v2` but if you wish to use another robot, set the `vehicle` parameter to one of the vehicles listed above. Default map is warehouse but if you wish to open on playground world use `world:=playground`.
 ```bash
 ros2 launch robolaunch_cloudy_simulator gazebo.launch.py
 ```
