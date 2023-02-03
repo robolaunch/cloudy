@@ -878,8 +878,8 @@ planner_server:
 - [Website](https://www.robolaunch.io/)
 - [LinkedIn](https://www.linkedin.com/company/robolaunch)
 - [Twitter](https://twitter.com/robolaunch)
+- [Discord](https://discord.gg/HR3QXQZ7)
 - [Slack]() - *soon*
-- [Discord]() - *soon*
 - [robolaunch Forum]() - *soon*
 
 ## Contributing
