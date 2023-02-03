@@ -411,6 +411,13 @@ Tools required for assembly:
 
 # Hardware Guide
 ## Specifications
+Cloudy uses the esp32 micro controller on the embedded hardware side.
+
+Cloudy robot has a Hardware Stack containing the main electronics and computer, all the parts here are cooled by a powerful fan. The Hardware Stack is easily separated from the body of the cloudy, which allows you to easily replace them and use them outside of the robot.<br/>
+The first layer of the Hardware Stack contains an esp32 microcontroller. This board is known as uno esp32 and is compatible with most arduino uno shields.<br/>
+In the second layer, there is an arduino sensor shield. This layer offers esp32 pins with 5v and gnd. Since the 5v here is supported by ubec, many components such as control receiver, addressable leds, servo motors, dc motors can be easily connected here.<br/>
+The third layer contains the arduino cnc shield, this layer ensures the stable operation of the motor drivers.<br/>
+There is Orange Pi 5 on the top layer, you can easily access the USBs on it and use the pins on it.
 
 | **Attribute**            | **Description** |
 |--------------------------|-----------------|
@@ -421,14 +428,28 @@ Tools required for assembly:
 | Maximum payload          |                 |
 | Battery life             |                 |
 | Wi-Fi range&throughput   |                 |
+| RC Control Range         |     ~ 300m      |
 
 ## Block Diagram
 
-A block diagram of robolaunch Cloudy components and connections between them. The detailed version: <a href="https://github.com/robolaunch/cloudy/blob/56b69bfe92d7e2cab0c9da94a76a140961346316/docs/0404_025_MANUFACTURING%20GUIDE.pdf" target=”_blank” >document</a>.
+A block diagram of robolaunch Cloudy components and connections between them.</br>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/scheme.png" alt="Scheme">
 </p>
+
+## Wiring Diagram
+
+The detailed wiring diagram is below. If you want to improve or modify this diagram, you can download the fritzing application file <a href="#">here</a> and modify it.
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy_hardware_bb.png" alt="Scheme">
+</p>
+
+## Installation Guide
+
+## Box Installation
+
 
 # Software Guide
 
@@ -878,12 +899,11 @@ planner_server:
 - [Website](https://www.robolaunch.io/)
 - [LinkedIn](https://www.linkedin.com/company/robolaunch)
 - [Twitter](https://twitter.com/robolaunch)
-- [Discord](https://discord.gg/HR3QXQZ7)
 - [Slack]() - *soon*
+- [Discord]() - *soon*
 - [robolaunch Forum]() - *soon*
 
 ## Contributing
 
 Please see [this guide](./CONTRIBUTING.md) if you want to contribute.
-
 
