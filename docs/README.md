@@ -462,9 +462,54 @@ The detailed wiring diagram is below. If you want to improve or modify this diag
 <img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy_hardware_bb.png" alt="Scheme">
 </p>
 
+## Part List
+
+| **Part Type**            | **Amount** |
+|--------------------------|-----------------|
+| Raspberry Pi 4 8GB         | 1    |
+| Orange Pi 5 16GB  | Optional                |
+| Jetson Nano | Optional                |
+| Wemos D1 R32         | 1                |
+| Arduino Cnc Shield             | 1                |
+| Monster Moto Shield            | Optional                |
+| UBEC 5V 6A          |  1      |
+| Hobbywing 5V 3A Ubec         |  Optional      |
+| Apm Power Module         |  1      |
+| 24V Cooling Fan        |  1      |
+|6S 3200 mAh Li-on Battery Pack | 1 |
+|6S 2200 mAh Lipo Battery | Optional |
+|Nema 17 Stepper Motor | 2 |
+| 12V DC Motor With Encoder| Optional (2) |
+|DRV8825 Stepper Motor Controller | 2 |
+|MPU6050 IMU | 1 |
+| IA6B Ibus Receiver| 1 |
+|Intel Realsense D435i | 1 |
+|RPlidar A1M8 Lidar | 1 |
+|Neopixel Led Stick 8x | 4 |
+|Adafruit TCA9548A | 1 |
+| Usb Micro Usb Cable 20cm | 1 |
+| Push button 12mm | 1 |
+| Emergency Button 16mm | 1 |
+| OLED I2C 0.96" Display | 1 |
+| VL6180X TOF Distance Sensor | 3 |
+| AS5600 encoder | 2 |
+|JST Connector Female | 7 |
+| JST Connector Male | 7 |
+|Splice Terminal | 18 |
+|Easy PDB Body 5 channel | 1 |
+| Easy PDB connector | 5 |
+| Xt30 Connector Pair| 1 |
+
+
+
+
+
+
+
+
 ## Installation Guide
 
-## Box Installation
+## Hardware Box Setup
 
 
 # Software Guide
