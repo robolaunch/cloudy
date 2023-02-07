@@ -432,8 +432,10 @@ On the top layer, there is a single board computer. Cloudy supports raspberry pi
 Cloudy is a robot equipped with sensors. These sensors work with i2c protocol and are deployed with i2c multiplexer so you can connect multiple same sensors.Cloudy includes 3 distance sensors, 2 for collision avoidance in the bumper, and 1 for protection from falling from a height. In addition, there are neopixel LEDs on all four sides, these LEDs are used for robot visibility and status indication. You can learn the battery voltage and status with the tiny oled screen at the top.
 <br/>
 <br/><br/>
-<br/><br/>
 <br/>
+<a href="https://whimsical.com/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYpbnL2aAdXWWQ">Click For Whimsical</a>
+<br/>
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYpbnL2aAdXWWQ"></iframe>
 
 | **Attribute**            | **Description** |
 |--------------------------|-----------------|
