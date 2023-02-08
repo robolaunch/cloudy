@@ -429,13 +429,19 @@ The second layer contains shield for the motor drivers. Depending on your motor 
 On the top layer, there is a single board computer. Cloudy supports raspberry pi, orange pi 5, jetson nano computers. You can easily access the USBs on it and use add-ons such as stereo camera and lidar.
 <br/>
 <br/>
-Cloudy is a robot equipped with sensors. These sensors work with i2c protocol and are deployed with i2c multiplexer so you can connect multiple same sensors.Cloudy includes 3 distance sensors, 2 for collision avoidance in the bumper, and 1 for protection from falling from a height. In addition, there are neopixel LEDs on all four sides, these LEDs are used for robot visibility and status indication. You can learn the battery voltage and status with the tiny oled screen at the top.
+In addition, the body of the Cloudy is equipped with many sensors. These sensors work with i2c protocol and are connected with i2c multiplexer so you can connect multiple same sensors.Cloudy includes 3 distance sensors, 2 for collision avoidance in the bumper, and 1 for protection from falling from a height. Also there are neopixel LEDs on all four sides, these LEDs are used for robot visibility and status indication. You can learn the battery voltage and status with the tiny oled screen at the top.
 <br/>
 <br/><br/>
 <br/>
-<a href="https://whimsical.com/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYpbnL2aAdXWWQ">Click For Whimsical</a>
-<br/>
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYpbnL2aAdXWWQ"></iframe>
+<img style="width:170px; height:170px; float:left;" src="https://st.myideasoft.com/idea/cd/40/myassets/products/827/ws2812-8li-serit-rgb-led-modulu-rgb-stick-modul-drone-1-1.JPG?revision=1582459848"/>
+<img style="width:170px; height:170px;" src="https://www.direnc.net/vl6180-optik-sensor-modulu-arduino-uyumlu-lazer-ve-lazerli-sensorler-estardyn-40330-14-B.jpg"/>
+<img style="width:170px; height:170px;" src="https://www.robotistan.com/13-inch-i2c-oled-ekran-ssd1106-25686-80-O.jpg"/>
+<img style="width:170px; height:170px;" src="https://robiz.net/image/cache/data/sensors/gyro/mpu6050/mpu6050_01-500x500.jpg"/>
+<br/><br/><br/>
+
+## Robot Build Roadmap: 
+This roadmap shows the order of parts to be selected for robot manufacture for all robot types. Starting from step 1, you can create the robot you want to build.
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYmPnTJDWNcchx"></iframe>
 
 | **Attribute**            | **Description** |
 |--------------------------|-----------------|
