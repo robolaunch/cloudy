@@ -467,7 +467,7 @@ A block diagram of robolaunch Cloudy components and connections between them.</b
 The detailed wiring diagram is below. If you want to improve or modify this diagram, you can download the fritzing application file <a href="#">here</a> and modify it.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy_hardware_bb.png" alt="Scheme">
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy_hardware4_bb.png" alt="Scheme">
 </p>
 
 ## Part List
