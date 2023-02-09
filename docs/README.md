@@ -447,19 +447,19 @@ This roadmap shows the order of parts to be selected for robot manufacture for a
 |--------------------------|-----------------|
 | Weight                   | ~2.7 kg         |
 | Chassis material         | PLA(Default)    |
-| Maximum linear velocity  |                 |
-| Maximum angular velocity |                 |
-| Maximum payload          |                 |
-| Battery life             |                 |
-| Wi-Fi range&throughput   |                 |
-| RC Control Range         |     ~ 300m      |
+| Maximum linear velocity  |       0.8 m/s          |
+| Maximum angular velocity |      1 rad/s           |
+| Maximum payload          |      30KG           |
+| Battery life             |      ~1.5h           |
+| Wi-Fi range&throughput   |     ~100m            |
+| RC Control Range         |     ~300m      |
 
 ## Block Diagram
 
 A block diagram of robolaunch Cloudy components and connections between them.</br>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/scheme.png" alt="Scheme">
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/Scheme.png" alt="Scheme">
 </p>
 
 ## Wiring Diagram
@@ -490,6 +490,7 @@ The detailed wiring diagram is below. If you want to improve or modify this diag
 | 12V DC Motor With Encoder| Optional (2) |
 |DRV8825 Stepper Motor Controller | 2 |
 |MPU6050 IMU | 1 |
+| USB WIFI| 1 |
 | IA6B Ibus Receiver| 1 |
 |Intel Realsense D435i | 1 |
 |RPlidar A1M8 Lidar | 1 |
@@ -503,7 +504,7 @@ The detailed wiring diagram is below. If you want to improve or modify this diag
 | AS5600 encoder | 2 |
 |JST Connector Female | 7 |
 | JST Connector Male | 7 |
-|Splice Terminal | 18 |
+|Splice Terminal | 16 |
 |Easy PDB Body 5 channel | 1 |
 | Easy PDB connector | 5 |
 | Xt30 Connector Pair| 1 |
