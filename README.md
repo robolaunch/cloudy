@@ -24,6 +24,11 @@
 - [Quick Start](#quick-start)
 - [Contributing](#contributing)
 
+!> **Important** notice with `inline code` and additional placeholder text used
+to force the content to wrap and span multiple lines.
+
+?> **Tip** notice with `inline code` and additional placeholder text used to
+force the content to wrap and span multiple lines.
 
 ## Overview
 
