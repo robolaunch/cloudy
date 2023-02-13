@@ -41,3 +41,24 @@ The voltage needs of the parts on the robot are different. There are 2 voltage r
 # Voltage Regulator
 
 "The power required for the operation of all systems on Cloudy is obtained from 18650 lion batteries in a 6s1p arrangement.The 3200mAh capacity of the battery allows Cloudy to run for a duration of over one hour. By modifying the battery cover to accommodate larger batteries, the operating time can potentially be extended to a maximum of 10 hours.
+# Bill Of Materials List
+| **Part Type**            | **Amount**             |   **Part Type**            | **Amount** |
+|-|-|-|-|
+| Raspberry Pi 4 8GB         | 1    |Nema 17 Stepper Motor | 2 |
+| Orange Pi 5 16GB  | Optional                | 12V DC Motor With Encoder| Optional (2) |
+| Jetson Nano | Optional                |DRV8825 Stepper Motor Controller | 2 |
+| Wemos D1 R32         | 1                |MPU6050 IMU | 1 |
+| Arduino Cnc Shield             | 1                |USB WIFI| 1 |
+| Monster Moto Shield            | Optional                |IA6B Ibus Receiver| 1 |
+| UBEC 5V 6A          |  1      |Intel Realsense D435i | 1 |
+| Hobbywing 5V 3A Ubec         |  Optional      |RPlidar A1M8 Lidar | 1 |
+| Apm Power Module         |  1      |Neopixel Led Stick 8x | 4 |
+| 24V Cooling Fan        |  1      |Adafruit TCA9548A | 1 |
+|6S 3200 mAh Li-on Battery Pack | 1 |Usb Micro Usb Cable 20cm | 1 |
+|6S 2200 mAh Lipo Battery | Optional |Push button 12mm | 1 |
+|Emergency Button 16mm | 1 |JST Connector Female | 7 |
+|OLED I2C 0.96" Display | 1 | JST Connector Male | 7 |
+| VL6180X TOF Distance Sensor | 3 |Splice Terminal | 16 |
+|AS5600 encoder | 2 |Easy PDB Body 5 channel | 1 |
+| Easy PDB connector | 5 |Xt30 Connector Pair| 1 | 
+
