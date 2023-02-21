@@ -9,13 +9,18 @@ The second layer contains shield for the motor drivers. Depending on your motor 
 
 On the top layer, there is a single board computer. Cloudy supports raspberry pi, orange pi 5, jetson nano and Intel Nuc computers. You can easily access the USBs on it and use add-ons such as stereo camera and lidar.
 
-In addition, the body of the Cloudy is equipped with many sensors. These sensors work with i2c protocol and are connected with i2c multiplexer so you can connect multiple same sensors.Cloudy includes 3 distance sensors, 2 for collision avoidance in the bumper, and 1 for protection from falling from a height. Also there are neopixel LEDs on all four sides, these LEDs are used for robot visibility and status indication. You can learn the battery voltage and status with the tiny oled screen at the top.
+In addition, the body of the Cloudy is equipped with many sensors. These sensors work with i2c protocol and are connected with i2c multiplexer so you can connect multiple same sensors. 
+
+The Cloudy robot comes equipped with three distance sensors, two of which are located within the bumper while the third is positioned at the bottom. Additionally, this device makes use of the same type of sensor technology found in the Samsung Galaxy S5 phone, which enables it to detect the direction of hand movements made on its surface. This innovative technology enables users to send commands to the Cloudy device using simple hand gestures, adding a new level of convenience and interactivity to the user experience.
+
+ This sensors Also there are neopixel LEDs on all four sides, these LEDs are used for robot visibility and status indication. You can learn the battery voltage and status with the tiny oled screen at the top.
+ <img width="300" height="300" style="margin-left:250px; margin-top:30px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/cloudyvoltage.jpg">
 <br/>
 <br/><br/>
 <br/>
 
 ## Components
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy-open-version.pngs">
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy-open-version.png">
 
 ## Environments & Setup
 **Wiring Simulation**
@@ -33,7 +38,7 @@ https://github.com/micro-ROS/micro_ros_arduino
 
 https://github.com/gin66/FastAccelStepper
 
-https://github.com/ibus/ibus
+https://github.com/bmellink/IBusBM
 
 https://github.com/adafruit/Adafruit_NeoPixel
 

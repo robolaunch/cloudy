@@ -36,9 +36,9 @@ The more features a robot has, the more cables it comes with, but there are vari
 The battery cover of Cloudy is easily removable. To turn off the power of Cloudy, you can use the illuminated on/off button located on the back. In emergency situations, there is an emergency button to instantly cut off the power to the engines. Cloudy also includes a charging port for recharging and additional power output ports for connecting external equipment both inside and outside the device.
 # Voltage Regulator
 
-The voltage needs of the parts on the robot are different. There are 2 voltage regulators on Cloudy. One of them is the 5 volt 6 amp ubec part used only to power the computer. The computer can sometimes draw high power. The 2nd bec is used to power the Esp32 and all other sensors and peripherals.
+The voltage needs of the parts on the robot are different. There are 2 voltage regulators on Cloudy. One of them used only to power the computer. The 2nd bec is used to power the Esp32 and all other sensors and peripherals.
 
-# Voltage Regulator
+# Battery
 
 "The power required for the operation of all systems on Cloudy is obtained from 18650 lion batteries in a 6s1p arrangement.The 3200mAh capacity of the battery allows Cloudy to run for a duration of over one hour. By modifying the battery cover to accommodate larger batteries, the operating time can potentially be extended to a maximum of 10 hours.
 # Bill Of Materials List
