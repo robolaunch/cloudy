@@ -16,6 +16,7 @@
   <exec_depend>teleop_twist_keyboard</exec_depend>
   <exec_depend>rviz2</exec_depend>
   <exec_depend>xacro</exec_depend>
+  <exec_depend>realsense2_camera</exec_depend>
   <export>
     <build_type>ament_cmake</build_type>
   </export>
