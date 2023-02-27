@@ -45,4 +45,4 @@ The Cloudy robot is compact and hooded, making it important to have some basic h
 <img style="width:180px; height:180px;  margin:30px;" src="https://www.robolinkmarket.com/montaj-kablosu-paketi-22awg-6x15m-cok-damarli-jumper-dupont-kablo-marxlow-6995-71-O.webp"/>
 <img style="width:180px; height:150px; margin-bottom:40px;" src="https://st.myideasoft.com/idea/jd/10/myassets/products/474/isiso-hs-700d-kablo-soyma-pensesi-perpaotomasyon.jpg?revision=1646898140"/>
 
-?>  It is important to verify that the mechanical assembly of the device has been completed fully before proceeding to this step."
+?>  It is important to verify that the mechanical assembly of the device has been completed fully before proceeding to this step. Deneme"
