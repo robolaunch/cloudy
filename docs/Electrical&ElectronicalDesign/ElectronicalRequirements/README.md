@@ -1,8 +1,4 @@
 
-# General Robot Build Roadmap: 
-This roadmap shows the order of parts to be selected for robot manufacture for all robot types. Starting from step 1, you can create the robot you want to build. Cloudy Robot was created with use this roadmap.
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYmPnTJDWNcchx"></iframe>
-
 # Chassis
 The Cloudy AGV (Automated Guided Vehicle) features a differential drive control system with free-wheeling capabilities on all four sides. It is designed for indoor operation on flat floors and has a maximum carrying capacity of 30 kilograms. Additional payloads, such as robotic arms and drones, can be integrated onto the Cloudy platform to increase its functionality.
 <br>

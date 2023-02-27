@@ -59,13 +59,12 @@ Why is Cloudy open source?
 
 ## Architecture
 
+This roadmap shows the order of parts to be selected for robot manufacture for all robot types. Starting from step 1, you can create the robot you want to build. Cloudy Robot was created with use this roadmap.
+<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYmPnTJDWNcchx"></iframe>
+
 ## Image Gallery
 
-### Mechanical
 
-### Hardware
-
-### Software
 
 ## Business Requirements
 
