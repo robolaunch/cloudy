@@ -1,19 +1,18 @@
 - [Home](/)
-- [Mechanical Design](/MechanicalDesign/)
-    - [Overview](/MechanicalDesign/Overview/)
-    - [3D Printing](/MechanicalDesign/3DPrinting/)
+- [Getting Started]
+    - [Overview](/Overview)
+    - [Buy Online](BuyOnline)
+    - [Do it yourself](/DoItYourself/)
+- [Bill Of Materials](/BOM/)
+    - [Electronical component List](/MechanicalDesign/Overview/)
+    - [3D Printing Part list](/MechanicalDesign/3DPrinting/)
     - [Mechanical Hardware](/MechanicalDesign/MechanicalPartList/)
     - [Assembly Guide](/MechanicalDesign/AssemblyGuide/)
-    - [Mechanical Requirements](/MechanicalDesign/Design%26Production/)
-    - [Design & Production](/MechanicalDesign/Design%26Production/)
-- [Electrical & Electronical Design](/Electrical%26ElectronicalDesign/)
-    - [Overview](/Electrical%26ElectronicalDesign/overview/)
-    - [Cabling & Mounting](/Electrical%26ElectronicalDesign/Cabling%26Mounting/)
-    - [Software Setup](/Electrical%26ElectronicalDesign/softwareSetup/)
-    - [Electronical Requirements](/Electrical%26ElectronicalDesign/ElectronicalRequirements/)
-    - [Development & Production](/Electrical%26ElectronicalDesign/Development%26Production/)
-- [Software Design](/SoftwareDesign/)
-    - [Software Requirements](/SoftwareDesign/SoftwareRequirements/)
+- [Hardware Setup]
+    - [Assembly]
+    - [Electronics and wiring diagram]
+- [Software Setup](/SoftwareSetup/)
+    - [Software Requirements](/SoftwareDesignSoftwareRequirements/)
     - [Development & Production](/SoftwareDesign/Development%26Production/)
         
 - [Examples & Tutorials](/Examples%26Tutorials/)
