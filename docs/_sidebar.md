@@ -11,7 +11,7 @@
     - [Assembly](/Assembly/)
     - [Electronics and wiring diagram](/ElectronicsAndWiringDiagram/)
 - [Software Setup](/SoftwareSetup/)
-    - [Software Requirements](/SoftwareDesignSoftwareRequirements/)
+    - [Software Requirements](/SoftwareDesign/SoftwareRequirements/)
     - [Development & Production](/SoftwareDesign/Development%26Production/)
 - [Cloud](/Cloud)        
 - [Examples & Tutorials](/Examples%26Tutorials/)      
