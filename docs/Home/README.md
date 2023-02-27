@@ -1,49 +1,40 @@
-
 # Home
-![logo](https://micro.ros.org/img/micro-ROS_big_logo.png ':size=20%')
-## robolaunch Cloudy
+
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy_stl/main/images/CLOUDY%20MK2%20(5).png" width="400" height="295" align="right">
+
+## Robolaunch Cloudy
 Welcome to the documentation of robolaunch Cloudy.
 
-Cloudy is a fully 3d printable, open-source and autonomous robotics learning and development platform based on ROS framework, allowing users to fully customize and modify the platform for their own educational purposes. You can run cloudy with /without cloud to offload limited robot computing performance in the cloud for unlimited applications.
+Cloudy is a fully 3d printable, open-source and autonomous robotics learning and development platform based on ROS framework, allowing users to fully customize and modify the platform for their own educational purposes. And it fits in to your backpack.
+
+## Overview
+### Chassis and drivetrain
+The Cloudy features a differential drive control system with four preloaded caster wheels for weight support and smooth operation. It is designed for indoor flat surfaces and has a payload capacity of 20 kilograms.
+<br>
+
+### Embedded Hardware
+The Cloudy is equipped with an embedded system that serves as the central control unit for all sensors and motors. The embedded system supports various software controllers, including ROS, ROS2, Ardupilot, and PX4. Cloudy utilizes the ROS2 platform and employs an ESP32 microcontroller due to its micro-ROS support. The ESP32 Arduino UNO version was selected for its compactness and compatibility with UNO shields, allowing for easy integration of additional hardware components.
+### Single Board Computer
+ In order to utilize the ROS and roslaunch platform, a Linux-based operating system is necessary. The Cloudy's body has ample room to accommodate these computers. In this particular design, a Raspberry Pi 4 with 8GB of RAM has been chosen as the computing solution.
+### Cloud Based
+Powered by robolaunch platform
+
+- Transfer your sensor data into cloud, process sensor data real-time in heavy AI applications using the best GPUs available and reflect the results to the robot!
+- Gazebo/Rviz/Isaac Sim(optional)/MuJoCo simulation over cloud VDI for virtual development purposes. 
+- Access Cloudy development environment with a cloud IDE in just minutes and start developing your algorithms on a cloud VDI.
+- Utilize NVIDIA powered Isaac ROS packages on cloud GPUs and run AI applications on Cloudy!
+- 5G Robot control remotely.
 
 
-- Powered by robolaunch platform:
-    - Transfer your sensor data into cloud, process sensor data real-time in heavy AI applications using the best GPUs available and reflect the results to the robot!
-    - Gazebo/Rviz/Isaac Sim(optional)/MuJoCo simulation over cloud VDI for virtual development purposes. 
-    - Access Cloudy development environment with a cloud IDE in just minutes and start developing your algorithms on a cloud VDI.
-    - Utilize NVIDIA powered Isaac ROS packages on cloud GPUs and run AI applications on Cloudy!
-    - 5G Robot control remotely.(If available) 
-- State of the art autonomous navigation stack (ROS2 Nav2).
-    - Waypoint follower
-    - Obstacle avoidance
-    - Flexible algorithm selection and various plugins based on different use cases.
-- Simultaneous localization and mapping(SLAM) using LIDAR, IMU and motor encoders.
-- Flexible and modifiable ros2_control algorithm. 
-- Powered by micro-ROS, start developing your embedded software on ESP32 
-and connect them into ROS environment! 
+### Customisable Add-Ons
+By incorporating hardware accessories, you can expand the functionality of your robot. A Thermal camera can detect any heat anomalies, while the 360 camera provides situational awareness. Cloudy comes equipped with a Rplidar A1M8 lidar model and an intel realsense d435i stereo depth camera, enabling it to create and navigate maps autonomously. 
 
-- Light enough to be carried in a backpack! (~3 kg)
-- Strong enough to lift 20 kg payload!
-
-**Powered by**
-
-![logo](https://micro.ros.org/img/micro-ROS_big_logo.png ':size=20%')
-![logo](https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-d.png ':size=15%')
-![logo](https://navigation.ros.org/_static/nav2_logo.png ':size=5%')
-![logo](/logo/ROS2_Color.svg ':size=25%')
-![logo](https://gazebosim.org/assets/images/logos/gazebo_horz_pos.png ':size=15%')
-![logo](https://control.ros.org/master/_static/logo_ros-controls.png ':size=7%')
-
-
-
+Cloudy has been designed to be easily upgradeable and expandable, so you can continue to develop it to meet your needs.
 
 ## Video
 
-<iframe  height=600 width=800 src="https://www.youtube.com/embed/7wn2tVbTrz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe  height=600 width=800 src="https://www.youtube.com/watch?v=I4ivsS-1b_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Source code
-
-?> **Cloudy is a fully Open Source robot. You can check the repository from the [Github](https://github.com/robolaunch/cloudy).**
 
 Why is Cloudy open source?
 
@@ -55,18 +46,15 @@ Why is Cloudy open source?
 - For your next autonomy operation, payload delivery or any other fun software project feel free to join community. Create and issue, give feed back.
 - Cloudy is available in both assembled and unassembled form, either as a fully-assembled product with different options or as a DIY kit. Both accessible from our store.
 
+### Source code
 
-## Architecture
+?> ** check the repository from the [Github](https://github.com/robolaunch/cloudy).**
 
-This roadmap shows the order of parts to be selected for robot manufacture for all robot types. Starting from step 1, you can create the robot you want to build. Cloudy Robot was created with use this roadmap.
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYmPnTJDWNcchx"></iframe>
+**Powered by**
 
-## Image Gallery
-
-
-
-## Business Requirements
-
-## Flow
-
-## Interface
+![logo](https://micro.ros.org/img/micro-ROS_big_logo.png ':size=20%')
+![logo](https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-d.png ':size=15%')
+![logo](https://navigation.ros.org/_static/nav2_logo.png ':size=5%')
+![logo](/logo/ROS2_Color.svg ':size=25%')
+![logo](https://gazebosim.org/assets/images/logos/gazebo_horz_pos.png ':size=15%')
+![logo](https://control.ros.org/master/_static/logo_ros-controls.png ':size=7%')

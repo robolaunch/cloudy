@@ -1,6 +1,5 @@
 - [Home](/Home/)
 - [Getting Started](/GettingStarted/)
-    - [Overview](/Overview/)
     - [Buy Online](/BuyOnline/)
     - [Do it yourself](/DoItYourself/)
 - [Bill Of Materials](/BOM/)
