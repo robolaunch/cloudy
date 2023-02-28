@@ -1,7 +1,7 @@
 ## BOM Lists
 This page lists everything you need to build Cloudy, along with purchasing links from popular vendors.
 
-### Electronical Hardware 
+## Electronical Hardware 
 These parts should be purchased
 
 | ITEM NO. | PART                    | DESCRIPTION                   | QTY. |Link  |
@@ -34,7 +34,7 @@ These parts should be purchased
 | 25       | Oled Display            | 0.94 inch 64x128p             | 1    |      |
 | 26       | Battery                 | 6s1p battery pack             | 1    |      |
 
-### Mechanical Hardware 
+## Mechanical Hardware 
 These parts should be purchased
 
 | ITEM NO. |                PART NUMBER               | DESCRIPTION | QTY. | Link |
@@ -70,48 +70,66 @@ These parts should be purchased
 | 29       | Ext. Spring 1/4'' x 7/8''                |             |   4  |      |
 | 30       | Ext. Spring 11/32'' x 1-27/32''          |             |   2  |      |
 
-###  3D printing parts list
- We recommend using PLA filament and a minimum bed size of 25 x 20cms. Printing settings are seperated into five groups,
+##  3D printing parts list
+ These parts should be 3d printed.
+
+ We recommend using PLA for generic parts, TPU for flexible parts and transparent PETG/PLA for light covers and a printer with minimum bed size of 25 x 20cms.
+ 
  When printing mechanical parts printing settings can be adjusted for faster printing rather than visual aestethics. While bodywork parts may be preferred to be visually pleasing comprimising printing speed.
  
- - Mechanical parts
- - Precision mechanical parts
- - Transparent parts
- - Elastic parts (tires) 
- - Bodywork parts.
+ 
+| ITEM NO. |  PART NUMBER |      DESCRIPTION     |             MATERIAL AND SETTINGS             | QTY. |
+|:--------:|:------------:|:--------------------:|:---------------------------------------------:|:----:|
+|     1    | 0405_033     |     Middle frame     |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|     2    | 0401_001     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|     3    | 0401_003     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|     4    | 0401_004     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   4  |
+|     5    | 0401_005     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|     6    | 0401_006     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|     7    | 0404_012     |    Caster fixture    |    PLA layer 0.3mm %100 infill   suport on    |   4  |
+|     8    | 0404_014     |      Rear frame      |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|     9    | 0404_024     |      Front frame     |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    10    | 0404_017     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    11    | 0404_018     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    12    | 0405_070     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    13    | 0404_020     |     Caster wheel     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    14    | 0404_028_50T |  Drive wheel pulley  |    PLA layer 0.15mm %100 infill  suport on    |   2  |
+|    15    | 0404_029     |     Motor Flange     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    16    | 0404_030     |      Drive train     |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    17    | 0404_031     |      Drive train     |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    18    | 0404_034     | Sensor magnet holder |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    19    | 0404_035     |  Wheel sensor holder |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    20    | 0404_032     |         Wheel        |    PLA layer 0.3mm %100 infill   suport on    |   2  |
+|    21    | 0404_060     |      Drive frame     |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    22    | 0404_073     |      IMU Holder      |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    23    | 0404_074     |   Lidar Card Holder  |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    24    | 0404_078     |   Front module port  |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    25    | 0404_075     |    Electronics box   |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    26    | 0404_076     |    PC card holder    |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    27    | 0404_077     |    Cable Organiser   |    PLA layer 0.3mm %100 infill   suport on    |   1  |
+|    28    | 0404_072_CT  |   Drive Tire (TPU)   |          TPU layer 0.2mm %100 infill          |   2  |
+|    29    | 0404_046     |    Front lighting    |  Transparent PLA/PETG layer 0.2mm %100 infill |   1  |
+|    30    | 0404_054     |     Rear lighting    |  Transparent PLA/PETG layer 0.2mm %100 infill |   2  |
+|    31    | 0404_053     |     Rear Lighting    |  Transparent PLA/PETG layer 0.2mm %100 infill |   1  |
+|    32    | 0404_066     | Rear connector panel | Color PLA layer 0.2mm %100   infill suport on |   1  |
+|    33    | 0404_052     |      Battery cap     | Color PLA layer 0.2mm %100   infill suport on |   2  |
+|    34    | 0404_064     |      Side panel      | Color PLA layer 0.2mm %100   infill suport on |   1  |
+|    35    | 0404_055     |       Side Pane      | Color PLA layer 0.2mm %100   infill suport on |   1  |
+|    36    | 0404_067     |    Battery bottom    | Color PLA layer 0.2mm %100   infill suport on |   1  |
+|    37    | 0404_049     |       Top panel      | Color PLA layer 0.2mm %100   infill suport on |   1  |
+|    38    | 0404_044     |      Front panel     | Color PLA layer 0.2mm %100   infill suport on |   1  |
+|    39    | 0404_047     |      Rear panel      | Color PLA layer 0.2mm %100   infill suport on |   1  |
 
-When printing mechanical parts printing settings can be adjusted for faster printing rather than visual aestethics. While bodywork parts may be preferred to be visually pleasing comprimising printing speed.
-#### Mechanical parts
-##### print settings
-- PLA
-- 0,6mm nozzle
-- generate support
-- %100 infill
+### Link for STL files:
 
-#### Presicion mechanical parts
-##### print settings
-- PLA
-- 0,6mm nozzle
-- generate support
-- %100 infill
+Github: [link](https://github.com/robolaunch/cloudy_stl)
 
-#### Presicion mechanical parts
-##### print settings
-- PLA
-- 0,6mm nozzle
-- generate support
-- %100 infill
+GrabCad: [link](https://grabcad.com/library/robolaunch-cloudy-1)
 
-#### Transparent parts
-##### print settings
-- PLA
-- 0,6mm nozzle
-- generate support
-- %100 infill
+### Tested Printers:
 
-#### Transparent parts
-##### print settings
-- PLA
-- 0,6mm nozzle
-- generate support
-- %100 infill
+Parts have been successfuly printed with the printers below, although not mandatory.
+
+Artillery sidewinder X2 :[link](https://www.amazon.com/Artillery-Sidewinder-SW-X2-pre-Assembled-300x300x400mm/dp/B09GVTFGCZ?th=1)
+
+Creality Ender-3 S1 Plus : [link](https://www.amazon.com/Creality-Ender-3-S1-Plus-Printer/dp/B0B3WNZDBG)
