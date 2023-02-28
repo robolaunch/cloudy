@@ -1,5 +1,13 @@
 # Getting Started
 Decide your hardware, build cloudy yourself, or buy it from online store. After you've decided the configuration of your vehicle, you will need to source the parts and follow setup instructions
+<div style="margin-left:100px">
+
+|  	| Simulation 	|  Development 	| Cloud 	| GPU Accelerate 	|
+|---	|:---:	|:---:	|:---:	|:---:	|
+| Free Cloudy 	| ✓ 	| ✓ 	| x 	| x 	|
+| Robolaunch Cloudy 	| ✓ 	| ✓ 	| ✓ 	| ✓ 	|
+
+</div>
 
 ## Buy Cloudy Online
 
