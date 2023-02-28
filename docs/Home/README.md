@@ -8,6 +8,9 @@ Welcome to the documentation of robolaunch Cloudy.
 Cloudy is a fully 3d printable, open-source and autonomous robotics learning and development platform based on ROS framework, allowing users to fully customize and modify the platform for their own educational purposes. And it fits in to your backpack.
 
 ## Overview
+### Dimensions
+<img src="https://raw.githubusercontent.com/robolaunch/cloudy_stl/main/images/cloudy%20dimensions%201.png" width="600" height="400" align="top">
+
 ### Chassis and drivetrain
 The Cloudy features a differential drive control system with four preloaded caster wheels for weight support and smooth operation. It is designed for indoor flat surfaces and has a payload capacity of 20 kilograms.
 <br>

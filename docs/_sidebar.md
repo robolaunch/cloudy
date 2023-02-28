@@ -1,7 +1,5 @@
 - [Home](/Home/)
 - [Getting Started](/GettingStarted/)
-    - [Buy Online](/BuyOnline/)
-    - [Do it yourself](/DoItYourself/)
 - [Bill Of Materials](/BOM/)
     - [Electronical component List](/MechanicalDesign/Overview/)
     - [3D Printing Part list](/MechanicalDesign/3DPrinting/)
