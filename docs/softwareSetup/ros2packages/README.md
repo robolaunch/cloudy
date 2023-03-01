@@ -1,6 +1,7 @@
 ## robolaunch_cloudy_description
 
-The [robolaunch_cloudy_description](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_description) package is one of the core packages of Cloudy. [robolaunch_cloudy_description](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_description) package includes URDF files describing Cloudy and sensors. Other packages uses [robolaunch_cloudy_description](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_description) package to describe a robot instance. 
+The [robolaunch_cloudy_description](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_description) package is one of the core packages of Cloudy. 
+[robolaunch_cloudy_description](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_description) package includes URDF files describing Cloudy and sensors. Other packages uses [robolaunch_cloudy_description](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_description) package to describe a robot instance. 
 
 Let's check the descriptions:
 ```bash
@@ -22,7 +23,6 @@ We can visualize the robot description using RViz.
 ## robolaunch_cloudy_hardware
 <img style="display:block; margin:auto;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/microros_scheme.png"/>
 
-
 The [robolaunch_cloudy_hardware](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_hardware) package creates a hardware interface to communicate with actuators. By design choice we decide to perform control calculations with ros2_control on Single Board Computer. Then the desired velocities gets forward to ESP32 over `left_motor_speed` and `right_motor_speed` topics. 
 
 | **Topic**          | **Type**          | **Description**                                      |
@@ -38,5 +38,8 @@ The [robolaunch_cloudy_bringup](https://github.com/robolaunch/cloudy/tree/main/r
 | /cmd_vel  | geometry::Msg::Twist | Velocity command in radians per second                     |
 
 ## robolaunch_cloudy_navigation
+The [robolaunch_cloudy_navigation](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_navigation) packages includes the navigation plugin developed with nav2. Cloudy robot also added waypoint follower feature. 
+
 
 ## robolaunch_cloudy_simulation
+The [robolaunch_cloudy_simulation](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_simulator) packages includes all the features of the Cloudy such as teleoperation, slam and navigation.
