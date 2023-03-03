@@ -1,19 +1,22 @@
-# Home
+# Robolaunch Cloudy Home
 
 <img src="https://raw.githubusercontent.com/robolaunch/cloudy_stl/main/images/CLOUDY%20MK2%20(5).png" width="400" height="295" align="right">
 
-## Robolaunch Cloudy
-Welcome to the documentation of robolaunch Cloudy.
+## Robolaunch Cloudy AGV
+Welcome to the documentation of robolaunch Cloudy AGV.
 
 Cloudy is a fully 3d printable, open-source and autonomous robotics learning and development platform based on ROS framework, allowing users to fully customize and modify the platform for their own educational purposes. And it fits in to your backpack.
 
 ## Overview
-### Dimensions
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy_stl/main/images/cloudy%20dimensions%201.png" width="600" height="400" align="top">
+
 
 ### Chassis and drivetrain
+
+
 The Cloudy features a differential drive control system with four preloaded caster wheels for weight support and smooth operation. It is designed for indoor flat surfaces and has a payload capacity of 20 kilograms.
 <br>
+
+
 
 ### Embedded Hardware
 The Cloudy is equipped with an embedded system that serves as the central control unit for all sensors and motors. The embedded system supports various software controllers, including ROS, ROS2, Ardupilot, and PX4. Cloudy utilizes the ROS2 platform and employs an ESP32 microcontroller due to its micro-ROS support. The ESP32 Arduino UNO version was selected for its compactness and compatibility with UNO shields, allowing for easy integration of additional hardware components.
@@ -33,6 +36,9 @@ Powered by robolaunch platform
 By incorporating hardware accessories, you can expand the functionality of your robot. A Thermal camera can detect any heat anomalies, while the 360 camera provides situational awareness. Cloudy comes equipped with a Rplidar A1M8 lidar model and an intel realsense d435i stereo depth camera, enabling it to create and navigate maps autonomously. 
 
 Cloudy has been designed to be easily upgradeable and expandable, so you can continue to develop it to meet your needs.
+
+### Dimensions
+![](https://raw.githubusercontent.com/robolaunch/cloudy_stl/main/images/cloudy%20dimensions%201.png)
 
 ## Video
 
