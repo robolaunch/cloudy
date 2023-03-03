@@ -9,12 +9,17 @@ Cloudy is a fully 3d printable, open-source and autonomous robotics learning and
 
 ## Overview
 
+### Source code
+
+?> **check the repository from the [Github](https://github.com/robolaunch/cloudy).**
 
 ### Chassis and drivetrain
 
 
 The Cloudy features a differential drive control system with four preloaded caster wheels for weight support and smooth operation. It is designed for indoor flat surfaces and has a payload capacity of 20 kilograms.
 <br>
+
+![](https://raw.githubusercontent.com/robolaunch/cloudy_stl/main/images/cloudy%20dimensions%201.png)
 
 
 
@@ -38,7 +43,6 @@ By incorporating hardware accessories, you can expand the functionality of your 
 Cloudy has been designed to be easily upgradeable and expandable, so you can continue to develop it to meet your needs.
 
 ### Dimensions
-![](https://raw.githubusercontent.com/robolaunch/cloudy_stl/main/images/cloudy%20dimensions%201.png)
 
 ## Video
 
@@ -64,6 +68,6 @@ Why is Cloudy open source?
 ![logo](https://micro.ros.org/img/micro-ROS_big_logo.png ':size=20%')
 ![logo](https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-d.png ':size=15%')
 ![logo](https://navigation.ros.org/_static/nav2_logo.png ':size=5%')
-![logo](/logo/ROS2_Color.svg ':size=25%')
+![logo](https://avatars.githubusercontent.com/u/3979232?s=280&v=4 ':size=10%')
 ![logo](https://gazebosim.org/assets/images/logos/gazebo_horz_pos.png ':size=15%')
 ![logo](https://control.ros.org/master/_static/logo_ros-controls.png ':size=7%')
