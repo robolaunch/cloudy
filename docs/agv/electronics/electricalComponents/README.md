@@ -2,45 +2,6 @@
 <img style="width:40%; margin-left:auto; margin-right:auto; display:block" src="https://www.direnc.net/neopixel-stick-5050-adreslenebilir-rgb-led-serit-diger-led-urunleri-adafruit-44448-46-B.jpg" />
 The Neopixel LED allows for individual programming of each LED chip's color, making it perfect for a variety of lighting effects. These effects include light animations, status LEDs, loading bars, and turn signals. Its flexibility and versatility make it a powerful tool for anyone looking to add a unique touch to their lighting design.
 
- ```/neopixel_led [Float8]``` Led is subscribed to this topic, and changes animation according to the sent numbers.
-
-```0``` Park Mode, front bumper Leds turn white and rear is turn purple<br/>
-```1``` Blink Mode, all leds blink for collision avoidance.
-
-https://github.com/adafruit/Adafruit_NeoPixel
-
-```
-#include <Adafruit_NeoPixel.h>
-#ifdef __AVR__
- #include <avr/power.h> // Required for 16 MHz Adafruit Trinket
-#endif
-#define PIN        6 // Esp32 pin for Led
-#define NUMPIXELS 32 // Cloudy have connected serial 32 leds.
-Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
-void setup() {
-#if defined(__AVR_ATtiny85__) && (F_CPU == 16000000)
-  clock_prescale_set(clock_div_1);
-#endif
-  pixels.begin();
-}
-void headlight() {
-  for (int i = 7; i >= 0; i--) {
-    pixels.setPixelColor(i, pixels.Color(200, 0, 100));
-    j = 15 - i;
-    pixels.setPixelColor(j, pixels.Color(200, 0, 100));
-    j = 23 - i;
-    pixels.setPixelColor(j, pixels.Color(200, 200, 200));
-    j = i + 24;
-    pixels.setPixelColor(j, pixels.Color(200, 200, 200));
-    pixels.show();
-  }
-}
-void loop() {
-
-headlight();
-}
-``` 
-
 ##  SSD1306 Oled Screen
 
 <img style="width:30%; margin-left:auto; margin-right:auto; display:block"  src="https://www.direnc.net/128x64-oled-4pin-is-spi-lcd-display-128x64-grafik-lcd-displays-china-36880-44-B.jpg"/>
@@ -111,4 +72,10 @@ The Vref voltage sets the current of the driver. You should adjust this setting 
 
 The drv8825 default Vref voltage is around ```1.0V```, is enought to the drive robot clearly, but if you want to carry 30KG with the robot, you need to increase the vref voltage to ```2.0V```. The fan in the electronic box will prevent the motor driver from overheating.
  
+## Ibus Receiver Flysky ia6b
 
+<img style="width:30%; margin-left:auto; margin-right:auto; display:block" src="https://st1.myideasoft.com/shop/cb/27/myassets/products/070/flysky-fs-ia6b-2-4ghz-6-kanal-alici-19345.jpeg?revision=1665343250"/>
+
+An rc system with flysky ibus protocol has been chosen due to its easy availability, simplicity, durability and easy software programming. Flysky i6, i6X, i6S controllers are compatible as ibus-compatible. Since the ibus pin sends data to the microcontroller, it works by connecting to one of the serial rx pins.
+
+For alternative you can use other ibus receivers; Flysky x6b, Flysky ia10b, FS-rx2a, Uruav ux14, Flit10.

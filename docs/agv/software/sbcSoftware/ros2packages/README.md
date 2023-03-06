@@ -42,4 +42,4 @@ The [robolaunch_cloudy_navigation](https://github.com/robolaunch/cloudy/tree/mai
 
 
 ## robolaunch_cloudy_simulation
-The [robolaunch_cloudy_simulation](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_simulator) packages includes all the features of the Cloudy such as teleoperation, slam and navigation.
+The [robolaunch_cloudy_simulation](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_simulator) packages includes all the features of the Cloudy such as teleoperation, slam and navigation. 
