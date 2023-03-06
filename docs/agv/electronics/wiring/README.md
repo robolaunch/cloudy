@@ -1,10 +1,3 @@
-## Electronic Scheme
-![](https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy_hardware7_bb.png)
-
-The electronic schematic for the Cloudy robot has been created using the free, open-source tool Fritzing. This tool can be downloaded from its official website.
-Electronic Scheme design by Samet Elmacı from Robolaunch. 
-
-?> This design created by Fritzing app <a>Download File</a>
 
 ## Cabling & Mounting
 **Tools for Cloudy Robot**
@@ -15,11 +8,11 @@ The Cloudy robot is compact and hooded, making it important to have some basic h
 <img style="width:180px; height:180px;  margin:30px;" src="https://www.robolinkmarket.com/montaj-kablosu-paketi-22awg-6x15m-cok-damarli-jumper-dupont-kablo-marxlow-6995-71-O.webp"/>
 <img style="width:180px; height:150px; margin-bottom:40px;" src="https://st.myideasoft.com/idea/jd/10/myassets/products/474/isiso-hs-700d-kablo-soyma-pensesi-perpaotomasyon.jpg?revision=1646898140"/>
 
-?>  It is important to verify that the mechanical assembly of the device has been completed fully before proceeding to this step."
-
 **Wiring Diagram**
 
 See below for a wiring diagram of the Cloudy robot. You may find it useful to reference this during the assembly process.It can also download for <a href="#">fritzing file</a>
+
+?> This design created by Fritzing app <a>Download File</a>
 
 <img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy_hardware7_bb.png">
 

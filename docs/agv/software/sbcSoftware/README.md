@@ -1,3 +1,11 @@
+## Operating System
+Cloudy's software stack is developed and tested on the systems below:
+
+| Operating System    | ROS2 version |
+|---------------------|--------------|
+| Ubuntu 22.04(arm64) | Humble Hawksbill|
+| Ubuntu 22.04(amd64) | Humble Hawksbill|
+
 ## **Setup With SD Card**
 * Download ubuntu 22.04 image for selected SBC
 * Write the image to sd card with <a href="https://win32diskimager.org/">win32 disk imager</a> or <a href="https://www.balena.io/etcher">balena etcher</a>.
