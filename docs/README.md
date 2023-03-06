@@ -5,26 +5,35 @@
 ## robolaunch Cloudy
 Welcome to the documentation of robolaunch Cloudy.
 
-Cloudy is a fully 3d printable, open-source and autonomous robotics learning and development platform based on ROS framework, allowing users to fully customize and modify the platform for their own educational purposes. You can run cloudy with /without cloud to offload limited robot computing performance in the cloud for unlimited applications.
+Cloudy is an open-source, autonomous robot based on ROS 2 framework designed for robotics education and development. We wanted to create a platform that will support robotics learning and education in the most accessible and customizable way possible. That's why we fully open-sourced Cloudy!
+
+With Cloudy, anyone with access to a generic 3D printer can produce and customize their own robotics platform without any vendor dependency. The electronic hardware is fully customizable for unlimited applications, and the mechanical parts can be easily modified to integrate different sensors without expensive and impractical equipment.
+
+Robotics development can be a CPU/GPU heavy and AI-intensive process, which is why we offer native cloud integration with [robolaunch Cloud Robotics Platform](https://www.robolaunch.io/) for better performance in AI and CPU/GPU heavy operations. With Cloudy, you can focus on your specific needs, such as software design, without having to worry about the limitations of expensive production quality platform.
+
+Join the community to create, issue, and give feedback for your next autonomy operation or software project. Whether you prefer an assembled product or a DIY kit, you can get Cloudy from our store and start exploring the endless possibilities of robotics education and development today!
+
+## Key Features and Capabilities
+- **Open-Source:** By leveraging [hardware](https://grabcad.com/library/robolaunch-cloudy-1) and [software](https://github.com/robolaunch/cloudy) design, you can modify and create an entirely new robot for your own use case!
+- **Accessible:** Easy to produce with 3D printers and fun to assemble it!
+- **Scalable:** Suitable for customization with different electronical and mechanical hardware parts.
+- **Affordable:** Starting from $990 Cloudy is available in many options in robolaunch store.
+- **Rich Resources:** Comprehensive set of materials, tutuorials and examples to make easier to getting started from assembly to programming. 
+- **Cloud-Powered:** Cloudy can be run on either a local device or on the robolaunch Platform. By running Cloudy on the [robolaunch Platform](https://www.robolaunch.io/platform), you can offload limited robot computing performance to cloud and also benefit from many additional features that will reduce your entry barrier!
+
+## What can be achieved with Cloudy?
+The Cloudy robot paltform is a highly flexible and adaptable robot suitable for a wide range of users, including students, educators, hobbyists and professionals. It utilizes micro ROS, ROS 2, Nav 2, ROS 2 Control, NVIDIA, and if desired, robolaunch Platform, enabling a broad range of functionalities:
+
+- **Basics:** ROS learning.
+- **Autonomous Path Planning and Navigation:** Cloudy moves autonomously around your lab, class or office with it's state-of-art navigation stack (ROS 2 Nav2)
+- **Simultaneous Localization and Mapping (SLAM):** Cloudy autonomously explores unknown places using LIDAR, IMU and motor encoders.
+- **Computer Vision:** Cloudy recognizes objects in its environment and avoids obstacles.
+- **Map Building:** Create maps of environments for the Cloudy to use.
+- **Teleoperation:** Remote control of Cloudy over robolaunch Platform.
+- **Remote-Viewing:** See what your Cloudy robot sees over robolaunch Platform.
 
 
-- Powered by robolaunch platform:
-    - Transfer your sensor data into cloud, process sensor data real-time in heavy AI applications using the best GPUs available and reflect the results to the robot!
-    - Gazebo/Rviz/Isaac Sim(optional)/MuJoCo simulation over cloud VDI for virtual development purposes. 
-    - Access Cloudy development environment with a cloud IDE in just minutes and start developing your algorithms on a cloud VDI.
-    - Utilize NVIDIA powered Isaac ROS packages on cloud GPUs and run AI applications on Cloudy!
-    - 5G Robot control remotely.(If available) 
-- State of the art autonomous navigation stack (ROS2 Nav2).
-    - Waypoint follower
-    - Obstacle avoidance
-    - Flexible algorithm selection and various plugins based on different use cases.
-- Simultaneous localization and mapping(SLAM) using LIDAR, IMU and motor encoders.
-- Flexible and modifiable ros2_control algorithm. 
-- Powered by micro-ROS, start developing your embedded software on ESP32 
-and connect them into ROS environment! 
-
-- Light enough to be carried in a backpack! (~3 kg)
-- Strong enough to lift 20 kg payload!
+for any indoor mobile robotics application.
 
 **Powered by**
 
@@ -35,46 +44,16 @@ and connect them into ROS environment!
 ![logo](https://gazebosim.org/assets/images/logos/gazebo_horz_pos.png ':size=15%')
 ![logo](https://control.ros.org/master/_static/logo_ros-controls.png ':size=7%')
 
-
-
-
-## Video
-
-<iframe  height=600 width=800 src="https://www.youtube.com/embed/7wn2tVbTrz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## Source code
 
 ?> **Cloudy is a fully Open Source robot. You can check the repository from the [Github](https://github.com/robolaunch/cloudy).**
 
-Why is Cloudy open source?
+## Get Started
+To get started with Cloudy, please follow the Getting Started steps.
 
-- Easily produced by generic 3d printers to be accessible to everyone in the world.
-- Better performing AI, CPU heavy operations with native cloud integration with Robolauch (optional).
-- Electronic hardware is fully customizable for unlimited applications without vendor dependency.
-- Customizable mechanical parts to integrate different sensors without expensive impractical equipment.
-- Focus on your specific needs, such as software design, with an inexpensive production quality platform
-- For your next autonomy operation, payload delivery or any other fun software project feel free to join community. Create and issue, give feed back.
-- Cloudy is available in both assembled and unassembled form, either as a fully-assembled product with different options or as a DIY kit. Both accessible from our store.
-
-
-## Architecture
-
-This roadmap shows the order of parts to be selected for robot manufacture for all robot types. Starting from step 1, you can create the robot you want to build. Cloudy Robot was created with use this roadmap.
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/BUsidHoXK9xqfDExd4iyRW@7YNFXnKbYmPnTJDWNcchx"></iframe>
-
-## Image Gallery
-
-
-
-## Business Requirements
-
-## Flow
-
-## Interface
-
-
-
-
-
+## Get Involved
+We value your feedback and are interested in seeing what projects you're working on with Cloudy. It is simple to join this community and get involved in various projects.
+- You can ask any questions you have or engage in discussions about Cloudy on the [Cloudy GitHub Discussions](https://github.com/robolaunch/cloudy/discussions/landing) forum
+- To notify about a problem by [creating an an issue](https://github.com/robolaunch/cloudy/issues)
 
 
