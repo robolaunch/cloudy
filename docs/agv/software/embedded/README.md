@@ -1,1 +1,1 @@
-embedded hardware overview  
+![](https://i0.wp.com/makezine.com/wp-content/uploads/2020/07/Fig-21-boards-with-MB-support.jpeg?fit=1791%2C1080&ssl=1)
