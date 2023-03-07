@@ -1,7 +1,7 @@
 ## **Setup With Robolaunch Cloud Kubernetes**
 <img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://miro.medium.com/v2/resize:fit:668/0*p-ztLmQ1DFm5fAH_.png"/>
 
-* Download ubuntu 20.04 image for selected SBC
+* Download ubuntu 20.04 image for selected SBC, follow 3 steps to <a></a>
 
     ***K3S Installation*** 
         apt-get update 
