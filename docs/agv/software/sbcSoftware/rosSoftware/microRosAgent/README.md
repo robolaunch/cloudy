@@ -1,4 +1,4 @@
-## Building micro-ROS-Agent
+## Micro-ROS Agent
 
 * Follow the steps below to install the micro ros agent</br>
 * Clone the updated repository to SBC from here https://github.com/micro-ROS/micro_ros_setup</br>
@@ -14,3 +14,8 @@
         sudo dmesg | grep USB
 * Check the tty port and run this ros command to start the connect.
         ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB1
+* Press the Reset Button on top of the cloudy AGV, this equals to reset esp32
+
+You can see the avaible topics with that command below 
+        
+        ros2 topic list

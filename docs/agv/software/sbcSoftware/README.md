@@ -5,5 +5,5 @@
 Basic equipment such as lidar and stereo camera on the robot work on single board computer. It converts hardware to ros2 topics with ros2. The ROS2 platform can be on the main operating system or it can be done by installing kubernetes through the robotlaunch cloud.
 
 * Setup
-* Ros Packages
+* ROS Packages
 * ROS Software
