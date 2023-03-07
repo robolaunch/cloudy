@@ -3,12 +3,12 @@
 ## Software
 
 * **Embedded Software:** 
-Cloudy agv uses a microcontroller for motor driving, sensors and electronics supply. It transmits the data it receives and needs to send to the computer with the micro-ros protocol.
+Cloudy AGV uses a microcontroller for motor driving, sensors and electronics supply. It transmits the data it receives and needs to send to the computer with the micro-ros protocol.
 
 * **SBC (Single Board Computer) Software**
-Cloudy agv robot is a ros2 robot and it needs a simple computer. When the computer power is insufficient, you can limit your robot's power by connecting it to the robolaunch cloud platform.
+Cloudy AGV robot is a ros2 robot and it needs a simple computer. When the computer power is insufficient, you can limit your robot's power by connecting it to the robolaunch cloud platform.
 * **Simulation**
-You don't need to have 1 of them to use cloudy agv. You can perform operations such as teleoperation, slam, nav, waypoint follower via gazebo and rviz2.
+You don't need to have one of them to use Cloudy AGV. You can perform operations such as teleoperation, slam, nav, waypoint follower via gazebo and rviz2.
 
 ## Software Architecture
 

@@ -2,7 +2,7 @@
 
 ![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2021/07/TCA9548A-How-it-Works.png?resize=739%2C363&quality=100&strip=all&ssl=1)
 
-There are various sensors on Cloudy agv and these sensors work with i2c protocol. Normally the use of sensors with the same i2c addresses is not supported. For this reason, by using the i2c multiplexer electronic card, it is possible to instantly connect to the desired sensor and perform the desired data receiving and sending data operation.
+There are various sensors on Cloudy AGV and these sensors work with i2c protocol. Normally the use of sensors with the same i2c addresses is not supported. For this reason, by using the i2c multiplexer electronic card, it is possible to instantly connect to the desired sensor and perform the desired data receiving and sending data operation.
 
 https://github.com/arduino-libraries/Arduino_APDS9960
 

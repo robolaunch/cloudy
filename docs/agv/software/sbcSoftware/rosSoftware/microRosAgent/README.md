@@ -14,7 +14,7 @@
         sudo dmesg | grep USB
 * Check the tty port and run this ros command to start the connect.
         ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB1
-* Press the Reset Button on top of the cloudy AGV, this equals to reset esp32
+* Press the Reset Button on top of the Cloudy AGV, this equals to reset esp32
 
 You can see the avaible topics with that command below 
         

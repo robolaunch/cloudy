@@ -2,6 +2,23 @@
 
 ## Slam
 
+
+Important `SLAM Toolbox` parameters. See <a href="https://github.com/SteveMacenski/slam_toolbox">slam toolbox github</a> for more detailed information.
+
+| Parameter                |      Explanation                           | 
+|--------------------------|:-------------------------------------------|
+| scan_topic               | name of the laser scan topic
+| mode                     | (mapping/localization) set to localization if no addition to map will be made|
+| map_file_name            | map file path without file extension        |
+| map_start_pose           | starting position with respect to map origin|
+| map_start_at_dock        | (true/false) start at the pose where you started mapping.|
+| debug_logging            | (true/false) set to false while not debugging to prevent abundant logs |
+| map_update_interval      | period of map updating in second            |
+| max_laser_range          | max laser range to be considered in mapping and localization|
+
+---
+
+
 Launch `SLAM` for desired vehicle. If Arcelik vehicle is being used, lauch `arcelik_slam.launch.py`. If cloudy_v1 or cloudy_v2 is being used, launch `cloudy_slam.launch.py`. They launch the proper nodes for lidar sensor, laser odometry, ekstended kalman filter for sensor fusion, low level controller enabling `cmd_vel` topic, and laser filter to prevent lidar from seing the robot as obstacle. To launch SLAM with rviz set rviz parameter true by `rviz:=true`.
 
     source install/setup.bash
@@ -48,13 +65,48 @@ data_name_config: 2D array of bool determinning wether or not to fuse sensor dat
 | roll velocity   |  pitch velocity |  yaw velocity  |
 | x acceleration  |  y acceleration |  z acceleration|
 
+#### Laser Filter
+
+<pre>
+- box_filter.yaml   : filters laser range data in a rectangle.
+- range_filter.yaml : filters laser range outside a given interval.
+</pre>
+
+**Box Filter**
+
+| Parameter |      Explanation                       | 
+|-----------|:---------------------------------------|
+| type      | laser_filters/LaserScanBoxFilter       |
+| name      | name of the filter                     |
+| box_frame | frame name                             |
+| max_x     | front of the rectangle                 |
+| max_y     | left side of the rectangle             |
+| max_z     | top of the rectangle                   |
+| min_x     | (negative) back of the rectangle       |
+| min_y     | (negative) right side of the rectangle |
+| min_z     | (negative) bottom of the rectangle     |
+
+
+
+**Range Filter**
+
+| Parameter                |      Explanation                           | 
+|--------------------------|:-------------------------------------------|
+| name:                    | name of the filter                         |
+| type:                    | laser_filters/LaserScanRangeFilter         |
+| lower_threshold          | ignores shorter laser ranges (in meters)   |
+| upper_threshold          | ignores longer laser ranges (in meters)    |
+| lower_replacement_value  | (.inf / -.inf) replacement for short ranges|
+| upper_replacement_value  | (.inf / -.inf) replacement for long ranges |
+
+---
 
 ## Config
 
 All config files are under config folder. There are five types of config files which are ekstended kalman filter, slam, navigation, laser filter, and mask filter.</br>
 https://github.com/robolaunch/cloudy/blob/main/robolaunch_cloudy_navigation/config/
 
-- slam.yaml         : contains parameters for cloudy agv.
+- slam.yaml         : contains parameters for Cloudy AGV.
 - arcelik_slam.yaml : contains parameters for arcelik vehicle.
 - sim_slam.yaml     : contains parameters for simulation.
 
@@ -73,13 +125,3 @@ Description from the public [rf2o_laser_odometry](https://github.com/MAPIRlab/rf
 
 ?>We are utilizing Humble version of the [repository](https://github.com/MAPIRlab/rf2o_laser_odometry/pull/34) ported by one of our developers.
 
-### sllidar_ros2
-
-_RPLidar_ ROS2 wrapper [package](https://github.com/Slamtec/sllidar_ros2). 
-
-Example command to launch the RPLidar A1: 
-```bash
-ros2 launch sllidar_ros2 view_sllidar_launch.py
-```
-
-?>We are utilizing Humble version of the [package](https://github.com/Slamtec/sllidar_ros2/pull/15).

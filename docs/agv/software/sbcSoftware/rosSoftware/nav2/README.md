@@ -2,14 +2,33 @@
 
 ## Navigation
 
-One of the big tasks of Cloudy agv is indoor delivery and it comes with 2 navigation features to serve this purpose. If you wish, you can make the vehicle go there by giving a target on the map obtained as a result of the slam operation, or you can navigate the predetermined coordinates with the `waypoints_commander` script.
-
-
-
-
+One of the big tasks of Cloudy AGV is indoor delivery and it comes with 2 navigation features to serve this purpose. If you wish, you can make the vehicle go there by giving a target on the map obtained as a result of the slam operation, or you can navigate the predetermined coordinates with the `waypoints_commander` script.
 
     source install/setup.bash \
     ros2 launch robolaunch_cloudy_navigation cloudy_nav.launch.py
+
+## Keepout Filter
+
+<pre>
+- map_filter.yaml: parameters for navigation with keepout zones
+</pre>
+
+If there are restricted areas on the map that the robot should not enter, keepout zones should be used. Parameters to be set are explained in the tabel below. See <a href="https://navigation.ros.org/tutorials/docs/navigation2_with_keepout_filter.html">nav2 documentation</a> for more detailed explanation.
+
+| Parameter |      Explanation                       | 
+|-----------|:---------------------------------------|
+| type      | for Keepout Filter the type of costmap filter should be set to 0|
+| name      | name of the filter                     |
+| box_frame |    frame name                          |
+| max_x     | front of the rectangle                 |
+| max_y     | left side of the rectangle             |
+| max_z     | top of the rectangle                   |
+| min_x     | (negative) back of the rectangle       |
+| min_y     | (negative) right side of the rectangle |
+| min_z     | (negative) bottom of the rectangle     |
+
+---
+
 
 ## Config
 
@@ -25,6 +44,7 @@ https://github.com/robolaunch/cloudy/blob/main/robolaunch_cloudy_navigation/conf
 </pre>
 
 - For behaviour threes see <a href="https://navigation.ros.org/behavior_trees/index.html">nav2 documentation</a>
+
 ## Develop
 
 - For behaviour threes see <a href="https://navigation.ros.org/behavior_trees/index.html">nav2 documentation</a>

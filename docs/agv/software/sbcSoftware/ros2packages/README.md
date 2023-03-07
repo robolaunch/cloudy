@@ -48,3 +48,29 @@ You can follow the <a>navigation</a> page for its launch navigation.
 ## robolaunch_cloudy_simulation
 The [robolaunch_cloudy_simulation](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_simulator) packages includes all the features of the Cloudy such as teleoperation, slam and navigation. </br>
 You can follow the <a>simulation</a> page for its launch simulation.
+
+## Lidar Package
+_RPLidar_ ROS2 wrapper [package](https://github.com/Slamtec/sllidar_ros2). 
+
+Example command to launch the RPLidar A1: 
+```bash
+ros2 launch sllidar_ros2 view_sllidar_launch.py
+```
+
+?>We are utilizing Humble version of the [package](https://github.com/Slamtec/sllidar_ros2/pull/15).
+
+## Stereo Camera Package 
+Intel Realsense D435i [package](https://github.com/IntelRealSense/realsense-ros).
+
+Example command to launch the Intel Realsense D435i: 
+```bash
+ros2 launch realsense2_camera rs_launch.py
+```
+## Lidar Scan Filtered
+Universal Lidar Scan Filtered [package](https://github.com/ros-perception/laser_filters)
+
+The cloudy robot has a lidar, the lidar scan position is between the chassis and the upper platform, the lidar broadcasts the raw data to the  ```/scan ``` subject. We turn the raw lidar data into a  ```/scan_filtered ``` topic so that the arms are not visible on the 4 sides of the upper platform.
+
+```bash
+ros2 launch laser_filters box_filter.launch.py
+```

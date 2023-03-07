@@ -24,4 +24,4 @@ The Cloudy robot utilizes the Arduino IDE for programming and uploading to the m
     https://github.com/robolaunch/cloudy/blob/main/robolaunch_cloudy_hardware/firmware/firmware_flysky.ino
 
 
-?> For embedded software side of SBC click and go to the <a>SBC Software</a>
+?> For embedded software side of Micro Ros click and go to the <a>Micro Ros Agent</a>
