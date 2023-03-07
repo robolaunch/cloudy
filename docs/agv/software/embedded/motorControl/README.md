@@ -1,6 +1,7 @@
 ## Motor Control
 
 <img style="width:30%; margin-left:auto; margin-right:auto; display:block" src="https://cdn.myshoptet.com/usr/www.laskakit.cz/user/shop/big/824-1_arduino-cnc-shield-4ks-drv8825.jpg?61d95ca8"/>
+
 Step motors control with step pulses, and esp32 controller have built in pwm module, fastaccelstepper.h library use that pwm module. This library can download from arduino ide builtin libraries. 
 
 Simple example to control the motor down below.

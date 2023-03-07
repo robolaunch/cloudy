@@ -2,6 +2,7 @@
 
 **Microcontroller Setup**
 
+With micro-ros-arduino, you can convert your sensor data into topics, on the other hand, you can use all arduino libraries and simply code as if you were doing it on the same arduino.
 The Cloudy robot utilizes the Arduino IDE for programming and uploading to the microcontroller. It is suggested to use version 2.0 or higher of the Arduino IDE for an easier experience. Additionally, the Cloudy robot utilizes several Arduino libraries, which should be added to the Arduino IDE prior to programming. The necessary libraries can be found and downloaded below. 
 
 1. Download Arduino IDE from https://www.arduino.cc/en/software

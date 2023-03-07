@@ -1,6 +1,7 @@
 ## Neopixel Leds WS2812B
 
 <img style="width:40%; margin-left:auto; margin-right:auto; display:block" src="https://www.direnc.net/neopixel-stick-5050-adreslenebilir-rgb-led-serit-diger-led-urunleri-adafruit-44448-46-B.jpg" />
+
 Neopixel led have individual rgb control chip per every led, so you can change the color of each led individually. Cloudy AGV have headlight, blink led example and you can add more function.
 
 For more info about neopixel leds check from https://learn.adafruit.com/adafruit-neopixel-uberguide

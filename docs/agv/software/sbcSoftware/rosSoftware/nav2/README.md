@@ -13,7 +13,9 @@ One of the big tasks of Cloudy agv is indoor delivery and it comes with 2 naviga
 
 ## Config
 
-All config files are under config folder. There are five types of config files which are ekstended kalman filter, slam, navigation, laser filter, and mask filter.
-Navigation Parameters are in navigation.yaml file.
+All config files are under config folder. There are five types of config files which are ekstended kalman filter, slam, navigation, laser filter, and mask filter.</br>
+https://github.com/robolaunch/cloudy/blob/main/robolaunch_cloudy_navigation/config/
 
-https://github.com/robolaunch/cloudy/blob/main/robolaunch_cloudy_navigation/config/navigation.yaml
+- navigation.yaml         : parameters for navigation in physical world.
+- sim_navigation.yaml: parameters for navigation in simulation.
+
