@@ -28,7 +28,7 @@
             - [ROS Packages](/agv/software/sbcSoftware/ros2packages/)
             - [ROS Software](/agv/software/sbcSoftware/rosSoftware/)
                 - [Micro-ros Agent](/agv/software/sbcSoftware/rosSoftware/microRosAgent/)
-                - [Ros-Control-Teleoperation](/agv/software/sbcSoftware/rosSoftware/rosControl/)
+                - [Ros2 Control & Teleoperation](/agv/software/sbcSoftware/rosSoftware/rosControl/)
                 - [SLAM](/agv/software/sbcSoftware/rosSoftware/slam/)
                 - [NAV2-Task Management](/agv/software/sbcSoftware/rosSoftware/nav2/)
                 - [Physical Robot](/agv/software/sbcSoftware/rosSoftware/physical/)

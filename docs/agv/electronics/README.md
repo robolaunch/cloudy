@@ -18,9 +18,9 @@ On the top layer, there is a single board computer. Cloudy supports raspberry pi
 
 In addition, the body of the Cloudy is equipped with many sensors. These sensors work with i2c protocol and are connected with i2c multiplexer so you can connect multiple same sensors. 
 
-The Cloudy robot comes equipped with three distance sensors, two of which are located within the bumper while the third is positioned at the bottom. Additionally, this device makes use of the same type of sensor technology found in the Samsung Galaxy S5 phone, which enables it to detect the direction of hand movements made on its surface. This innovative technology enables users to send commands to the Cloudy device using simple hand gestures, adding a new level of convenience and interactivity to the user experience.
+The Cloudy robot comes equipped with three distance sensors, two of which are located within the bumper while the third is positioned at the bottom.
 
- This sensors Also there are neopixel LEDs on all four sides, these LEDs are used for robot visibility and status indication. You can learn the battery voltage and status with the tiny oled screen at the top.
+Also there are neopixel LEDs on all four sides, these LEDs are used for robot visibility and status indication. You can learn the battery voltage and status with the tiny oled screen at the top.
  <img width="300" height="300" style="margin-left:250px; margin-top:30px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/cloudyvoltage.jpg">
 <br/>
 <br/><br/>
