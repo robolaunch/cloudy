@@ -1,1 +1,0 @@
-Cloudy AGV Mechanical Part
