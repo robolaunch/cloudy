@@ -1,7 +1,16 @@
 
 
+## Software
+
+* **Embedded Software:** 
+Cloudy agv uses a microcontroller for motor driving, sensors and electronics supply. It transmits the data it receives and needs to send to the computer with the micro-ros protocol.
+
+* **SBC (Single Board Computer) Software**
+Cloudy agv robot is a ros2 robot and it needs a simple computer. When the computer power is insufficient, you can limit your robot's power by connecting it to the robolaunch cloud platform.
+* **Simulation**
+You don't need to have 1 of them to use cloudy agv. You can perform operations such as teleoperation, slam, nav, waypoint follower via gazebo and rviz2.
+
 ## Software Architecture
-In this chapter, we will delve into the specifics of developing and producing the Cloudy software. From setting up the necessary development environments to understanding the software architecture and packages, this section will provide an in-depth look at the technical aspects of the Cloudy software. We will also cover topics such as setting up ROS2, integrating the software with [**robolaunch cloud services**](https://www.robolaunch.cloud), embedded systems, and interfaces. Finally, we will provide troubleshooting tips to help you resolve any issues that may arise during the development process. Whether you're a seasoned developer or just getting started, this chapter is designed to provide you with the information you need to develop and produce the Cloudy software with confidence.
 
 #### High level
 Here is a high level architecture diagram of the Cloudy software. You can access and modify the block diagram from the [link](https://whimsical.com/LxtNBwNDTjNXYP3EHM6uqS)! 
@@ -11,7 +20,7 @@ Here is a high level architecture diagram of the Cloudy software. You can access
 Here is a detailed architecture diagram of the Cloudy software. You can access and modify the detailed diagram from the [link](https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/DetailedSoftwareDiagram.drawio)! 
 <img style="background-color:white!important" src="../../images/DetailedSoftwareDiagram.drawio.png" alt="detailedsoftwareblockdiagram">
 
-## Build Github Repository
+## Github Repository
 We have to initialize the workspace we are going to work on. Let's get started.
 
 - Create a new workspace:
