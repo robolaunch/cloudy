@@ -1,4 +1,4 @@
-
+# Wiring
 ## Cabling & Mounting
 **Tools for Cloudy Robot**
 
@@ -15,6 +15,8 @@ See below for a wiring diagram of the Cloudy robot. You may find it useful to re
 ?> This design created by Fritzing app <a>Download File</a>
 
 <img src="https://raw.githubusercontent.com/robolaunch/cloudy/main/docs/cloudy_hardware7_bb.png">
+
+## Installation Steps
 
 **Box Stack Installation**
 
