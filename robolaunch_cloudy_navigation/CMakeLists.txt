@@ -33,6 +33,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   robolaunch_cloudy_navigation/scripts/dynamic_tf_broadcaster.py
   robolaunch_cloudy_navigation/scripts/way_points.py
+  robolaunch_cloudy_navigation/scripts/way_points_web.py
   robolaunch_cloudy_navigation/scripts/waypoints_commander.py
 
   DESTINATION lib/${PROJECT_NAME}
