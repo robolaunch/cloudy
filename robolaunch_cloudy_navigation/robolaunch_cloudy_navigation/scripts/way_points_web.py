@@ -50,7 +50,9 @@ class WayPointsWeb(Node):
 
     def timer_callback(self):
         
-        
+        self.publish_robot_position()
+
+    def publish_robot_position(self):
         self.t = self.tf_buffer.lookup_transform('odom', 'base_link', rclpy.time.Time().to_msg(), rclpy.time.Duration(seconds=1.0))
         self.pose = PoseStamped()
         self.pose.pose.position.x = self.t.transform.translation.x
@@ -63,10 +65,10 @@ class WayPointsWeb(Node):
 
         self.pose_publisher.publish(self.pose)
 
-        # print(os.system("ros2 run tf2_ros tf2_echo map base_link").split("\n"))
-
 
     def waypoints_callback(self, msg):
+
+        self.get_logger().info("Waypoint received")
 
         points = msg.data.split("/")
         
@@ -95,11 +97,9 @@ class WayPointsWeb(Node):
 
             i = 0
             while not self.navigator.isTaskComplete():
-                ################################################
-                #
-                # Implement some code here for your application!
-                #
-                ################################################
+                
+                self.publish_robot_position()
+                # rclpy.spin_once(self, timeout_sec=0.01)  
 
                 # Do something with the feedback
                 i = i + 1
