@@ -2,7 +2,7 @@
 
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import String, Int16
 from geometry_msgs.msg import PoseStamped
 from nav2_simple_commander.robot_navigator import BasicNavigator, TaskResult
 from rclpy.duration import Duration
@@ -20,6 +20,7 @@ class WayPointsWeb(Node):
         self.way_points = []
 
         self.navigator = BasicNavigator()
+        self.goal_cancelled = False
 
         # Set our demo's initial pose
         initial_pose = PoseStamped()
@@ -38,7 +39,11 @@ class WayPointsWeb(Node):
         time.sleep(5)
 
         self.subscription = self.create_subscription(String, 'way_points_web', self.waypoints_callback, 10)
+        self.goal_cancelled_subscription = self.create_subscription(Int16, 'goal_cancelled', self.goal_cancelled_callback, 10)
+
+
         self.pose_publisher = self.create_publisher(PoseStamped, 'robot_position', 10)
+        self.feedback_publisher = self.create_publisher(String, 'robot_feedback', 10)
 
         # create tf2 buffer and listener
         self.tf_buffer = tf2_ros.Buffer()
@@ -65,31 +70,41 @@ class WayPointsWeb(Node):
 
         self.pose_publisher.publish(self.pose)
 
+    def goal_cancelled_callback(self, msg):
+        self.goal_cancelled = True
+        print("---------GOAL CANCELED-----------")
+
 
     def waypoints_callback(self, msg):
 
         self.get_logger().info("Waypoint received")
+        self.goal_cancelled = False
 
-        points = msg.data.split("/")
+        command = msg.data.split("&")
+        id = command[0]
+        tasktype = command[1]
+        waypoints = command[2].split("|")
+        x = []
+        y = []
+
+        for i in range(len(waypoints)):
+            x.append(waypoints[i].split("/")[0])
+            y.append(waypoints[i].split("/")[1])
         
         waypoints = []
-        for i in range(len(points)):
-            x = float(points[i])
-            y = float(points[i+1])
-            
+        robot_feedback = String()
+
+
+        for i in range(len(x)):
 
             goal_pose = PoseStamped()
             goal_pose.header.frame_id = 'map'
             goal_pose.header.stamp = self.get_clock().now().to_msg()
-            goal_pose.pose.position.x = x
-            goal_pose.pose.position.y = y
+            goal_pose.pose.position.x = float(x[i])
+            goal_pose.pose.position.y = float(y[i])
             goal_pose.pose.orientation.w = 1.0
 
             waypoints.append(goal_pose)
-
-            i += 1
-            if i == len(points)-1:
-                break
 
 
         for goal in waypoints:
@@ -97,6 +112,12 @@ class WayPointsWeb(Node):
 
             i = 0
             while not self.navigator.isTaskComplete():
+
+                if self.goal_cancelled:
+                    self.navigator.cancelTask()
+                    robot_feedback.data = "CANCELED"
+                    self.feedback_publisher.publish(robot_feedback)
+                    break
                 
                 self.publish_robot_position()
                 # rclpy.spin_once(self, timeout_sec=0.01)  
@@ -105,15 +126,20 @@ class WayPointsWeb(Node):
                 i = i + 1
                 feedback = self.navigator.getFeedback()
                 if feedback and i % 5 == 0:
-                    print('Estimated time of arrival: ' + '{0:.0f}'.format(
+                    print('Estimated time of arrival: ' + '{0:.2f}'.format(
                         Duration.from_msg(feedback.estimated_time_remaining).nanoseconds / 1e9)
                         + ' seconds.')
+                    
+                    robot_feedback.data = id + "-" + tasktype + "-" + "working" + "-" + str(goal.pose.position.x) + "/" + str(goal.pose.position.y)
+                    self.feedback_publisher.publish(robot_feedback)
 
                     # Some navigation timeout to demo cancellation
                     if Duration.from_msg(feedback.navigation_time) > Duration(seconds=600.0):
                         self.navigator.cancelTask()
 
                     # Some navigation request change to demo preemption
+                    
+                    # self.navigator.cancelTask()
                 
 
         # Do something depending on the return code
