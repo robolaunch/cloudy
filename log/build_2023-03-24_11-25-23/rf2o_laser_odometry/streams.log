@@ -1,0 +1,74 @@
+[0.048s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry
+[0.358s] -- The C compiler identification is GNU 11.3.0
+[0.358s] -- The CXX compiler identification is GNU 11.3.0
+[0.358s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.359s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.360s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.361s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.436s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.440s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.687s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.761s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.791s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.859s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.865s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.900s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.921s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.046s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.052s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.194s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.248s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.334s] -- Looking for pthread.h
+[1.418s] -- Looking for pthread.h - found
+[1.419s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.505s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.506s] -- Found Threads: TRUE  
+[1.723s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.767s] -- Found tf2_geometry_msgs: 0.25.1 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.785s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.787s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.787s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.154s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.398s] -- Found nav_msgs: 4.2.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.769s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[2.939s] -- Configuring done
+[2.976s] -- Generating done
+[2.981s] -- Build files have been written to: /home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry
+[3.004s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry
+[3.005s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry -- -j12 -l12
+[3.101s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[3.108s] [ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[3.112s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[22.635s] [ 80%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[22.649s] [100%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[22.841s] [100%] Built target rf2o_laser_odometry
+[23.528s] [100%] Built target rf2o_laser_odometry_node
+[23.535s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry -- -j12 -l12
+[23.552s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry
+[23.557s] -- Install configuration: ""
+[23.558s] -- Execute custom install script
+[23.558s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[23.563s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[23.568s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[23.572s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[23.579s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[23.584s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[23.590s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[23.595s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[23.600s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[23.605s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[23.609s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[23.614s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[23.618s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[23.622s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[23.626s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[23.630s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[23.635s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[23.644s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/rf2o_laser_odometry

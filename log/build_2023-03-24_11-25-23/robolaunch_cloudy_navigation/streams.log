@@ -1,0 +1,130 @@
+[0.007s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation': AMENT_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/sllidar_ros2:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_simulator:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_navigation:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_hardware:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_description:/home/samet/develop/cloudy_ws/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation
+[0.047s] -- The C compiler identification is GNU 11.3.0
+[0.085s] -- The CXX compiler identification is GNU 11.3.0
+[0.089s] -- Detecting C compiler ABI info
+[0.136s] -- Detecting C compiler ABI info - done
+[0.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.141s] -- Detecting C compile features
+[0.141s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.201s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.201s] -- Detecting CXX compile features
+[0.202s] -- Detecting CXX compile features - done
+[0.204s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.342s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.416s] -- Looking for pthread.h
+[0.466s] -- Looking for pthread.h - found
+[0.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.515s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.515s] -- Found Threads: TRUE  
+[0.517s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.558s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.563s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.572s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.666s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.744s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.775s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.985s] -- Found rclpy: 3.3.5 (/opt/ros/humble/share/rclpy/cmake)
+[0.987s] -- Found geometry_msgs: 4.2.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.022s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.199s] -- Configuring done
+[1.203s] -- Generating done
+[1.205s] -- Build files have been written to: /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation
+[1.212s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation' returned '0': AMENT_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/sllidar_ros2:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_simulator:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_navigation:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_hardware:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_description:/home/samet/develop/cloudy_ws/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation
+[1.214s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation': AMENT_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/sllidar_ros2:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_simulator:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_navigation:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_hardware:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_description:/home/samet/develop/cloudy_ws/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation -- -j12 -l12
+[1.252s] Built target ament_cmake_python_symlink_robolaunch_cloudy_navigation
+[1.436s] running egg_info
+[1.437s] creating robolaunch_cloudy_navigation.egg-info
+[1.437s] writing robolaunch_cloudy_navigation.egg-info/PKG-INFO
+[1.437s] writing dependency_links to robolaunch_cloudy_navigation.egg-info/dependency_links.txt
+[1.437s] writing top-level names to robolaunch_cloudy_navigation.egg-info/top_level.txt
+[1.437s] writing manifest file 'robolaunch_cloudy_navigation.egg-info/SOURCES.txt'
+[1.439s] reading manifest file 'robolaunch_cloudy_navigation.egg-info/SOURCES.txt'
+[1.439s] writing manifest file 'robolaunch_cloudy_navigation.egg-info/SOURCES.txt'
+[1.460s] Built target ament_cmake_python_build_robolaunch_cloudy_navigation_egg
+[1.466s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation' returned '0': AMENT_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/sllidar_ros2:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_simulator:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_navigation:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_hardware:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_description:/home/samet/develop/cloudy_ws/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation -- -j12 -l12
+[1.481s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation': AMENT_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/sllidar_ros2:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_simulator:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_navigation:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_hardware:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_description:/home/samet/develop/cloudy_ws/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation
+[1.485s] -- Install configuration: ""
+[1.485s] -- Execute custom install script
+[1.485s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/pythonpath.sh
+[1.490s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/pythonpath.dsv
+[1.496s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[1.502s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.508s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.512s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[1.517s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/__init__.py
+[1.522s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/dynamic_tf_broadcaster.py
+[1.527s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/joint_state_publisher.py
+[1.532s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/odom_tf_publisher.py
+[1.536s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/temp.py
+[1.541s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points.py
+[1.546s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points_web.py
+[1.550s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/waypoints_commander.py
+[1.554s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/dynamic_tf_broadcaster.py
+[1.559s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/way_points.py
+[1.563s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/way_points_web.py
+[1.567s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/waypoints_commander.py
+[1.572s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/arcelik.launch.py
+[1.576s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/arcelik_nav.launch.py
+[1.581s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/arcelik_slam.launch.py
+[1.586s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cartographer.launch.py
+[1.590s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloudy_nav.launch.py
+[1.598s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloudy_slam.launch.py
+[1.603s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/ekf.launch.py
+[1.608s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/launch_all.launch.py
+[1.615s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz/cartographer.rviz
+[1.620s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz/nav.rviz
+[1.624s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz/slam.rviz
+[1.630s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/arcelik_ekf.yaml
+[1.635s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/box_filter.yaml
+[1.639s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/cartographer.lua
+[1.645s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/ekf.yaml
+[1.649s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/navigation.yaml
+[1.654s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/range_filter.yaml
+[1.658s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_ekf.yaml
+[1.663s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_navigation.yaml
+[1.668s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_slam.yaml
+[1.674s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/slam.yaml
+[1.678s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/ofice.data
+[1.685s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/ofice.pgm
+[1.690s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/ofice.posegraph
+[1.697s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/ofice.yaml
+[1.704s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/play_ground.yaml
+[1.709s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_launch_all.launch.py
+[1.715s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_nav.launch.py
+[1.720s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_slam.launch.py
+[1.724s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloud.launch.py
+[1.728s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/galactic_container.launch.py
+[1.733s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/robot.launch.py
+[1.737s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_navigation
+[1.742s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_navigation
+[1.746s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/ament_prefix_path.sh
+[1.750s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/ament_prefix_path.dsv
+[1.754s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/path.sh
+[1.759s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/path.dsv
+[1.764s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.bash
+[1.769s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.sh
+[1.773s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.zsh
+[1.777s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.dsv
+[1.782s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.dsv
+[1.786s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/packages/robolaunch_cloudy_navigation
+[1.790s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/cmake/robolaunch_cloudy_navigationConfig.cmake
+[1.796s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/cmake/robolaunch_cloudy_navigationConfig-version.cmake
+[1.802s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.xml
+[1.833s] Listing '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation'...
+[1.833s] Compiling '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/__init__.py'...
+[1.833s] Listing '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts'...
+[1.833s] Compiling '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/dynamic_tf_broadcaster.py'...
+[1.833s] Compiling '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/joint_state_publisher.py'...
+[1.833s] Compiling '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/odom_tf_publisher.py'...
+[1.833s] Compiling '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/temp.py'...
+[1.833s] Compiling '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points.py'...
+[1.833s] Compiling '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points_web.py'...
+[1.833s] Compiling '/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/waypoints_commander.py'...
+[1.839s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation' returned '0': AMENT_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/samet/develop/cloudy_ws/src/cloudy/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/sllidar_ros2:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_simulator:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_navigation:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_hardware:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_description:/home/samet/develop/cloudy_ws/install/rf2o_laser_odometry:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_navigation

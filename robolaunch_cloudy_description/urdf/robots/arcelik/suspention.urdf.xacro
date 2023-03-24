@@ -5,7 +5,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="${yon} ${yonp} 0"/>
         <geometry>
-		<mesh scale="0.0015 0.0015 0.0015" filename="package://linorobot2_description/urdf/mech/mesh/suspention_son.dae"/>
+		<mesh scale="0.0015 0.0015 0.0015" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/suspention_son.dae"/>
         </geometry>
         <material name="blue">
             <color rgba="1 0.1 0.8509 0.0"/>
@@ -14,7 +14,7 @@
       <collision>
         <origin xyz="0 0 0" rpy="${yon} 0 0"/>
         <geometry>
-          <cylinder radius="${radius}" length="${width}"/>
+          <cylinder radius="0.02" length="0.02"/>
         </geometry>
       </collision>
 

@@ -6,8 +6,8 @@
   <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/mecanum_wheel.urdf.xacro" />
   <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/mecanum_wheel2.urdf.xacro" />
   <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/imu.urdf.xacro" />
-  <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/generic_laser.urdf.xacro" />
-  <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/depth_sensor.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/laser_arcelik.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/depth_sensor_arcelik.xacro" />
   <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/suspention.urdf.xacro" />
   <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/omni_drive.urdf.xacro" />
 

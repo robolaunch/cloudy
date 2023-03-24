@@ -1,0 +1,9 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages",
+        "/home/samet/develop/cloudy_ws/install/mecanum_control/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

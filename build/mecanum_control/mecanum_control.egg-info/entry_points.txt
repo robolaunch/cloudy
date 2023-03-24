@@ -1,0 +1,4 @@
+[console_scripts]
+mecanum_control = mecanum_control.mecanum_control:main
+serial_com = mecanum_control.serial_com:main
+

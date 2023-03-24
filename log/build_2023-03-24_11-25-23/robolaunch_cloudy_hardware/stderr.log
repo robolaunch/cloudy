@@ -1,0 +1,4 @@
+[01m[K/home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_hardware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robolaunch_cloudy_hardware::DiffBotSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_hardware/src/diffbot_system.cpp:178:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  178 | hardware_interface::return_type DiffBotSystemHardware::read([01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& duration)
+      |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K

@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating mecanum_control.egg-info
+writing mecanum_control.egg-info/PKG-INFO
+writing dependency_links to mecanum_control.egg-info/dependency_links.txt
+writing entry points to mecanum_control.egg-info/entry_points.txt
+writing requirements to mecanum_control.egg-info/requires.txt
+writing top-level names to mecanum_control.egg-info/top_level.txt
+writing manifest file 'mecanum_control.egg-info/SOURCES.txt'
+reading manifest file 'mecanum_control.egg-info/SOURCES.txt'
+writing manifest file 'mecanum_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/lib/python3.10/site-packages/mecanum-control.egg-link (link to .)
+Installing mecanum_control script to /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/lib/mecanum_control
+Installing serial_com script to /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/lib/mecanum_control
+
+Installed /home/samet/develop/cloudy_ws/src/cloudy/build/mecanum_control
+running install_data
+creating /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/ament_index
+creating /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/ament_index/resource_index
+creating /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/ament_index/resource_index/packages
+copying resource/mecanum_control -> /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/mecanum_control

@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_simulator
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/description/inertial_macros.xacro
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/launch/gazebo.launch.py
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/.vscode/c_cpp_properties.json
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/.vscode/settings.json
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/barcode.png
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/cardboard.jpg
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/env_counter.world
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/machine_sonn.dae
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/model.config
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/model.sdf
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/my_world.world
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/empty.world
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/industrial-warehouse.sdf
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/playground.world
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_simulator
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_simulator
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/environment/ament_prefix_path.sh
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/environment/ament_prefix_path.dsv
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/environment/path.sh
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/environment/path.dsv
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/local_setup.bash
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/local_setup.sh
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/local_setup.zsh
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/local_setup.dsv
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.dsv
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/ament_index/resource_index/packages/robolaunch_cloudy_simulator
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/cmake/robolaunch_cloudy_simulatorConfig.cmake
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/cmake/robolaunch_cloudy_simulatorConfig-version.cmake
+-- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.xml

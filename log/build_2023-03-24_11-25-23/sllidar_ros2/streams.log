@@ -1,0 +1,383 @@
+[0.328s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2
+[0.380s] -- The C compiler identification is GNU 11.3.0
+[0.436s] -- The CXX compiler identification is GNU 11.3.0
+[0.444s] -- Detecting C compiler ABI info
+[0.520s] -- Detecting C compiler ABI info - done
+[0.529s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.529s] -- Detecting C compile features
+[0.529s] -- Detecting C compile features - done
+[0.532s] -- Detecting CXX compiler ABI info
+[0.631s] -- Detecting CXX compiler ABI info - done
+[0.644s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.644s] -- Detecting CXX compile features
+[0.645s] -- Detecting CXX compile features - done
+[0.649s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.852s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.935s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.986s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[1.075s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.085s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.102s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.300s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.307s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.448s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.492s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.560s] -- Looking for pthread.h
+[1.633s] -- Looking for pthread.h - found
+[1.633s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.696s] -- Found Threads: TRUE  
+[1.865s] -- Found sensor_msgs: 4.2.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.979s] -- Found std_srvs: 4.2.2 (/opt/ros/humble/share/std_srvs/cmake)
+[2.057s] -- Configuring done
+[2.077s] -- Generating done
+[2.080s] -- Build files have been written to: /home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2
+[2.093s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2
+[2.095s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2 -- -j12 -l12
+[2.133s] [  7%] [32mBuilding CXX object CMakeFiles/sllidar_client.dir/src/sllidar_client.cpp.o[0m
+[2.134s] [ 14%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[2.134s] [ 28%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[2.134s] [ 28%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o[0m
+[2.134s] [ 35%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[2.135s] [ 42%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[2.135s] [ 50%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[2.136s] [ 57%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[2.144s] [ 64%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[2.147s] [ 71%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[2.150s] [ 78%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[2.171s] [ 85%] [32mBuilding CXX object CMakeFiles/sllidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[2.176s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.176s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[2.176s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[2.176s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.176s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.176s]       |                [01;35m[K^[m[K
+[2.176s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_crc.h:36[m[K,
+[2.177s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_crc.cpp:33[m[K:
+[2.177s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.177s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.177s]       |                    [01;35m[K^[m[K
+[2.181s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_serial_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[2.181s]    33 | #pragma [01;35m[Konce[m[K
+[2.181s]       |         [01;35m[K^~~~[m[K
+[2.181s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_crc.cpp:[m[K In function ‘[01m[Ksl_u32 sl::crc32::cal(sl_u32, void*, sl_u16)[m[K’:
+[2.181s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_crc.cpp:77:29:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[2.181s]    77 |         sl_u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[2.181s]       |                           [01;35m[K~~^~~~~[m[K
+[2.190s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[2.190s]    33 | #pragma [01;35m[Konce[m[K
+[2.190s]       |         [01;35m[K^~~~[m[K
+[2.213s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_udp_channel.cpp:33:9:[m[K [01;35m[Kwarning: [m[K#pragma once in main file
+[2.213s]    33 | #pragma [01;35m[Konce[m[K
+[2.213s]       |         [01;35m[K^~~~[m[K
+[2.331s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/sdkcommon.h:47[m[K,
+[2.331s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[2.331s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[2.331s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[2.331s]       | [01;35m[K^[m[K
+[2.332s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sdkcommon.h:47[m[K,
+[2.332s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[2.332s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[2.333s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[2.333s]       | [01;35m[K^[m[K
+[2.362s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:37[m[K:
+[2.363s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[2.363s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[2.363s]       | [01;35m[K^[m[K
+[2.385s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/sdkcommon.h:47[m[K,
+[2.385s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[2.385s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[2.386s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[2.386s]       | [01;35m[K^[m[K
+[2.425s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sdkcommon.h:47[m[K,
+[2.425s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[2.425s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[2.426s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[2.426s]       | [01;35m[K^[m[K
+[2.497s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:37[m[K:
+[2.497s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/hal/assert.h:1:1:[m[K [01;35m[Kwarning: [m[Knull character(s) ignored
+[2.497s]     1 | [01;35m[K [m[K                                                                                                                                                                                                                                                                                                                        
+[2.497s]       | [01;35m[K^[m[K
+[2.638s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.638s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.639s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34[m[K:
+[2.639s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.639s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.639s]       |                [01;35m[K^[m[K
+[2.639s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.639s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_udp_channel.cpp:34[m[K:
+[2.639s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.639s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.640s]       |                    [01;35m[K^[m[K
+[2.640s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.640s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.640s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34[m[K:
+[2.640s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.640s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.641s]       |                [01;35m[K^[m[K
+[2.641s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.641s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:34[m[K:
+[2.641s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.641s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.641s]       |                    [01;35m[K^[m[K
+[2.644s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[2.644s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_udp_channel.cpp:103:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.644s]   103 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[2.645s]       |                        [01;35m[K~~~~~^~~~[m[K
+[2.646s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[2.647s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_tcp_channel.cpp:95:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.647s]    95 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[2.647s]       |                        [01;35m[K~~~~~^~~~[m[K
+[2.670s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[2.671s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.671s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34[m[K:
+[2.671s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.671s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.671s]       |                [01;35m[K^[m[K
+[2.671s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[2.672s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_serial_channel.cpp:34[m[K:
+[2.672s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.672s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.672s]       |                    [01;35m[K^[m[K
+[2.803s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[2.803s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[2.803s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[2.804s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[2.804s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.804s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.804s]       |                [01;35m[K^[m[K
+[2.804s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[2.804s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[2.804s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[2.805s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/hal/thread.cpp:35[m[K:
+[2.805s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.805s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.805s]       |                    [01;35m[K^[m[K
+[2.837s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[2.838s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[2.838s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[2.838s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[2.838s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.838s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.838s]       |                [01;35m[K^[m[K
+[2.839s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[2.840s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[2.840s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/sdkcommon.h:49[m[K,
+[2.840s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[2.840s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.840s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.840s]       |                    [01;35m[K^[m[K
+[2.868s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[2.868s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[2.868s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[2.869s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[2.869s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.869s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.869s]       |                [01;35m[K^[m[K
+[2.869s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[2.869s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[2.869s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[2.870s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:33[m[K:
+[2.870s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.870s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.870s]       |                    [01;35m[K^[m[K
+[2.884s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[2.884s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[2.884s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[2.884s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[2.885s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.885s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[2.885s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.885s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[2.885s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[2.938s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::send(const void*, size_t)[m[K’:
+[2.938s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.938s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[2.939s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[2.943s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[2.944s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:39:[m[K [01;35m[Kwarning: [m[Kthe compiler can assume that the address of ‘[01m[Ktarget[m[K’ will never be NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.944s]   722 |         const struct sockaddr* addr = [01;35m[K&target[m[K ? reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;
+[2.944s]       |                                       [01;35m[K^~~~~~~[m[K
+[2.945s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[2.945s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/src/sdkcommon.h:41[m[K,
+[2.945s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[2.945s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.945s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[2.945s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[2.981s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar_protocol.h:36[m[K,
+[2.981s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[2.981s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[2.981s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[2.982s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.982s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[2.982s]       |                [01;35m[K^[m[K
+[2.982s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar_cmd.h:36[m[K,
+[2.982s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/rplidar.h:40[m[K,
+[2.982s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sdkcommon.h:49[m[K,
+[2.982s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[2.982s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.983s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[2.983s]       |                    [01;35m[K^[m[K
+[3.036s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[3.036s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.036s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[3.037s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[3.037s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[3.037s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.037s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[3.037s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[3.038s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[3.038s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.038s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[3.038s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[3.038s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[3.038s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.038s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[3.038s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[3.086s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/arch/linux/net_socket.cpp:722:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Knonnull[m[K’ argument ‘[01m[Ktarget[m[K’ compared to NULL [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnonnull-compare-Wnonnull-compare]8;;[m[K]
+[3.086s]   722 |         const struct sockaddr* addr = &target [01;35m[K?[m[K reinterpret_cast<const struct sockaddr*>(target.getPlatformData()) : NULL;
+[3.086s]       |                                               [01;35m[K^[m[K
+[3.119s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[3.119s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.119s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[3.119s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[3.120s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[3.120s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.120s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[3.120s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[3.122s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[3.122s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.122s]   175 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[3.122s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.122s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/rplidar_driver.cpp:175:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.123s]   175 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[3.123s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[3.237s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[3.238s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:273:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.238s]   273 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[3.238s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.244s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)[m[K’:
+[3.245s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:286:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.245s]   286 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[3.245s]       |                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.245s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[3.245s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:347:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.245s]   347 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[3.246s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[3.249s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[3.249s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:534:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.249s]   534 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[3.249s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.249s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)[m[K’:
+[3.249s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:579:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.250s]   579 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[3.250s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.250s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)[m[K’:
+[3.250s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:592:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.250s]   592 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[3.250s]       |                                                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.251s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[3.251s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:627:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.251s]   627 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[3.251s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.251s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)[m[K’:
+[3.251s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:640:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.251s]   640 |         sl_result getHealth(sl_lidar_response_device_health_t& health, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[3.251s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.253s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[3.253s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:730:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.253s]   730 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[3.253s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[3.258s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Ksl_result sl::SlamtecLidarDriver::_sendCommand(sl_u16, const void*, size_t)[m[K’:
+[3.258s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1089:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.258s]  1089 |             for (int pos = 0; [01;35m[Kpos < cmd_packet.size()[m[K; pos++) {
+[3.258s]       |                               [01;35m[K~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[3.258s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1058:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kpkt_header[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.258s]  1058 |             sl_u8 [01;35m[Kpkt_header[m[K[10];
+[3.259s]       |                   [01;35m[K^~~~~~~~~~[m[K
+[3.262s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[3.262s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1370:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.263s]  1370 |                     if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[3.263s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.263s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1379:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.263s]  1379 |                     if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[3.263s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.266s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[3.266s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:1577:38:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[3.266s]  1577 |                     const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[3.266s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.305s] /home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp: In instantiation of ‘[01m[Ksl_result sl::ascendScanData_(TNode*, size_t) [with TNode = sl_lidar_response_measurement_node_hq_t; sl_result = unsigned int; size_t = long unsigned int][m[K’:
+[3.306s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:677:76:[m[K   required from here
+[3.306s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:178:31:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[3.306s]   178 |         for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+[3.306s]       |                             [01;35m[K~~^~~~[m[K
+[3.378s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[3.378s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:72:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.378s]    72 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[3.378s]       |                 [01;35m[K^~~~~~~[m[K
+[3.378s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/sdk/src/sl_lidar_driver.cpp:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[3.378s]    59 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[3.378s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.161s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[5.161s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[5.162s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[5.162s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[5.162s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.162s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[5.162s]       |                [01;35m[K^[m[K
+[5.162s] In file included from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54[m[K,
+[5.162s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar.h:36[m[K,
+[5.163s]                  from [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/src/sllidar_node.cpp:38[m[K:
+[5.163s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:295:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.163s]   295 |     sl_u8  payload[[01;35m[K0[m[K];
+[5.163s]       |                    [01;35m[K^[m[K
+[6.176s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/src/sllidar_node.cpp:[m[K In member function ‘[01m[Kbool SLlidarNode::checkSLLIDARHealth(sl::ILidarDriver*)[m[K’:
+[6.176s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/sllidar_ros2/src/sllidar_node.cpp:135:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[6.176s]   135 |     [01;35m[K}[m[K
+[6.177s]       |     [01;35m[K^[m[K
+[7.759s] [ 92%] [32m[1mLinking CXX executable sllidar_node[0m
+[7.990s] [ 92%] Built target sllidar_node
+[11.189s] [100%] [32m[1mLinking CXX executable sllidar_client[0m
+[11.512s] [100%] Built target sllidar_client
+[11.522s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2 -- -j12 -l12
+[11.555s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2
+[11.560s] -- Install configuration: ""
+[11.561s] -- Execute custom install script
+[11.561s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[11.568s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_launch.py
+[11.573s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[11.579s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[11.585s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[11.591s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[11.596s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[11.603s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[11.610s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_launch.py
+[11.617s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[11.623s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[11.630s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[11.636s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[11.642s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[11.648s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[11.655s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[11.661s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[11.668s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[11.674s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[11.680s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[11.685s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[11.691s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[11.696s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[11.703s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[11.709s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[11.716s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[11.723s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[11.729s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[11.735s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[11.741s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.747s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.753s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[11.759s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[11.765s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[11.774s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/sllidar_ros2

@@ -10,7 +10,7 @@
       <visual>
         <origin xyz="-0.3 0 ${yukseklik}" rpy="0 0 1.57"/>
         <geometry>
-		<mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/chassis_red.stl"/>
+		<mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/chassis_red.stl"/>
           <!-- <mesh ="" scale="0.001 0.001 0.001"/> -->
         </geometry>
         <material name="red">
@@ -44,7 +44,7 @@
       <visual>
         <origin xyz="0 0 ${yukseklik}" rpy="0 0 0" />
         <geometry>
-          <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/son_rigs.stl"/>
+          <mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/son_rigs.stl"/>
         </geometry>
         <material name="yellow">
           <color rgba="0.1 0.6627 0.6627 1.0"/>
@@ -69,7 +69,7 @@
       <visual>
         <origin xyz="0 0 ${yukseklik}" rpy="0 0 0" />
         <geometry>
-		<mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/UstPlaka2.stl"/>
+		<mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/UstPlaka2.stl"/>
         </geometry>
         <material name="yellow">
           <color rgba="0.1 0.6627 0.6627 1.0"/>

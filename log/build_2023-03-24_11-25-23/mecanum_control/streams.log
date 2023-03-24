@@ -1,0 +1,37 @@
+[0.842s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/mecanum_control': PYTHONPATH=/home/samet/develop/cloudy_ws/src/cloudy/build/mecanum_control/prefix_override:/home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/samet/develop/cloudy_ws/src/cloudy/build/mecanum_control/build --no-deps install_data
+[1.196s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.196s]   warnings.warn(
+[1.255s] running develop
+[1.255s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.255s]   warnings.warn(
+[1.258s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.258s]   warnings.warn(
+[1.365s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[1.366s]   warnings.warn(
+[1.366s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.366s]   warnings.warn(
+[1.367s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.367s]   warnings.warn(
+[1.544s] running egg_info
+[1.544s] creating mecanum_control.egg-info
+[1.544s] writing mecanum_control.egg-info/PKG-INFO
+[1.545s] writing dependency_links to mecanum_control.egg-info/dependency_links.txt
+[1.545s] writing entry points to mecanum_control.egg-info/entry_points.txt
+[1.545s] writing requirements to mecanum_control.egg-info/requires.txt
+[1.545s] writing top-level names to mecanum_control.egg-info/top_level.txt
+[1.546s] writing manifest file 'mecanum_control.egg-info/SOURCES.txt'
+[1.549s] reading manifest file 'mecanum_control.egg-info/SOURCES.txt'
+[1.550s] writing manifest file 'mecanum_control.egg-info/SOURCES.txt'
+[1.552s] running build_ext
+[1.552s] Creating /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/lib/python3.10/site-packages/mecanum-control.egg-link (link to .)
+[1.553s] Installing mecanum_control script to /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/lib/mecanum_control
+[1.553s] Installing serial_com script to /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/lib/mecanum_control
+[1.554s] 
+[1.554s] Installed /home/samet/develop/cloudy_ws/src/cloudy/build/mecanum_control
+[1.558s] running install_data
+[1.558s] creating /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/ament_index
+[1.558s] creating /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/ament_index/resource_index
+[1.558s] creating /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/ament_index/resource_index/packages
+[1.558s] copying resource/mecanum_control -> /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/ament_index/resource_index/packages
+[1.559s] copying package.xml -> /home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/share/mecanum_control
+[1.607s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/mecanum_control' returned '0': PYTHONPATH=/home/samet/develop/cloudy_ws/src/cloudy/build/mecanum_control/prefix_override:/home/samet/develop/cloudy_ws/src/cloudy/install/mecanum_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/samet/develop/cloudy_ws/src/cloudy/build/mecanum_control/build --no-deps install_data

@@ -11,6 +11,10 @@ playground_world_path = PathJoinSubstitution(
         [FindPackageShare("robolaunch_cloudy_simulator"), "worlds", "playground.world"]
     )
 
+counter_world_path = PathJoinSubstitution(
+        [FindPackageShare("robolaunch_cloudy_simulator"), "worlds","arcelik_warehouse","env_counter.world"]
+    )
+
 warehouse_world_path = PathJoinSubstitution(
         [FindPackageShare("robolaunch_cloudy_simulator"), "worlds", "industrial-warehouse.sdf"]
     )
@@ -22,7 +26,8 @@ gazebo_path = PathJoinSubstitution(
 description_launch_path = PathJoinSubstitution(
         [FindPackageShare("robolaunch_cloudy_description"), "launch", "description.launch.py"]
     )
-
+x, y, z = LaunchConfiguration('x'), LaunchConfiguration('y'), LaunchConfiguration('z')
+yaw = LaunchConfiguration('yaw')
 
 def generate_launch_description():
 
@@ -65,7 +70,7 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(gazebo_path),
             launch_arguments={
                 'use_sim_time': str("true"),
-                'world': warehouse_world_path,
+                'world': counter_world_path,
             }.items(),
             condition=IfCondition(
                 PythonExpression(
@@ -77,6 +82,10 @@ def generate_launch_description():
         Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
-            arguments=['-topic', 'robot_description', '-entity', 'my_bot'],
+            arguments=['-topic', 'robot_description',
+                       '-entity', 'my_bot',
+                       '-x','-3',
+                       '-y','-6'
+                       ],
             output='screen')
     ])

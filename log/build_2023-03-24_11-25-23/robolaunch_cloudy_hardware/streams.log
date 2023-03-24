@@ -1,0 +1,75 @@
+[0.037s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware
+[0.347s] -- The C compiler identification is GNU 11.3.0
+[0.348s] -- The CXX compiler identification is GNU 11.3.0
+[0.348s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.348s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.348s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.348s] -- Detecting CXX compiler ABI info
+[0.411s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.419s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.424s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.632s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.728s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.775s] -- Found controller_interface: 2.18.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.836s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.847s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.883s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.904s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.929s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.941s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.943s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.018s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.043s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.086s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.096s] -- Looking for pthread.h
+[2.160s] -- Looking for pthread.h - found
+[2.160s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.412s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.414s] -- Found Threads: TRUE  
+[3.545s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.666s] -- Configuring done
+[3.710s] -- Generating done
+[3.712s] -- Build files have been written to: /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware
+[3.725s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware
+[3.727s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware -- -j12 -l12
+[3.768s] [ 50%] [32mBuilding CXX object CMakeFiles/robolaunch_cloudy_hardware.dir/src/diffbot_system.cpp.o[0m
+[6.203s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_hardware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robolaunch_cloudy_hardware::DiffBotSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[6.204s] [01m[K/home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_hardware/src/diffbot_system.cpp:178:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.204s]   178 | hardware_interface::return_type DiffBotSystemHardware::read([01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& duration)
+[6.204s]       |                                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.602s] [100%] [32m[1mLinking CXX shared library librobolaunch_cloudy_hardware.so[0m
+[8.869s] [100%] Built target robolaunch_cloudy_hardware
+[8.878s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware -- -j12 -l12
+[8.896s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware
+[8.902s] -- Install configuration: ""
+[8.903s] -- Execute custom install script
+[8.903s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware//robolaunch_cloudy_hardware.xml
+[8.910s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/lib/librobolaunch_cloudy_hardware.so
+[8.917s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/include/robolaunch_cloudy_hardware/diffbot_system.hpp
+[8.925s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/include/robolaunch_cloudy_hardware/visibility_control.h
+[8.932s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/library_path.sh
+[8.939s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/library_path.dsv
+[8.946s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_hardware
+[8.953s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_hardware
+[8.960s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/ament_prefix_path.sh
+[8.966s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/ament_prefix_path.dsv
+[8.972s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/path.sh
+[8.979s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/path.dsv
+[8.985s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/local_setup.bash
+[8.992s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/local_setup.sh
+[8.999s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/local_setup.zsh
+[9.005s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/local_setup.dsv
+[9.012s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.dsv
+[9.019s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/ament_index/resource_index/packages/robolaunch_cloudy_hardware
+[9.026s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robolaunch_cloudy_hardware
+[9.033s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.040s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[9.047s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.054s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/robolaunch_cloudy_hardwareConfig.cmake
+[9.060s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/robolaunch_cloudy_hardwareConfig-version.cmake
+[9.067s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.xml
+[9.075s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware

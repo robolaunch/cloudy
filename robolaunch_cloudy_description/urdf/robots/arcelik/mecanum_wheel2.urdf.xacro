@@ -7,14 +7,14 @@
       <visual>
         <origin xyz="0 0.21 0" rpy="${yon} 0 0"/>
         <geometry>
-		<mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/teker_cw.dae"/>
+		<mesh scale="${scale_ratio} ${scale_ratio} ${scale_ratio}" filename="file://$(find robolaunch_cloudy_description)/urdf/meshes/arcelik/teker_cw.dae"/>
         </geometry>
         <material name="blue">
             <color rgba="0.1764 0.4588 0.8509 1.0"/>
         </material>
       </visual>
       <collision>
-        <origin xyz="0 0 0" rpy="${yon} 0 0"/>
+        <origin xyz="0 0.2 0" rpy="${yon} 0 0"/>
         <geometry>
           <cylinder radius="${radius}" length="${width}"/>
         </geometry>
@@ -30,8 +30,8 @@
     </link>
 
     <gazebo reference="${side}_wheel_link">
-        <mu1>0.2</mu1>
-        <mu2>0.2</mu2>
+        <mu1>0.5</mu1>
+        <mu2>0.5</mu2>
     </gazebo>
 
     <gazebo reference="${side}_wheel_link">  

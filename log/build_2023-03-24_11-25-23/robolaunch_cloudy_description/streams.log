@@ -1,0 +1,86 @@
+[0.041s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description
+[0.351s] -- The C compiler identification is GNU 11.3.0
+[0.352s] -- The CXX compiler identification is GNU 11.3.0
+[0.352s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.352s] -- Detecting C compile features
+[0.353s] -- Detecting C compile features - done
+[0.354s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.427s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.431s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.679s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.753s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.886s] -- Configuring done
+[0.889s] -- Generating done
+[0.891s] -- Build files have been written to: /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description
+[0.902s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description
+[0.906s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description -- -j12 -l12
+[0.954s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description -- -j12 -l12
+[0.983s] Invoking command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description
+[0.989s] -- Install configuration: ""
+[0.990s] -- Execute custom install script
+[0.990s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/config/diffbot.rviz
+[1.000s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/ros2_control/diffbot_system.ros2_control.xacro
+[1.009s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/diffbot.urdf.xacro
+[1.018s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/diffbot_system.urdf.xacro
+[1.030s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/gazebo_control.xacro
+[1.038s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/inertial_macros.xacro
+[1.048s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/Intel_realsense.stl
+[1.055s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/UstPlaka.stl
+[1.064s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/UstPlaka2.stl
+[1.072s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/chassis_red.stl
+[1.081s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/lidar.stl
+[1.088s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/son_rigs.stl
+[1.098s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/suspention_son (1).dae
+[1.106s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/suspention_son.dae
+[1.118s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/arcelik/teker_cw.dae
+[1.130s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/body.stl
+[1.139s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/body_v2.stl
+[1.149s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/lidar.stl
+[1.156s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/realsense.stl
+[1.169s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/wheel.stl
+[1.180s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/meshes/wheel_v2.stl
+[1.187s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/omni_drive.urdf.xacro
+[1.198s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/base.urdf.xacro
+[1.207s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/caster_wheel.urdf.xacro
+[1.217s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/mecanum.urdf.xacro
+[1.229s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/mecanum_properties.urdf.xacro
+[1.239s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/mecanum_wheel.urdf.xacro
+[1.249s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/mecanum_wheel2.urdf.xacro
+[1.259s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/suspention.urdf.xacro
+[1.268s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/arcelik/wheel.urdf.xacro
+[1.278s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v1.urdf.xacro
+[1.287s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v1_core.xacro
+[1.297s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v1_properties.urdf.xacro
+[1.307s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v2.urdf.xacro
+[1.319s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v2_core.xacro
+[1.328s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/urdf/robots/cloudy_v2_properties.urdf.xacro
+[1.339s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/depth_sensor_arcelik.xacro
+[1.349s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/depth_sensor_cloudy_v1.xacro
+[1.356s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/depth_sensor_cloudy_v2.xacro
+[1.364s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/generic_laser_cloudy_v1.xacro
+[1.374s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/generic_laser_cloudy_v2.xacro
+[1.385s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/imu.urdf.xacro
+[1.397s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/sensors/laser_arcelik.xacro
+[1.406s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/launch/arcelik_description.launch.py
+[1.416s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/launch/description.launch.py
+[1.424s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_description
+[1.434s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_description
+[1.444s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/environment/ament_prefix_path.sh
+[1.454s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/environment/ament_prefix_path.dsv
+[1.464s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/environment/path.sh
+[1.470s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/environment/path.dsv
+[1.480s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/local_setup.bash
+[1.488s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/local_setup.sh
+[1.496s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/local_setup.zsh
+[1.506s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/local_setup.dsv
+[1.519s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.dsv
+[1.528s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/ament_index/resource_index/packages/robolaunch_cloudy_description
+[1.538s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/cmake/robolaunch_cloudy_descriptionConfig.cmake
+[1.547s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/cmake/robolaunch_cloudy_descriptionConfig-version.cmake
+[1.554s] -- Symlinking: /home/samet/develop/cloudy_ws/src/cloudy/install/robolaunch_cloudy_description/share/robolaunch_cloudy_description/package.xml
+[1.570s] Invoked command in '/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/develop/cloudy_ws/install/robolaunch_cloudy_bringup:/home/samet/develop/cloudy_ws/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_description

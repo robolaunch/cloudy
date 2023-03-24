@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_hardware/librobolaunch_cloudy_hardware.so" "TARGETS" "robolaunch_cloudy_hardware" "DESTINATION" "lib")

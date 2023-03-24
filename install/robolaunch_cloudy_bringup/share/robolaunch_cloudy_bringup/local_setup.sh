@@ -1,0 +1,1 @@
+/home/samet/develop/cloudy_ws/src/cloudy/build/robolaunch_cloudy_bringup/ament_cmake_environment_hooks/local_setup.sh
