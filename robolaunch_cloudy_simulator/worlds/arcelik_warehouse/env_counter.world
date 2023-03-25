@@ -151,7 +151,7 @@
         </collision>
         <visual name='visual'>
           <geometry>
-            <mesh>
+            <mesh> 
               <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
