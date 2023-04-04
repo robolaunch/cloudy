@@ -96,7 +96,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -116,7 +116,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -132,7 +132,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -152,7 +152,7 @@
         <visual name='visual'>
           <geometry>
             <mesh> 
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -168,7 +168,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -188,7 +188,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -833,7 +833,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -853,7 +853,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -869,7 +869,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -889,7 +889,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -905,7 +905,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -925,7 +925,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -941,7 +941,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -961,7 +961,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -977,7 +977,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -997,7 +997,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1013,7 +1013,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1033,7 +1033,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1049,7 +1049,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1069,7 +1069,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1085,7 +1085,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1105,7 +1105,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1121,7 +1121,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1141,7 +1141,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1157,7 +1157,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1177,7 +1177,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1193,7 +1193,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1213,7 +1213,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1229,7 +1229,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1249,7 +1249,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1265,7 +1265,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1285,7 +1285,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1301,7 +1301,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1321,7 +1321,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1337,7 +1337,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1357,7 +1357,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1373,7 +1373,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1393,7 +1393,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1409,7 +1409,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1429,7 +1429,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1445,7 +1445,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1465,7 +1465,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1481,7 +1481,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1501,7 +1501,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1517,7 +1517,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1537,7 +1537,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1553,7 +1553,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1573,7 +1573,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1679,7 +1679,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1699,7 +1699,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1715,7 +1715,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1735,7 +1735,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1751,7 +1751,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1771,7 +1771,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1967,7 +1967,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1987,7 +1987,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2003,7 +2003,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2023,7 +2023,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2039,7 +2039,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2059,7 +2059,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2075,7 +2075,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2095,7 +2095,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2111,7 +2111,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2131,7 +2131,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2147,7 +2147,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2167,7 +2167,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2183,7 +2183,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2203,7 +2203,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2219,7 +2219,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2239,7 +2239,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2255,7 +2255,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2275,7 +2275,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2291,7 +2291,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2311,7 +2311,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2327,7 +2327,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2347,7 +2347,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2363,7 +2363,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2383,7 +2383,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2399,7 +2399,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2419,7 +2419,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2435,7 +2435,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2455,7 +2455,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2471,7 +2471,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2491,7 +2491,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2507,7 +2507,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2527,7 +2527,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2543,7 +2543,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2563,7 +2563,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2579,7 +2579,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2599,7 +2599,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2615,7 +2615,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2635,7 +2635,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2651,7 +2651,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2671,7 +2671,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2687,7 +2687,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2707,7 +2707,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2723,7 +2723,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2743,7 +2743,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2759,7 +2759,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2779,7 +2779,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2795,7 +2795,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2815,7 +2815,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2831,7 +2831,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2851,7 +2851,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2867,7 +2867,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2887,7 +2887,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2903,7 +2903,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2923,7 +2923,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -2939,7 +2939,7 @@
         <collision name='collision'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -2959,7 +2959,7 @@
         <visual name='visual'>
           <geometry>
             <mesh>
-              <uri>file://robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
+              <uri>file://src/cloudy/robolaunch_cloudy_simulator/worlds/arcelik_warehouse/washing_machine.dae</uri>
             </mesh>
           </geometry>
         </visual>

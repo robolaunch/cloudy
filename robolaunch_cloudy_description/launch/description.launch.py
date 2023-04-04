@@ -20,6 +20,10 @@ def generate_launch_description():
         [FindPackageShare('robolaunch_cloudy_description'), 'urdf', 'robots', 'cloudy_v2.urdf.xacro']
     )
 
+    cloudy_v3_urdf_path = PathJoinSubstitution(
+        [FindPackageShare('robolaunch_cloudy_description'), 'urdf', 'robots', 'cloudy_v3.urdf.xacro']
+    )
+
     arcelik_urdf_path = PathJoinSubstitution(
         [FindPackageShare('robolaunch_cloudy_description'), 'urdf', 'robots', 'arcelik', 'mecanum.urdf.xacro']
     )
@@ -36,6 +40,12 @@ def generate_launch_description():
         DeclareLaunchArgument(
             name='cloudy_v2_urdf', 
             default_value=cloudy_v2_urdf_path,
+            description='URDF path'
+        ),
+
+        DeclareLaunchArgument(
+            name='cloudy_v3_urdf', 
+            default_value=cloudy_v3_urdf_path,
             description='URDF path'
         ),
 
@@ -76,6 +86,17 @@ def generate_launch_description():
                 'use_sim_time': use_sim_time
             }],
             condition=IfCondition(PythonExpression([LaunchConfiguration("vehicle"), " == 'cloudy_v2'"]))
+        ),
+
+        Node(
+            package='robot_state_publisher',
+            executable='robot_state_publisher',
+            output='screen',
+            parameters=[{
+                'robot_description': Command(['xacro ', LaunchConfiguration('cloudy_v3_urdf')]), 
+                'use_sim_time': use_sim_time
+            }],
+            condition=IfCondition(PythonExpression([LaunchConfiguration("vehicle"), " == 'cloudy_v3'"]))
         ),
 
         Node(
