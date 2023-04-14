@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/robolaunch/trademark/main/logos/svg/rocket.svg" width="40" height="40" align="top"> robolaunch Cloudy
 <p align="center">
-<img src="https://github.com/robolaunch/cloudy/blob/main/docs/cloudy-v2.png" width="500">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/cloudy-v3-1.png" width="500">
 </p>
 
 <div align="center">
