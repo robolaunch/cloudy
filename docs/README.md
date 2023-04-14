@@ -1,4 +1,4 @@
-![robolaunch_logo](./logo/robolaunch_logo_black.png)
+![robolaunch_logo](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/logo/robolaunch_logo_black.png)
 
 # Home
 Welcome to the documentation of robolaunch Cloudy. 
@@ -39,7 +39,7 @@ for any indoor mobile robotics application.
 ![logo](https://micro.ros.org/img/micro-ROS_big_logo.png ':size=20%')
 ![logo](https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/01-nvidia-logo-horiz-500x200-2c50-d.png ':size=15%')
 ![logo](https://navigation.ros.org/_static/nav2_logo.png ':size=5%')
-![logo](/logo/ROS2_Color.svg ':size=25%')
+![logo](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/logo/ROS2_Color.svg ':size=25%')
 ![logo](https://gazebosim.org/assets/images/logos/gazebo_horz_pos.png ':size=15%')
 ![logo](https://control.ros.org/master/_static/logo_ros-controls.png ':size=7%')
 
