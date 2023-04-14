@@ -1,6 +1,6 @@
 - [robolaunch Cloudy Home](/)
-- [Getting Started](/gettingStarted/)
-- [robolaunch Cloudy AGV](/agv/)
+- [robolaunch Cloudy Mini-AGV](/agv/)
+    - [Overview](/agv/overview/)
     - [ROS Learning](/agv/learning/)
         - [Cloudy Mini-AGV Use Cases](/agv/learning/useCase/)
         - [Overview](/agv/learning/warmingUp/)

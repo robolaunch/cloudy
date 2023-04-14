@@ -106,7 +106,7 @@ data_name_config: 2D array of bool determinning wether or not to fuse sensor dat
 All config files are under config folder. There are five types of config files which are ekstended kalman filter, slam, navigation, laser filter, and mask filter.</br>
 https://github.com/robolaunch/cloudy/blob/main/robolaunch_cloudy_navigation/config/
 
-- slam.yaml         : contains parameters for Cloudy AGV.
+- slam.yaml         : contains parameters for Cloudy Mini-AGV.
 - arcelik_slam.yaml : contains parameters for arcelik vehicle.
 - sim_slam.yaml     : contains parameters for simulation.
 
