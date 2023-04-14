@@ -1,6 +1,6 @@
 # ROS Tools
 ## RViz 
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy-mini-agv/docs/docs/images/rviz.png">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/rviz.png">
 
 RViz is a 3D visualization tool in ROS that allows users to visualize and interact with sensor data, robot models, and other ROS messages in a 3D space. It provides a graphical interface to display various types of data from a robot, such as point clouds, laser scans, camera feeds, robot models, and more. Users can interact with these visualizations by zooming, panning, and rotating the camera view, selecting and highlighting objects, and setting various parameters.
 
@@ -74,7 +74,7 @@ When working with ROS 2, you will likely use a variety of commands to run nodes,
 | `ros2service` | Various service related sub-commands. `ros2service` provides a set of commands that a provides a set of commands that allow you to interact with ROS 2 services in different ways, such as listing available services, calling a service with a request, or advertising a new service.  | 
 
 ## Gazebo
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy-mini-agv/docs/docs/images/gazebo_logo.png">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/gazebo_logo.png">
 
 Gazebo is a multi-robot simulation environment that is commonly used in the ROS (Robot Operating System) ecosystem. It provides a physics-based simulation of robots and their environments, enabling researchers and developers to test and validate their algorithms and control strategies in a safe and controlled environment.
 

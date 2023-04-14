@@ -1,4 +1,4 @@
-![robolaunch_logo](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/logo/robolaunch_logo_black.png)
+![robolaunch_logo](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/cloudy-v3-1.png)
 
 # Home
 Welcome to the documentation of robolaunch Cloudy. 
