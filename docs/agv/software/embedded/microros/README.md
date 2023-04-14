@@ -1,5 +1,5 @@
 # Micro ROS
-![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/micro-ROS_big_logo.png)
+![](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/micro-ROS_big_logo.png)
 
 ## Microcontroller Setup
 

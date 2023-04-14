@@ -1,5 +1,5 @@
 # Simulation
-![logo](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/cloudy_rviz.png)
+![logo](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/cloudy_rviz.png)
 
 ## Guide
 

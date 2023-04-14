@@ -1,6 +1,6 @@
 ## Motor Control
 
-<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/cnc_shield_esp32.jpg"/>
+<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/cnc_shield_esp32.jpg"/>
 
 Step motors control with step pulses, and esp32 controller have built in pwm module, fastaccelstepper.h library use that pwm module. This library can download from arduino ide builtin libraries. 
 

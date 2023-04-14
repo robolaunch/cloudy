@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/nav_map.jpg)
+![](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/nav_map.jpg)
 
 ## Navigation
 

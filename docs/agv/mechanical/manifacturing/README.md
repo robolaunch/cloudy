@@ -1,5 +1,5 @@
 ## 3D Printing
-<img style="  display: block; margin-left: auto; margin-right: auto; width: 50%;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/corner-removebg-preview.png"/>
+<img style="  display: block; margin-left: auto; margin-right: auto; width: 50%;" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/corner-removebg-preview.png"/>
 
 
 

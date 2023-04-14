@@ -20,10 +20,10 @@ The execution of the launch command initializes a [**robot state publisher**](ht
 
 We can visualize the robot description using RViz.
 
-![logo](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/cloudy_rviz.png)
+![logo](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/cloudy_rviz.png)
 
 ## robolaunch_cloudy_hardware
-<img style="display:block; margin:auto;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/microros_scheme.png"/>
+<img style="display:block; margin:auto;" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/microros_scheme.png"/>
 
 The [robolaunch_cloudy_hardware](https://github.com/robolaunch/cloudy/tree/main/robolaunch_cloudy_hardware) package creates a hardware interface to communicate with actuators. By design choice we decide to perform control calculations with ros2_control on Single Board Computer. Then the desired velocities gets forward to ESP32 over `left_motor_speed` and `right_motor_speed` topics. 
 You can follow the <a>Micro Ros Agent</a> and <a>Micro ROS</a> page for more.

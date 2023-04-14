@@ -1,4 +1,4 @@
-<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/realsensed435i.jpg"/>
+<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/realsensed435i.jpg"/>
 
 A stereo camera closely copies how our eyes work to give us accurate, real-time depth perception. It achieves this by using two sensors a set distance apart to triangulate similar pixels from both 2D planes. Each pixel in a digital camera image collects light that reaches the camera along a 3D ray.
 

@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/rviz_slam.png)
+![](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/rviz_slam.png)
 
 ## Slam
 

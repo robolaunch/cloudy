@@ -1,6 +1,6 @@
 #  Oled Screen SSD1306 
 
-<img style="width:30%; margin-left:auto; margin-right:auto; display:block"  src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/ssd1306_oled_screen.jpg"/>
+<img style="width:30%; margin-left:auto; margin-right:auto; display:block"  src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/ssd1306_oled_screen.jpg"/>
 
 The 0.96" Oled display is a small and easy to connect display. It is connected to esp32 via multiplexer using ı2c protocol. The arduino library required for its use and the code on the robot are given below.
 

@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/ros2_control.png)
+![](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/ros2_control.png)
 
 https://control.ros.org/master/doc/ros2_controllers/diff_drive_controller/doc/userdoc.html
 

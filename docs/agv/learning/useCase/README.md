@@ -4,4 +4,4 @@ You can interact with your Cloudy AGV  for learning robotics at various levels o
 * Mid-level applications such as keyboard teleoperation, navigation and waypoint following, and
 * High-level applications like AI applications, cloud tele-operation, visual slam, and fleet management.
 
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/samples.png">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/samples.png">

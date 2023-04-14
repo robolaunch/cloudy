@@ -4,9 +4,9 @@
 
 Cloudy Mini-AGV is compact and hooded, making it important to have some basic hobby tools on hand for assembly. It is crucial to ensure that the wires are installed firmly and in an organized manner for optimal functionality and appearance of the robot."
 
-<img style="width:180px; height:180px; margin:30px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/terminal_splicer.jpg"/>
-<img style="width:180px; height:180px;  margin:30px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/colored_cable_5pcs.jpg"/>
-<img style="width:180px; height:150px; margin-bottom:40px;" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/2.54_splicer.jpg"/>
+<img style="width:180px; height:180px; margin:30px;" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/terminal_splicer.jpg"/>
+<img style="width:180px; height:180px;  margin:30px;" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/colored_cable_5pcs.jpg"/>
+<img style="width:180px; height:150px; margin-bottom:40px;" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/2.54_splicer.jpg"/>
 
 **Wiring Diagram**
 

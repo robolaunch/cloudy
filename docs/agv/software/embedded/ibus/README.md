@@ -1,6 +1,6 @@
 # Flysky Ibus 
 
-<img style="width:30%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/flysky_ia6b.jpg"/>
+<img style="width:30%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/flysky_ia6b.jpg"/>
 
 
 Ibus channel could have between 6-10 channels due to transmitter and receiver. 4 of these channels are joysticks and the rest are switches, buttons and sliders. Each of these channels returns a data between 1000 and 2000 and you can transfer them to the feature you want by putting them in the map function, by default it can perform teleoperation with joysticks and on and off the microros feature with a switch.

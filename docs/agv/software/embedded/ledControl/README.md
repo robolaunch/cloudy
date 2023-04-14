@@ -1,6 +1,6 @@
 # Neopixel Leds WS2812B
 
-<img style="width:40%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/neopixel_led.jpg" />
+<img style="width:40%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/neopixel_led.jpg" />
 
 Neopixel led have individual rgb control chip per every led, so you can change the color of each led individually. Cloudy Mini-AGV have headlight, blink led example and you can add more function.
 

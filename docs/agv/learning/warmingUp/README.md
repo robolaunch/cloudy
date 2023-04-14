@@ -4,7 +4,7 @@ This section is designed to help users who are new to the world of robotics and 
 Whether you're a student, hobbyist, or professional, this section is designed to provide a solid foundation for your journey into the exciting world of robotics and ROS 2. So let's get started!
 
 ## What is ROS? How to use and develop?
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/ros-equation.png">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/ros-equation.png">
 
 
 [**ROS (Robot Operating System)**](https://www.ros.org/) is a popular open-source robotics middleware that provides a collection of software libraries, tools, and frameworks to help developers build complex robotics applications. It was first introduced in 2007 by the Willow Garage Robotics Research Institute and is now maintained by the [**Open Robotics**](https://www.openrobotics.org/) organization.
@@ -65,7 +65,7 @@ Micro-ROS is designed to work on a variety of microcontrollers, including those 
 
 By enabling ROS on microcontrollers, Micro-ROS opens up new possibilities for robotics and other embedded systems applications. It allows developers to create distributed systems that can handle complex tasks and interactions, and provides a way to easily integrate different hardware and software components into a single system.
 
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/micro-ROS_architecture.png">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/micro-ROS_architecture.png">
 
 ## What is Cloud and Why We Need it for Robotics Applications?
 Cloud computing refers to the delivery of computing services over the internet, including storage, processing, and analysis of data. In cloud computing, users can access computing resources and services on-demand and pay for what they use, rather than having to maintain their own infrastructure.
@@ -89,7 +89,7 @@ You get a unified, off-the-shelf solution to deploy, manage and automate your ro
 
 These applications are just to give some inspiration. There is no limit what you can create with robolaunch!
 
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/robolaunch-applications.png">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/robolaunch-applications.png">
 
 ## robolaunch Cloudy Mini-AGV applications
 The [**Cloudy Mini-AGV**](https://www.robolaunch.io/cloudy) robot paltform is a highly flexible and adaptable robot suitable for a wide range of users, including students, educators, hobbyists and professionals. It utilizes micro ROS, ROS 2, Nav 2, ROS 2 Control, NVIDIA, and if desired, [**robolaunch Platform**](https://www.robolaunch.io/platform), enabling a broad range of functionalities:

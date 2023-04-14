@@ -18,9 +18,9 @@ You don't need to have one of them to use Cloudy Mini-AGV. You can perform opera
 ## High Level Software Architecture
 Here is a high level architecture diagram of the Cloudy Mini-AGV software. 
 
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/software_block_diagram.png?raw=true">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/software_block_diagram.png?raw=true">
 
 ## Low Level Software Architecture
 Here is a detailed architecture diagram of the Cloudy Mini-AGV software. 
 
-<img src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/DetailedSoftwareDiagram.drawio.png?raw=true">
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/DetailedSoftwareDiagram.drawio.png?raw=true">

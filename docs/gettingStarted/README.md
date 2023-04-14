@@ -1,7 +1,7 @@
 # Getting Started
 We have created a general architecture that can be used to develop any type of robot and make it cloud native. This architecture comprises the steps in the following architectural diagram and Cloudy Mini-AGV has also been designed based on this architecture. 
 
-![](https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/Architecture.png)
+![](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/Architecture.png)
 
 ## Step 1: Chassis
 To get started with Cloudy Mini-AGV, first you need to decide if you want to build your Cloudy Mini-AGV from scratch or purchase it from our store. You can find both Unassembled DIY kit and Assembled Cloudy Mini-AGV from robolaunch store.

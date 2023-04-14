@@ -1,6 +1,6 @@
 ## **Setup With SD Card**
 
-<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/cloudy/docs/docs/images/rpimager.jpg"/>
+<img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/rpimager.jpg"/>
 
 You can follow the [official Ubuntu installation guide](https://releases.ubuntu.com/22.04/) for setting up the operating system.
 Cloudy is also tested on [RaspberryPi 4 (8 GB)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/). You can install your preference of choice version(desktop/server) of Ubuntu 22.04 to RaspberryPi 4. 
