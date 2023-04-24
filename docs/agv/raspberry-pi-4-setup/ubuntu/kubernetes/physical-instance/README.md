@@ -1,4 +1,4 @@
-# Registering Cloudy AGV
+# Registering Cloudy Mini-AGV
 
 This is the table of contents for this document.
 
