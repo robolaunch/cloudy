@@ -1,4 +1,4 @@
-# Cloudy AGV Electronics Part
+# Cloudy Mini-AGV Electronics Part
 Welcome to the Electronics section of the documentation for open-source Cloudy robot. In this section, you will find the below sub-sections:
 <style>
 a:link { text-decoration: none; }

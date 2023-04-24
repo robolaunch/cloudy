@@ -1,4 +1,4 @@
-# Cloudy AGV Mechanical Part
+# Cloudy Mini-AGV Mechanical Part
 Welcome to the Mechanical section of the documentation for open-source Cloudy robot. In this section, you will find the below sub-sections:
 <style>
 a:link { text-decoration: none; }
