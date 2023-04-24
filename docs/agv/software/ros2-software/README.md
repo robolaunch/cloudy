@@ -1,5 +1,5 @@
-# ROS Software
-* **Micro-ros Agent:**
+# ROS 2 Software
+* **Micro-ROS Agent:**
 The micro ROS protocol requires an agent to be present for the SBC computer to comprehend the messages being transmitted.
 
 * **ROS2 Control & Teleoperation:**

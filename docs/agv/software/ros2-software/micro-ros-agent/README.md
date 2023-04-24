@@ -1,6 +1,6 @@
 ## Micro-ROS Agent
 
-* Follow the steps below to install the micro ros agent</br>.
+* Follow the steps below to install the Micro-ROS Agent</br>.
 * Clone the updated repository to SBC from [**here**](https://github.com/micro-ROS/micro_ros_setup</br>).
 * Build the micro_ros_setup and open src directory on terminal.</br>
 
