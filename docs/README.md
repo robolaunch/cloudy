@@ -1,8 +1,5 @@
 ![robolaunch_logo](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/cloudy-v3-1.png)
 
-# Home
-Welcome to the documentation of robolaunch Cloudy. 
-
 ## What is Cloudy?
 Cloudy is an open-source, autonomous robot based on ROS 2 framework designed for robotics education and development. We wanted to create a platform that will support robotics learning and education in the most accessible and customizable way possible. That's why we fully open-sourced Cloudy!
 
