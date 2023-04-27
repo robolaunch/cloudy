@@ -1,12 +1,101 @@
-## **Ubuntu Jammy Setup With SD Card**
+## Raspberry Pi 4 From Scratch Configuration
+
+### 1. Ubuntu Server Installation to SD Card (Raspberry PI Imager)
+
+Get `.deb` file of Raspberry PI Imager from [releases](https://github.com/raspberrypi/rpi-imager/releases). Install it to your computer.
+
+```bash
+# choose the latest version, v1.7.4 is used for this example
+wget https://github.com/raspberrypi/rpi-imager/releases/download/v1.7.4/rpi-imager_1.7.4_amd64.deb
+sudo apt install rpi-imager_1.7.4_amd64.deb
+```
+
+Insert your SD card to your computer. Open the Raspberry PI Imager. Choose **Ubuntu 20.04/22.04 Server** as operating system and your SD card. Click the "Write" button and wait until it's finished.
 
 <img style="width:50%; margin-left:auto; margin-right:auto; display:block" src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/rpimager.jpg"/>
 
-You can follow the [official Ubuntu installation guide](https://releases.ubuntu.com/22.04/) for setting up the operating system.
-Cloudy is also tested on [RaspberryPi 4 (8 GB)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/). You can install your preference of choice version(desktop/server) of Ubuntu 22.04 to RaspberryPi 4. 
+After writing finishes successfully, remove your SD card from your computer and insert it to your Raspberry Pi 4. For further operations, connect your Raspberry Pi 4 to a screen. 
 
-* Download ubuntu 22.04 image for selected SBC
-* Write the image to sd card with <a href="https://win32diskimager.org/">win32 disk imager</a> or <a href="https://www.balena.io/etcher">balena etcher</a>.
+Set your Linux user's password after you logged in as default user. (default username/password is `ubuntu`/`ubuntu`) Then switch to `root` for further processes using:
 
-?> If you prefer to install server version of Ubuntu, you need to [**configure network settings**](https://linuxhint.com/ubuntu-22-04-network-configuration/) and [**enable ssh communication**](https://linuxhint.com/enable-use-ssh-ubuntu/) to connect to the robot.
+```bash
+sudo -i # and type your password
+```
 
+### 2. Configure WiFi Connection
+
+First, you need to setup WiFi configuration manually. Backup your current network configuration before editing anything:
+
+```bash
+cp /etc/netplan/50-cloud-init.yaml /etc/netplan/50-cloud-init-original.yaml
+```
+
+Now you can edit the configuration. You can use `nano` or `vi` as the terminal editor.
+
+```bash
+nano /etc/netplan/50-cloud-init.yaml
+```
+
+Add your WiFi configuration in the following format:
+
+```bash
+    ethernets:
+    # ...
+    # add this section
+    wifis:
+        wlan0:
+            optional: true
+            access-points:
+                "<YOUR-NETWORK>":
+                    password: "<YOUR-NETWORK-PASSWORD>"
+            dhcp4: true
+```
+
+Apply the changes and reboot:
+
+```bash
+netplan apply
+reboot
+```
+
+### 3. Setting up SSH Server
+
+To connect Raspberry Pi 4 remotely with SSH, you need to setup SSH server. First, install OpenSSH server:
+
+```bash
+apt-get install -y openssh-server
+```
+
+Enable SSH server:
+
+```bash
+systemctl enable ssh
+```
+
+Start SSH server:
+
+```bash
+systemctl start ssh
+```
+
+### 4. Configuring Boot CMD Line
+
+?> If no `cmdline.txt` is provided under the directory `/boot/firmware`, check your boot CMD Line configuration path. It may be `/boot/cmdline.txt`. 
+
+Open `/boot/firmware/cmdline.txt` with a terminal editor:
+
+```bash
+nano /boot/firmware/cmdline.txt
+```
+
+Add the following part at the end of the file (after a space, not after a new line):
+
+```bash
+cgroup_enable=cpuset cgroup_enable=memory cgroup_memory=1
+```
+
+Reboot your Raspberry Pi 4:
+
+```bash
+reboot
+```
