@@ -1,6 +1,6 @@
-## Raspberry Pi 4 From Scratch Configuration
+# Raspberry Pi 4 From Scratch Configuration
 
-### 1. Ubuntu Server Installation to SD Card (Raspberry PI Imager)
+## 1. Ubuntu Server Installation to SD Card (using Raspberry PI Imager)
 
 Get `.deb` file of Raspberry PI Imager from [releases](https://github.com/raspberrypi/rpi-imager/releases). Install it to your computer.
 
@@ -22,7 +22,7 @@ Set your Linux user's password after you logged in as default user. (default use
 sudo -i # and type your password
 ```
 
-### 2. Configure WiFi Connection
+## 2. Configure WiFi Connection
 
 First, you need to setup WiFi configuration manually. Backup your current network configuration before editing anything:
 
@@ -58,7 +58,7 @@ netplan apply
 reboot
 ```
 
-### 3. Setting up SSH Server
+## 3. Setting up SSH Server
 
 To connect Raspberry Pi 4 remotely with SSH, you need to setup SSH server. First, install OpenSSH server:
 
@@ -78,7 +78,7 @@ Start SSH server:
 systemctl start ssh
 ```
 
-### 4. Configuring Boot CMD Line
+## 4. Configuring Boot CMD Line
 
 ?> If no `cmdline.txt` is provided under the directory `/boot/firmware`, check your boot CMD Line configuration path. It may be `/boot/cmdline.txt`. 
 
@@ -99,3 +99,11 @@ Reboot your Raspberry Pi 4:
 ```bash
 reboot
 ```
+
+## 5. Setting up the Environment
+
+Your Ubuntu on Raspberry Pi 4 is configured successfully. Next step is to set up environment for launching the ROS 2 packages. You can proceed with one these two options:
+
+- [Setting Up robolaunch Kubernetes Components](./agv/raspberry-pi-4-setup/ubuntu/kubernetes/README.md) (recommended) 
+***OR***
+- [Setting Up ROS 2 Humble](./agv/raspberry-pi-4-setup/ubuntu/ros2/)
