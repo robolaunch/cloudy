@@ -10,7 +10,7 @@ This is the table of contents for this document.
 
 ## Quick Start
 
-This document assumes you have a single board computer (eg. Raspberry PI 4) virtual machine (with `arm64` architecture) provisioned on any cloud provider and has Ubuntu 20.04 or 22.04 on it. Also you should complete the steps about [setting up cloud instance](/agv/raspberry-pi-4-setup/ubuntu/kubernetes/cloud-instance/) before starting.
+This document assumes you have a single board computer (eg. Raspberry PI 4) virtual machine (with `arm64` architecture) provisioned on any cloud provider and has Ubuntu 20.04 or 22.04 on it. Also you should complete the steps about [setting up cloud instance](./agv/raspberry-pi-4-setup/ubuntu/kubernetes/cloud-instance/) before starting.
 
 ### Running the Script
 Run the following commands to register physical instance:
