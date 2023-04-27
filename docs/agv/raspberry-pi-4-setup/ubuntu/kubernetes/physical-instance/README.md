@@ -24,7 +24,7 @@ export TEAM=sample-team
 export REGION=sample-region
 export CLOUD_INSTANCE=cloud-instance
 export CLOUD_INSTANCE_ALIAS=my-first-instance
-export PHYSICAL_INSTANCE=cloudy-agv
+export PHYSICAL_INSTANCE=cloudy-mini-agv
 export DESIRED_CLUSTER_CIDR=10.20.1.0/24 # should be unique per physical instance
 export DESIRED_SERVICE_CIDR=10.20.2.0/24 # should be unique per physical instance
 export NETWORK=External # should be `Local` if cloud instance uses desktop configuration
@@ -51,7 +51,7 @@ cat <<EOF | kubectl apply -f -
 apiVersion: connection-hub.roboscale.io/v1alpha1
 kind: PhysicalInstance
 metadata:
-  name: cloudy-agv
+  name: cloudy-mini-agv
 spec:
   server: https://10.20.1.1:6443
   credentials:
@@ -76,7 +76,7 @@ cat <<EOF | kubectl apply -f -
 apiVersion: connection-hub.roboscale.io/v1alpha1
 kind: PhysicalInstance
 metadata:
-  name: cloudy-agv
+  name: cloudy-mini-agv
 spec:
   server: https://10.20.1.1:6443
   credentials:
@@ -97,5 +97,5 @@ watch kubectl get physicalinstances
 If the values for the columns `MULTICAST`, `FEDERATION` and `PHASE` are all `Connected`, you have successfully register a physical instance to a cloud instance.
 ```
 NAME              GATEWAY             HOSTNAME           CLUSTER ID        SUBNETS                           MULTICAST   FEDERATION   PHASE
-cloudy-agv        ip-172-31-182-159   ip-172-31-28-234   cloudy-agv        ["10.20.2.0/24","10.20.1.0/24"]   Connected   Connected    Connected
+cloudy-mini-agv        ip-172-31-182-159   ip-172-31-28-234   cloudy-mini-agv        ["10.20.2.0/24","10.20.1.0/24"]   Connected   Connected    Connected
 ```

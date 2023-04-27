@@ -1,4 +1,4 @@
-# Launching Cloudy Mini-AGV
+# Directly Launching Cloudy Mini-AGV
 
 ![](https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/images/panel.jpg)
 ## SSH
