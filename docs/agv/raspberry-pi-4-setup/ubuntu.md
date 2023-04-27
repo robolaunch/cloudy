@@ -1,4 +1,4 @@
-# Raspberry Pi 4 From Scratch Configuration
+# Setting up Ubuntu Server
 
 ## 1. Ubuntu Server Installation to SD Card (using Raspberry PI Imager)
 
@@ -100,10 +100,4 @@ Reboot your Raspberry Pi 4:
 reboot
 ```
 
-## 5. Setting up the Environment
-
-Your Ubuntu on Raspberry Pi 4 is configured successfully. Next step is to set up environment for launching the ROS 2 packages. You can proceed with one these two options:
-
-- [Setting Up robolaunch Kubernetes Components](./agv/raspberry-pi-4-setup/ubuntu/kubernetes/README.md) (recommended) 
-***OR***
-- [Setting Up ROS 2 Humble](./agv/raspberry-pi-4-setup/ubuntu/ros2/)
+Your Ubuntu on Raspberry Pi 4 is configured successfully. Next step is to set up environment for launching the ROS 2 packages. Proceed with [Setting Up Environment](./agv/raspberry-pi-4-setup/environment/).

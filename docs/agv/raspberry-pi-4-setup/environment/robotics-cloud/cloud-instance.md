@@ -1,4 +1,4 @@
-# Setting Up Cloud Instance
+# Setting up Cloud Instance
 
 This is the table of contents for this document.
 
