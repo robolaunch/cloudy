@@ -428,6 +428,7 @@ kubectl apply -f camera-launchmanager.yaml
 Check the namespace `my-fleet` and find the pod created by LaunchManager named `camera`. Follow camera logs using the command below:
 
 ```bash
+# check this command's output in physical instance
 kubectl logs -f pod/camera-launch -n my-fleet -c camera
 ```
 
@@ -436,6 +437,7 @@ kubectl logs -f pod/camera-launch -n my-fleet -c camera
 Create a `bash` terminal session inside the container created by launch pod.
 
 ```bash
+# run these command in physical instance
 kubectl exec -it pod/camera-launch -n my-fleet -c camera -- bash
 ```
 
@@ -508,7 +510,7 @@ kubectl apply -f lidar-microros-launchmanager.yaml
 Check the namespace `my-fleet` and find the pod created by LaunchManager named `lidar-microros`. Follow RPLidar and Micro-ROS logs using the command below:
 
 ```bash
-# check this commands' output in physical instance
+# check these commands' outputs in physical instance
 # for RPLidar logs
 kubectl logs -f pod/lidar-microros-launch -n my-fleet -c rplidar
 # for Micro-ROS logs
@@ -521,8 +523,151 @@ kubectl logs -f pod/lidar-microros-launch -n my-fleet -c microros
 Create a `bash` terminal session inside the container created by launch pod.
 
 ```bash
-# check this commands' output in physical instance
+# run this command in physical instance
 kubectl exec -it pod/lidar-microros-launch -n my-fleet -c rplidar -- bash
+```
+
+Check ROS 2 topics and nodes:
+
+```bash
+ros2 topic list
+# topics output
+ros2 node list
+# nodes output
+```
+
+### c. Launching SLAM Nodes
+
+This manifest will create a launch pod that starts SLAM nodes:
+
+```yaml
+# slam-launchmanager.yaml
+apiVersion: types.kubefed.io/v1beta1
+kind: FederatedLaunchManager
+metadata:
+  name: slam
+  namespace: my-fleet
+spec:
+  template:
+    metadata:
+      labels:
+        robolaunch.io/target-robot: cloudy
+        robolaunch.io/target-vdi: cloudy-dev-vdi
+      name: launch-physical
+      namespace: my-fleet
+    spec:
+      display: true
+      launch:
+        slam:
+          instances:
+          - cloudy-mini-agv
+          namespacing: false
+          workspace: physical-ws
+          entrypoint:
+            type: Launch
+            package: robolaunch_cloudy_navigation
+            launchfile: cloudy_slam.launch.py
+          container:
+            privileged: false
+  placement:
+    clusters:
+    - name: cloudy-mini-agv
+    - name: cloud-instance
+```
+
+```bash
+kubectl apply -f slam-launchmanager.yaml
+```
+
+#### Checking ROS 2 SLAM Logs
+
+Check the namespace `my-fleet` and find the pod created by LaunchManager named `slam`. Follow SLAM logs using the command below:
+
+```bash
+# check this command's output in cloud instance
+# for SLAM logs
+kubectl logs -f pod/slam-launch -n my-fleet -c slam
+```
+
+#### Checking SLAM Topics Manually
+
+Create a `bash` terminal session inside the container created by launch pod.
+
+```bash
+# run this command in cloud instance
+kubectl exec -it pod/slam-launch -n my-fleet -c slam -- bash
+```
+
+Check ROS 2 topics and nodes:
+
+```bash
+ros2 topic list
+# topics output
+ros2 node list
+# nodes output
+```
+
+
+### d. Launching Navigation Nodes
+
+This manifest will create a launch pod that starts navigation nodes:
+
+```yaml
+# navigation-launchmanager.yaml
+apiVersion: types.kubefed.io/v1beta1
+kind: FederatedLaunchManager
+metadata:
+  name: navigation
+  namespace: my-fleet
+spec:
+  template:
+    metadata:
+      labels:
+        robolaunch.io/target-robot: cloudy
+        robolaunch.io/target-vdi: cloudy-dev-vdi
+      name: launch-physical
+      namespace: my-fleet
+    spec:
+      display: true
+      launch:
+        navigation:
+          instances:
+          - cloudy-mini-agv
+          namespacing: false
+          workspace: physical-ws
+          entrypoint:
+            type: Launch
+            package: robolaunch_cloudy_navigation
+            launchfile: cloudy_nav.launch.py
+          container:
+            privileged: false
+  placement:
+    clusters:
+    - name: cloudy-mini-agv
+    - name: cloud-instance
+```
+
+```bash
+kubectl apply -f navigation-launchmanager.yaml
+```
+
+#### Checking ROS 2 Navigation Logs
+
+Check the namespace `my-fleet` and find the pod created by LaunchManager named `navigation`. Follow navigation logs using the command below:
+
+```bash
+# check this command's output in cloud instance
+# for navigation logs
+kubectl logs -f pod/navigation-launch -n my-fleet -c navigation
+```
+
+#### Checking Navigation Topics Manually
+
+Create a `bash` terminal session inside the container created by launch pod.
+
+```bash
+# run this command in cloud instance
+kubectl exec -it pod/navigation-launch -n my-fleet -c navigation -- bash
 ```
 
 Check ROS 2 topics and nodes:
