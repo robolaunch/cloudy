@@ -374,4 +374,162 @@ When both instances return BuildManager's phase as `Ready`, you can proceed with
 
 LaunchManager starts ROS 2 nodes by creating a launch pod. The launch descriptions in LaunchManager manifest are converted to `ros2 launch` or `ros2 run` commands by Robot Operator. Each launch container uses same discovery server configurations described in Robot's manifest to discovery each other's nodes and topics.
 
-Manifest for LaunchManager will be added.
+### a. Launching RealSense2 Camera
+
+This manifest will create a launch pod in physical instance and start camera nodes:
+
+```yaml
+# camera-launchmanager.yaml
+apiVersion: types.kubefed.io/v1beta1
+kind: FederatedLaunchManager
+metadata:
+  name: camera
+  namespace: my-fleet
+spec:
+  template:
+    metadata:
+      labels:
+        robolaunch.io/target-robot: cloudy
+      name: launch-physical
+      namespace: my-fleet
+    spec:
+      display: true
+      launch:
+        camera:
+          instances:
+          - cloudy-mini-agv
+          namespacing: false
+          workspace: physical-ws
+          entrypoint:
+            type: Launch
+            package: realsense2_camera
+            launchfile: rs_launch.py
+            parameters:
+              align_depth.enable: "true"
+              rgb_camera.profile: "640,480,6"
+              depth_module.profile: "640,480,6"
+              colorizer.enable: "true"
+          container:
+            privileged: true
+  placement:
+    clusters:
+    - name: cloudy-mini-agv
+    - name: cloud-instance
+```
+
+Create LaunchManager for camera:
+
+```bash
+kubectl apply -f camera-launchmanager.yaml
+```
+
+#### Checking ROS 2 Camera Logs
+
+Check the namespace `my-fleet` and find the pod created by LaunchManager named `camera`. Follow camera logs using the command below:
+
+```bash
+kubectl logs -f pod/camera-launch -n my-fleet -c camera
+```
+
+#### Checking Camera Topics Manually
+
+Create a `bash` terminal session inside the container created by launch pod.
+
+```bash
+kubectl exec -it pod/camera-launch -n my-fleet -c camera -- bash
+```
+
+Check ROS 2 topics and nodes:
+
+```bash
+ros2 topic list
+# topics output
+ros2 node list
+# nodes output
+```
+
+### b. Launching RPLidar and Micro-ROS Nodes
+
+This manifest will create a launch pod in physical instance that will launch RPLidar and Micro-ROS nodes in seperate containers:
+
+```yaml
+# lidar-microros-launchmanager.yaml
+apiVersion: types.kubefed.io/v1beta1
+kind: FederatedLaunchManager
+metadata:
+  name: lidar-microros
+  namespace: my-fleet
+spec:
+  template:
+    metadata:
+      labels:
+        robolaunch.io/target-robot: cloudy
+      name: launch-physical
+      namespace: my-fleet
+    spec:
+      launch:
+        microros:
+          instances:
+          - cloudy-mini-agv
+          namespacing: false
+          workspace: physical-ws
+          entrypoint:
+            type: Custom
+            cmd: "ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyUSB1"
+          container:
+            privileged: true
+        rplidar:
+          instances:
+          - cloudy-mini-agv
+          namespacing: false
+          workspace: physical-ws
+          entrypoint:
+            type: Launch
+            package: rplidar_ros
+            launchfile: rplidar.launch.py
+          container:
+            privileged: true
+  placement:
+    clusters:
+    - name: cloudy-mini-agv
+    - name: cloud-instance
+```
+
+Create LaunchManager for RPLidar and Micro-ROS:
+
+```bash
+kubectl apply -f lidar-microros-launchmanager.yaml
+```
+
+?> Push the metalic button on Cloudy Mini-AGV after launching MicroROS to activate motors.
+
+#### Checking ROS 2 RPLidar and Micro-ROS Logs
+
+Check the namespace `my-fleet` and find the pod created by LaunchManager named `lidar-microros`. Follow RPLidar and Micro-ROS logs using the command below:
+
+```bash
+# check this commands' output in physical instance
+# for RPLidar logs
+kubectl logs -f pod/lidar-microros-launch -n my-fleet -c rplidar
+# for Micro-ROS logs
+kubectl logs -f pod/lidar-microros-launch -n my-fleet -c microros
+```
+
+
+#### Checking RPLidar and Micro-ROS Topics Manually
+
+Create a `bash` terminal session inside the container created by launch pod.
+
+```bash
+# check this commands' output in physical instance
+kubectl exec -it pod/lidar-microros-launch -n my-fleet -c rplidar -- bash
+```
+
+Check ROS 2 topics and nodes:
+
+```bash
+ros2 topic list
+# topics output
+ros2 node list
+# nodes output
+```
