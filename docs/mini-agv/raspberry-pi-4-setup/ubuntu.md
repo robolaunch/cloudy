@@ -100,4 +100,4 @@ Reboot your Raspberry Pi 4:
 reboot
 ```
 
-Your Ubuntu on Raspberry Pi 4 is configured successfully. Next step is to set up environment for launching the ROS 2 packages. Proceed with [Setting Up Environment](./agv/raspberry-pi-4-setup/environment/).
+Your Ubuntu on Raspberry Pi 4 is configured successfully. Next step is to set up environment for launching the ROS 2 packages. Proceed with [Setting Up Environment](./mini-agv/raspberry-pi-4-setup/environment/).

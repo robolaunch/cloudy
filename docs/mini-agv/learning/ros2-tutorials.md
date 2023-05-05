@@ -3,19 +3,19 @@ In this part, we'll introduce some example applications for your future use-case
 ## Tele-operation
 Teleoperation is the ability to control your robot remotely. In ROS 2, you can use a variety of tools to achieve this, such as teleop_twist_keyboard or teleop_tools package. With these tools, you can control the robot's movement, speed, and other parameters using your keyboard or a joystick.
 
-?> To learn more about teleoperation, you can check out [**Cloudy Mini-AGV Teleoperation**](/agv/software/sbcSoftware/rosSoftware/rosControl/). 
+?> To learn more about teleoperation, you can check out [**Cloudy Mini-AGV Teleoperation**](/mini-agv/software/sbcSoftware/rosSoftware/rosControl/). 
 
 ?> Also  check out [**ROS Industrial Teleoperation Tutorials**](https://ros2-industrial-workshop.readthedocs.io/en/latest/_source/navigation/ROS2-Turtlebot.html#control-the-robot).
 ## SLAM
 SLAM stands for Simultaneous Localization and Mapping. It is the process of creating a map of an unknown environment while simultaneously keeping track of the robot's location within it. ROS 2 provides several SLAM packages such as Cartographer, GMapping, RTAB-Map, and Hector SLAM.
 
-?> To get started with SLAM in ROS 2, you can check out the [**Cloudy Mini-AGV SLAM**](/agv/software/sbcSoftware/rosSoftware/slam/).
+?> To get started with SLAM in ROS 2, you can check out the [**Cloudy Mini-AGV SLAM**](/mini-agv/software/sbcSoftware/rosSoftware/slam/).
 
 ?> Also check out the following [**video tutorial by Articulated Robotics**](https://www.youtube.com/watch?app=desktop&v=ZaiA3hWaRzE) about slam_toolbox.
 ## Navigation
 Navigation is the ability of a robot to move from one place to another autonomously. ROS 2 provides several navigation packages such as Nav2, MoveIt, ROS Navigation, and TeB Local Planner.
 
-?> To learn more about navigation in ROS 2, you can check out the [**Cloudy Mini-AGV Navigation**](/agv/software/sbcSoftware/rosSoftware/nav2/).
+?> To learn more about navigation in ROS 2, you can check out the [**Cloudy Mini-AGV Navigation**](/mini-agv/software/sbcSoftware/rosSoftware/nav2/).
 
 ?> Further information, also check out the [**official documentation of Nav2**](https://navigation.ros.org/) and [**official tutorials**](https://navigation.ros.org/tutorials/index.html).
 
