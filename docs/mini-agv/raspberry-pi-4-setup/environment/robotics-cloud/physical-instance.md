@@ -19,6 +19,7 @@ Run the following commands to register physical instance:
 # inside physical instance
 sudo -i # login as root
 export CONNECTION_HUB_KEY="<REDACTED>" # enter the key obtained previous section
+export SKIP_PLATFORM=true
 export ORGANIZATION=sample-org
 export TEAM=sample-team
 export REGION=sample-region
