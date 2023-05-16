@@ -12,6 +12,8 @@ Cloudy Mini-AGV is compact and hooded, making it important to have some basic ho
 
 See below for a wiring diagram of the Cloudy Mini-AGV. You may find it useful to reference this during the assembly process.It can also download for <a href="https://github.com/robolaunch/trademark/blob/main/repository-media/cloudy/cloudy_hardware8.fzz">fritzing file</a>
 
+<img src="https://raw.githubusercontent.com/robolaunch/trademark/main/repository-media/cloudy/cloudy_hardware8_bb.png">
+
 ## Installation Steps
 
 **Box Stack Installation**
