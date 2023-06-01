@@ -1,4 +1,0 @@
-source;share/sllidar_ros2/local_setup.bash
-source;share/sllidar_ros2/local_setup.dsv
-source;share/sllidar_ros2/local_setup.sh
-source;share/sllidar_ros2/local_setup.zsh
