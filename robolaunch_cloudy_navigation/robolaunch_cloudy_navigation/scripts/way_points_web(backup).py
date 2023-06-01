@@ -80,25 +80,18 @@ class WayPointsWeb(Node):
         self.get_logger().info("Waypoint received")
         self.goal_cancelled = False
 
-        msg_dict = eval(msg.data)
-
-
-        # command = msg.data.split("&")
-        # id = command[0]
-        # tasktype = command[1]
-        # waypoints = command[2].split("|")
+        command = msg.data.split("&")
+        id = command[0]
+        tasktype = command[1]
+        waypoints = command[2].split("|")
         x = []
         y = []
 
+        for i in range(len(waypoints)):
+            x.append(waypoints[i].split("/")[0])
+            y.append(waypoints[i].split("/")[1])
         
         waypoints = []
-        tasktype = "running"
-
-        for i in msg_dict["waypoints"]:
-            x.append(i["coordinates"]["x"])
-            y.append(i["coordinates"]["y"])
-
-
         robot_feedback = String()
 
 
@@ -136,7 +129,7 @@ class WayPointsWeb(Node):
                         Duration.from_msg(feedback.estimated_time_remaining).nanoseconds / 1e9)
                         + ' seconds.')
                     
-                    robot_feedback.data = "RUNNING"
+                    robot_feedback.data = id + "-" + tasktype + "-" + "working" + "-" + str(goal.pose.position.x) + "/" + str(goal.pose.position.y)
                     self.feedback_publisher.publish(robot_feedback)
 
                     # Some navigation timeout to demo cancellation
