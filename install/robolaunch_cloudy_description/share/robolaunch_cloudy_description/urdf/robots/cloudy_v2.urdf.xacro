@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="robot">
+
+
+
+
+    <!-- Example link -->
+    <xacro:include filename="cloudy_v2_core.xacro"/>
+    <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/gazebo_control.xacro"/>
+
+
+
+    <xacro:generic_laser>
+        <xacro:insert_block name="laser_pose" />
+    </xacro:generic_laser>
+
+    <xacro:depth_sensor>
+        <xacro:insert_block name="depth_sensor_pose" />
+    </xacro:depth_sensor>
+</robot>

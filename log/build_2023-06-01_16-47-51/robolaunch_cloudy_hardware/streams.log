@@ -1,0 +1,77 @@
+[0.023s] Invoking command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/mert/gokhan_cloudy/src/robolaunch_cloudy_hardware -DCMAKE_INSTALL_PREFIX=/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware
+[0.260s] -- The C compiler identification is GNU 11.3.0
+[0.260s] -- The CXX compiler identification is GNU 11.3.0
+[0.260s] -- Detecting C compiler ABI info
+[0.260s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.261s] -- Detecting CXX compile features
+[0.261s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.350s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.432s] -- Found controller_interface: 2.20.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.469s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.474s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.481s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.508s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.026s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.028s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.097s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.126s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.170s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.178s] -- Looking for pthread.h
+[1.225s] -- Looking for pthread.h - found
+[1.225s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.274s] -- Found Threads: TRUE  
+[1.885s] -- Found ament_cmake_gtest: 1.3.3 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.999s] -- Configuring done
+[2.023s] -- Generating done
+[2.025s] -- Build files have been written to: /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware
+[2.037s] Invoked command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake /home/mert/gokhan_cloudy/src/robolaunch_cloudy_hardware -DCMAKE_INSTALL_PREFIX=/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware
+[2.039s] Invoking command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware -- -j16 -l16
+[2.080s] [ 50%] [32mBuilding CXX object CMakeFiles/robolaunch_cloudy_hardware.dir/src/diffbot_system.cpp.o[0m
+[4.015s] [01m[K/home/mert/gokhan_cloudy/src/robolaunch_cloudy_hardware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type robolaunch_cloudy_hardware::DiffBotSystemHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[4.015s] [01m[K/home/mert/gokhan_cloudy/src/robolaunch_cloudy_hardware/src/diffbot_system.cpp:178:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.015s]   178 | return_type DiffBotSystemHardware::read([01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& duration)
+[4.015s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.015s] 
+[5.928s] [100%] [32m[1mLinking CXX shared library librobolaunch_cloudy_hardware.so[0m
+[6.160s] [100%] Built target robolaunch_cloudy_hardware
+[6.172s] Invoked command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware -- -j16 -l16
+[6.192s] Invoking command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware
+[6.198s] -- Install configuration: ""
+[6.198s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/robolaunch_cloudy_hardware.xml
+[6.199s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/lib/librobolaunch_cloudy_hardware.so
+[6.201s] -- Set runtime path of "/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/lib/librobolaunch_cloudy_hardware.so" to ""
+[6.201s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/include
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/include/robolaunch_cloudy_hardware
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/include/robolaunch_cloudy_hardware/diffbot_system.hpp
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/include/robolaunch_cloudy_hardware/visibility_control.h
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/library_path.sh
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/library_path.dsv
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_hardware
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_hardware
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/ament_prefix_path.sh
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/ament_prefix_path.dsv
+[6.202s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/path.sh
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/environment/path.dsv
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/local_setup.bash
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/local_setup.sh
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/local_setup.zsh
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/local_setup.dsv
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.dsv
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/ament_index/resource_index/packages/robolaunch_cloudy_hardware
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/robolaunch_cloudy_hardware
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/robolaunch_cloudy_hardwareConfig.cmake
+[6.203s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/cmake/robolaunch_cloudy_hardwareConfig-version.cmake
+[6.204s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware/share/robolaunch_cloudy_hardware/package.xml
+[6.205s] Invoked command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_hardware

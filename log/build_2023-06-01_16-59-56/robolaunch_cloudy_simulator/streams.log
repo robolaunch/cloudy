@@ -1,0 +1,28 @@
+[0.266s] Invoking command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_simulator -- -j16 -l16
+[0.297s] Invoked command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_simulator -- -j16 -l16
+[0.346s] Invoking command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_simulator
+[0.358s] -- Install configuration: ""
+[0.358s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/description
+[0.358s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/description/inertial_macros.xacro
+[0.358s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/launch
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/launch/gazebo.launch.py
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/playground.world
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/empty.world
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/worlds/industrial-warehouse.sdf
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_simulator
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_simulator
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/environment/ament_prefix_path.sh
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/environment/ament_prefix_path.dsv
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/environment/path.sh
+[0.359s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/environment/path.dsv
+[0.360s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/local_setup.bash
+[0.360s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/local_setup.sh
+[0.360s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/local_setup.zsh
+[0.360s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/local_setup.dsv
+[0.360s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.dsv
+[0.360s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/ament_index/resource_index/packages/robolaunch_cloudy_simulator
+[0.360s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/cmake/robolaunch_cloudy_simulatorConfig.cmake
+[0.360s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/cmake/robolaunch_cloudy_simulatorConfig-version.cmake
+[0.360s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator/share/robolaunch_cloudy_simulator/package.xml
+[0.369s] Invoked command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_simulator

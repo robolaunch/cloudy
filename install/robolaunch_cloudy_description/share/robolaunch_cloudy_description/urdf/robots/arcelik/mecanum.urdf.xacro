@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<robot name="linorobot2_2wd" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/mecanum_properties.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/base.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/mecanum_wheel.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/mecanum_wheel2.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/imu.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/generic_laser.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/sensors/depth_sensor.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/robots/arcelik/suspention.urdf.xacro" />
+  <xacro:include filename="$(find robolaunch_cloudy_description)/urdf/omni_drive.urdf.xacro" />
+
+
+ <xacro:property name="teker" value="-0.4" />
+
+  <xacro:base 
+    length="${base_length}" 
+    width="${base_width}" 
+    height="${base_height}" 
+    mass="${base_mass}"
+    wheel_radius="${wheel_radius}"
+    wheel_pos_z="${wheel_pos_z}"
+/>
+
+  <xacro:mecanum_wheel2 
+    side="front_left"
+    radius="${wheel_radius}" 
+    width="${wheel_width}" 
+    pos_x="${wheel_pos_x-0.22}" 
+    pos_y="0.05" 
+    pos_z="${wheel_pos_z}" 
+    mass="${wheel_mass}"
+    yon="-1.57"
+  />
+
+  <xacro:mecanum_wheel 
+    side="front_right"
+    radius="${wheel_radius}" 
+    width="${wheel_width}" 
+    pos_x="${wheel_pos_x-0.22}" 
+    pos_y="${teker+0.05}" 
+    pos_z="${wheel_pos_z}" 
+    mass="${wheel_mass}"
+    yon="1.57"
+    
+  />
+  <xacro:mecanum_wheel 
+    side="rear_left"
+    radius="${wheel_radius}" 
+    width="${wheel_width}" 
+    pos_x="${-wheel_pos_x+0.15}" 
+    pos_y="0.155" 
+    pos_z="${wheel_pos_z}" 
+    mass="${wheel_mass}"
+    yon="-1.57"
+
+  />
+
+  <xacro:mecanum_wheel2 
+    side="rear_right"
+    radius="${wheel_radius}" 
+    width="${wheel_width}" 
+    pos_x="${-wheel_pos_x+0.15}" 
+    pos_y="${teker-0.06}" 
+    pos_z="${wheel_pos_z}" 
+    mass="${wheel_mass}"
+    yon="1.57"
+
+  />
+  
+  <xacro:suspention 
+    side="front_left"
+    radius="${wheel_radius}" 
+    width="${wheel_width}" 
+    pos_x="0.17" 
+    pos_y="0.19" 
+    pos_z="0.205" 
+    mass="0"
+    yon="0"
+    yonp="-0.8"
+
+  />
+   <xacro:suspention 
+    side="front_right"
+    radius="${wheel_radius}" 
+    width="${wheel_width}" 
+    pos_x="0.17" 
+    pos_y="-0.16" 
+    pos_z="0.205" 
+    mass="0"
+    yon="0"
+    yonp="-0.8"
+  />
+   <xacro:suspention 
+    side="rear_left"
+    radius="${wheel_radius}" 
+    width="${wheel_width}" 
+    pos_x="-0.255" 
+    pos_y="-0.155" 
+    pos_z="0.205" 
+    mass="0"
+    yon="0"
+    yonp="0.8"
+
+  />
+   <xacro:suspention 
+    side="rear_right"
+    radius="${wheel_radius}" 
+    width="${wheel_width}" 
+    pos_x="-0.255" 
+    pos_y="0.185" 
+    pos_z="0.205" 
+    mass="0"
+    yon="0"
+    yonp="0.8"
+
+
+  />
+
+  
+  <xacro:imu/>
+  
+  <xacro:generic_laser>
+    <xacro:insert_block name="laser_pose" />
+  </xacro:generic_laser>
+  
+  <xacro:depth_sensor>
+    <xacro:insert_block name="depth_sensor_pose" />
+  </xacro:depth_sensor>
+
+  <xacro:omni_drive_controller/>
+  
+</robot>

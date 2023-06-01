@@ -1,0 +1,90 @@
+[0.026s] Invoking command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_navigation': CMAKE_PREFIX_PATH=/home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry:/home/mert/gokhan_cloudy/src/install/sllidar_ros2:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_bringup:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_description:/home/mert/gokhan_cloudy/install/sllidar_ros2:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_simulator:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_navigation:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_bringup:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_hardware:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_description:/home/mert/gokhan_cloudy/install/rf2o_laser_odometry:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_navigation -- -j16 -l16
+[0.069s] Built target ament_cmake_python_copy_robolaunch_cloudy_navigation
+[0.311s] running egg_info
+[0.312s] writing robolaunch_cloudy_navigation.egg-info/PKG-INFO
+[0.312s] writing dependency_links to robolaunch_cloudy_navigation.egg-info/dependency_links.txt
+[0.312s] writing top-level names to robolaunch_cloudy_navigation.egg-info/top_level.txt
+[0.315s] reading manifest file 'robolaunch_cloudy_navigation.egg-info/SOURCES.txt'
+[0.316s] writing manifest file 'robolaunch_cloudy_navigation.egg-info/SOURCES.txt'
+[0.342s] Built target ament_cmake_python_build_robolaunch_cloudy_navigation_egg
+[0.349s] Invoked command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_navigation' returned '0': CMAKE_PREFIX_PATH=/home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry:/home/mert/gokhan_cloudy/src/install/sllidar_ros2:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_bringup:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_description:/home/mert/gokhan_cloudy/install/sllidar_ros2:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_simulator:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_navigation:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_bringup:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_hardware:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_description:/home/mert/gokhan_cloudy/install/rf2o_laser_odometry:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_navigation -- -j16 -l16
+[0.364s] Invoking command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_navigation': CMAKE_PREFIX_PATH=/home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry:/home/mert/gokhan_cloudy/src/install/sllidar_ros2:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_bringup:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_description:/home/mert/gokhan_cloudy/install/sllidar_ros2:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_simulator:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_navigation:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_bringup:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_hardware:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_description:/home/mert/gokhan_cloudy/install/rf2o_laser_odometry:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_navigation
+[0.369s] -- Install configuration: ""
+[0.369s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/pythonpath.sh
+[0.369s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/pythonpath.dsv
+[0.369s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info
+[0.369s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.370s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/top_level.txt
+[0.370s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/PKG-INFO
+[0.370s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.370s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation
+[0.370s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts
+[0.370s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/dummy.py
+[0.370s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points_web(backup).py
+[0.370s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/joint_state_publisher.py
+[0.370s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/odom_tf_publisher.py
+[0.370s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/waypoints_commander.py
+[0.370s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points.py
+[0.370s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points_web.py
+[0.371s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/dynamic_tf_broadcaster.py
+[0.371s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/temp.py
+[0.371s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/__init__.py
+[0.397s] Listing '/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation'...
+[0.397s] Listing '/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts'...
+[0.397s] Compiling '/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/local/lib/python3.10/dist-packages/robolaunch_cloudy_navigation/scripts/way_points_web.py'...
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/dynamic_tf_broadcaster.py
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/way_points.py
+[0.401s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/way_points_web.py
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/lib/robolaunch_cloudy_navigation/waypoints_commander.py
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/arcelik_nav.launch.py
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloudy_slam.launch.py
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cartographer.launch.py
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/arcelik.launch.py
+[0.401s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloudy_nav.launch.py
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/ekf.launch.py
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/launch_all.launch.py
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/arcelik_slam.launch.py
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz/slam.rviz
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz/nav.rviz
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/rviz/cartographer.rviz
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_ekf.yaml
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/arcelik_ekf.yaml
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/ekf.yaml
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/box_filter.yaml
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_navigation.yaml
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/cartographer.lua
+[0.402s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/sim_slam.yaml
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/slam.yaml
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/range_filter.yaml
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/config/navigation.yaml
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/play_ground.yaml
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/ofice.pgm
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/ofice.data
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/ofice.posegraph
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/map/ofice.yaml
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_launch_all.launch.py
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_nav.launch.py
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/sim_slam.launch.py
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/cloud.launch.py
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/galactic_container.launch.py
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/launch/robot.launch.py
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/package_run_dependencies/robolaunch_cloudy_navigation
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/parent_prefix_path/robolaunch_cloudy_navigation
+[0.403s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/ament_prefix_path.sh
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/ament_prefix_path.dsv
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/path.sh
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/environment/path.dsv
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.bash
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.sh
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.zsh
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/local_setup.dsv
+[0.404s] -- Installing: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.dsv
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/ament_index/resource_index/packages/robolaunch_cloudy_navigation
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/cmake/robolaunch_cloudy_navigationConfig.cmake
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/cmake/robolaunch_cloudy_navigationConfig-version.cmake
+[0.404s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation/share/robolaunch_cloudy_navigation/package.xml
+[0.407s] Invoked command in '/home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_navigation' returned '0': CMAKE_PREFIX_PATH=/home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry:/home/mert/gokhan_cloudy/src/install/sllidar_ros2:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_simulator:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_navigation:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_bringup:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_hardware:/home/mert/gokhan_cloudy/src/install/robolaunch_cloudy_description:/home/mert/gokhan_cloudy/install/sllidar_ros2:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_simulator:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_navigation:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_bringup:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_hardware:/home/mert/gokhan_cloudy/install/robolaunch_cloudy_description:/home/mert/gokhan_cloudy/install/rf2o_laser_odometry:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/mert/gokhan_cloudy/src/build/robolaunch_cloudy_navigation

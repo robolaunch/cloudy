@@ -1,0 +1,27 @@
+[0.039s] Invoking command in '/home/mert/gokhan_cloudy/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/mert/gokhan_cloudy/src/build/rf2o_laser_odometry -- -j16 -l16
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry[0m
+[0.265s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node[0m
+[0.265s] [ 80%] Built target rf2o_laser_odometry
+[0.265s] [100%] Built target rf2o_laser_odometry_node
+[0.268s] Invoked command in '/home/mert/gokhan_cloudy/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --build /home/mert/gokhan_cloudy/src/build/rf2o_laser_odometry -- -j16 -l16
+[0.294s] Invoking command in '/home/mert/gokhan_cloudy/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/mert/gokhan_cloudy/src/build/rf2o_laser_odometry
+[0.309s] -- Install configuration: ""
+[0.309s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[0.309s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[0.309s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[0.309s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[0.309s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[0.309s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[0.310s] -- Installing: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[0.310s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[0.311s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[0.311s] -- Up-to-date: /home/mert/gokhan_cloudy/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[0.339s] Invoked command in '/home/mert/gokhan_cloudy/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mert/gokhan_cloudy/src/install/mecanum_control:/home/mert/gokhan_cloudy/install/mecanum_control:/opt/ros/humble /usr/bin/cmake --install /home/mert/gokhan_cloudy/src/build/rf2o_laser_odometry

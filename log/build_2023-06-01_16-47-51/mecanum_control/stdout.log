@@ -1,0 +1,47 @@
+running egg_info
+creating ../build/mecanum_control/mecanum_control.egg-info
+writing ../build/mecanum_control/mecanum_control.egg-info/PKG-INFO
+writing dependency_links to ../build/mecanum_control/mecanum_control.egg-info/dependency_links.txt
+writing entry points to ../build/mecanum_control/mecanum_control.egg-info/entry_points.txt
+writing requirements to ../build/mecanum_control/mecanum_control.egg-info/requires.txt
+writing top-level names to ../build/mecanum_control/mecanum_control.egg-info/top_level.txt
+writing manifest file '../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'
+reading manifest file '../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'
+writing manifest file '../build/mecanum_control/mecanum_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mert/gokhan_cloudy/src/build/mecanum_control/build
+creating /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib
+creating /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control
+copying mecanum_control/mecanum_control.py -> /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control
+copying mecanum_control/serial_com.py -> /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control
+copying mecanum_control/__init__.py -> /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control
+creating /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control/MecanumControllib
+copying mecanum_control/MecanumControllib/__init__.py -> /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control/MecanumControllib
+copying mecanum_control/MecanumControllib/MecanumControllib.py -> /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control/MecanumControllib
+running install
+running install_lib
+creating /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control
+creating /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/MecanumControllib
+copying /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control/MecanumControllib/__init__.py -> /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/MecanumControllib
+copying /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control/MecanumControllib/MecanumControllib.py -> /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/MecanumControllib
+copying /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control/mecanum_control.py -> /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control
+copying /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control/serial_com.py -> /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control
+copying /home/mert/gokhan_cloudy/src/build/mecanum_control/build/lib/mecanum_control/__init__.py -> /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control
+byte-compiling /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/MecanumControllib/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/MecanumControllib/MecanumControllib.py to MecanumControllib.cpython-310.pyc
+byte-compiling /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/mecanum_control.py to mecanum_control.cpython-310.pyc
+byte-compiling /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/serial_com.py to serial_com.cpython-310.pyc
+byte-compiling /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mert/gokhan_cloudy/src/install/mecanum_control/share/ament_index
+creating /home/mert/gokhan_cloudy/src/install/mecanum_control/share/ament_index/resource_index
+creating /home/mert/gokhan_cloudy/src/install/mecanum_control/share/ament_index/resource_index/packages
+copying resource/mecanum_control -> /home/mert/gokhan_cloudy/src/install/mecanum_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/mert/gokhan_cloudy/src/install/mecanum_control/share/mecanum_control
+running install_egg_info
+Copying ../build/mecanum_control/mecanum_control.egg-info to /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/python3.10/site-packages/mecanum_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mecanum_control script to /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/mecanum_control
+Installing serial_com script to /home/mert/gokhan_cloudy/src/install/mecanum_control/lib/mecanum_control
+writing list of installed files to '/home/mert/gokhan_cloudy/src/build/mecanum_control/install.log'

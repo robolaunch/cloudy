@@ -1,0 +1,2 @@
+/usr/bin/ar qc librf2o_laser_odometry.a CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o
+/usr/bin/ranlib librf2o_laser_odometry.a
