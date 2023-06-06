@@ -118,7 +118,7 @@ class WayPointsWeb(Node):
             self.navigator.goToPose(waypoints[goal_index])
             i = 0
             while not self.navigator.isTaskComplete():
-
+                
                 if self.goal_cancelled:
                     self.navigator.cancelTask()
                     robot_feedback.data = "CANCELED"

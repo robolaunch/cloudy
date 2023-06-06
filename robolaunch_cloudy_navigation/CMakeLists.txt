@@ -35,6 +35,8 @@ install(PROGRAMS
   robolaunch_cloudy_navigation/scripts/way_points.py
   robolaunch_cloudy_navigation/scripts/way_points_web.py
   robolaunch_cloudy_navigation/scripts/waypoints_commander.py
+  robolaunch_cloudy_navigation/scripts/barcode_reader.py
+
 
   DESTINATION lib/${PROJECT_NAME}
 )

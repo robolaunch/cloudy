@@ -55,6 +55,7 @@ bt_navigator:
     odom_topic: /odom
     bt_loop_duration: 10
     default_server_timeout: 20
+    default_bt_xml_filename: navigate_w_replanning_only_if_goal_is_updated.xml
     enable_groot_monitoring: True
     groot_zmq_publisher_port: 1666
     groot_zmq_server_port: 1667
@@ -63,7 +64,7 @@ bt_navigator:
     - nav2_compute_path_through_poses_action_bt_node
     - nav2_follow_path_action_bt_node
     - nav2_back_up_action_bt_node
-    - nav2_spin_action_bt_node
+    # - nav2_spin_action_bt_node
     - nav2_wait_action_bt_node
     - nav2_clear_costmap_service_bt_node
     - nav2_is_stuck_condition_bt_node
@@ -294,9 +295,10 @@ recoveries_server:
     costmap_topic: local_costmap/costmap_raw
     footprint_topic: local_costmap/published_footprint
     cycle_frequency: 10.0
-    recovery_plugins: ["spin", "backup", "wait"]
-    spin:
-      plugin: "nav2_recoveries/Spin"
+    recovery_plugins: [ "backup", "wait"] # "spin",
+    # spin:
+    #   plugin: "nav2_recoveries/Spin"
+    #   spin_dist: 0.01 
     backup:
       plugin: "nav2_recoveries/BackUp"
     wait:
