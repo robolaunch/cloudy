@@ -24,11 +24,13 @@ class BarcodeReader(Node):
 
     def barcode_callback(self, msg):
 
-        id = msg.data.split("-")[0]
-        code = msg.data.split("-")[1]
+        id, code = msg.data.split("-")
+
 
         if not code in self.barcode_list:
             print("barcode: " + msg.data)
+            print("barcode: " + code + " barcode list : " + self.barcode_list)
+            print()
             self.t = self.tf_buffer.lookup_transform('map', 'base_link', rclpy.time.Time().to_msg(), rclpy.time.Duration(seconds=1.0))
             self.pose = PoseStamped()
             self.pose.pose.position.x =    self.t.transform.translation.x
