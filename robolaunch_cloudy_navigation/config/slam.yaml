@@ -15,11 +15,12 @@ slam_toolbox:
     base_frame: base_footprint
     scan_topic: /scan_filtered
     mode: mapping
+    # mode: localization
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
     # will use pose
-    # map_file_name: /home/{{env(USER)}}/
+    # map_file_name: /home/samet/develop/cloudy_ws/src/cloudy/robolaunch_cloudy_navigation/map/dust2
     # map_start_pose: [0.0, 0.0, 0.0]
     # map_start_at_dock: true
 

@@ -37,7 +37,7 @@ amcl:
     z_max: 0.05
     z_rand: 0.5
     z_short: 0.05
-    scan_topic: /scan
+    scan_topic: /scan_filtered_filtered
 
 amcl_map_client:
   ros__parameters:
@@ -127,7 +127,7 @@ controller_server:
       min_vel_y: 0.0
       max_vel_x: 0.4
       max_vel_y: 0.0
-      max_vel_theta: 0.75
+      max_vel_theta: 0.32
       min_speed_xy: 0.0
       max_speed_xy: 0.4
       min_speed_theta: 0.0
@@ -135,7 +135,7 @@ controller_server:
       # https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/75
       acc_lim_x: 2.5
       acc_lim_y: 0.0
-      acc_lim_theta: 3.2
+      acc_lim_theta: 1.0
       decel_lim_x: -2.5
       decel_lim_y: 0.0
       decel_lim_theta: -3.2
@@ -183,7 +183,7 @@ local_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 3.0
-        inflation_radius: 0.15
+        inflation_radius: 0.13
       voxel2d_layer:
         plugin: "nav2_costmap_2d::VoxelLayer"
         enabled: True
@@ -195,13 +195,13 @@ local_costmap:
         mark_threshold: 0
         observation_sources: scan base_scan
         scan:
-          topic: /scan
+          topic: /scan_filtered
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
         base_scan:
-          topic: /base/scan
+          topic: /base/scan_filtered
           max_obstacle_height: 2.0
           clearing: True
           marking: True
@@ -234,13 +234,13 @@ global_costmap:
         enabled: True
         observation_sources: scan base_scan
         scan:
-          topic: /scan
+          topic: /scan_filtered
           max_obstacle_height: 2.0
           clearing: True
           marking: True
           data_type: "LaserScan"
         base_scan:
-          topic: /base/scan
+          topic: /base/scan_filtered
           max_obstacle_height: 2.0
           clearing: True
           marking: True
@@ -252,7 +252,7 @@ global_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 3.0
-        inflation_radius: 0.55
+        inflation_radius: 0.13
       always_send_full_costmap: True
   global_costmap_client:
     ros__parameters:
@@ -294,9 +294,9 @@ recoveries_server:
     costmap_topic: local_costmap/costmap_raw
     footprint_topic: local_costmap/published_footprint
     cycle_frequency: 10.0
-    recovery_plugins: ["spin", "backup", "wait"]
-    spin:
-      plugin: "nav2_recoveries/Spin"
+    recovery_plugins: [ "backup", "wait"] # spin
+    # spin:
+    #   plugin: "nav2_recoveries/Spin"
     backup:
       plugin: "nav2_recoveries/BackUp"
     wait:
