@@ -27,7 +27,7 @@ class BarcodeReader(Node):
         id = msg.data.split("-")[0]
         code = msg.data.split("-")[1]
 
-        if not id in self.barcode_list:
+        if not code in self.barcode_list:
             print("barcode: " + msg.data)
             self.t = self.tf_buffer.lookup_transform('map', 'base_link', rclpy.time.Time().to_msg(), rclpy.time.Duration(seconds=1.0))
             self.pose = PoseStamped()
@@ -62,7 +62,7 @@ class BarcodeReader(Node):
             elif id == "3":
                 self.barcode_publisher3.publish(msg_send)
 
-        self.barcode_list.append(id)
+        self.barcode_list.append(code)
         
 
 if __name__ == '__main__':
