@@ -12,10 +12,10 @@ class BarcodeReader(Node):
     def __init__(self):
         super().__init__('barcode_reader')
         self.barcode_subscription = self.create_subscription(String, 'barcode', self.barcode_callback, 10)
-        self.barcode_publisher1 = self.create_publisher(String, 'barcode_pose0', 10)
-        self.barcode_publisher2 = self.create_publisher(String, 'barcode_pose1', 10)
-        self.barcode_publisher3 = self.create_publisher(String, 'barcode_pose2', 10)
-        self.barcode_publisher4 = self.create_publisher(String, 'barcode_pose3', 10)
+        self.barcode_publisher0 = self.create_publisher(String, 'barcode_pose0', 10)
+        self.barcode_publisher1 = self.create_publisher(String, 'barcode_pose1', 10)
+        self.barcode_publisher2 = self.create_publisher(String, 'barcode_pose2', 10)
+        self.barcode_publisher3 = self.create_publisher(String, 'barcode_pose3', 10)
 
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
@@ -24,7 +24,10 @@ class BarcodeReader(Node):
 
     def barcode_callback(self, msg):
 
-        if not msg.data in self.barcode_list:
+        id = msg.data.split("-")[0]
+        code = msg.data.split("-")[1]
+
+        if not id in self.barcode_list:
             print("barcode: " + msg.data)
             self.t = self.tf_buffer.lookup_transform('map', 'base_link', rclpy.time.Time().to_msg(), rclpy.time.Duration(seconds=1.0))
             self.pose = PoseStamped()
@@ -36,8 +39,7 @@ class BarcodeReader(Node):
             self.pose.pose.orientation.z = self.t.transform.rotation.z
             self.pose.pose.orientation.w = self.t.transform.rotation.w
 
-            id = msg.data.split("-")[0]
-            code = msg.data.split("-")[1]
+            
 
             json_obj = {
                 "barcode": code,
@@ -60,7 +62,7 @@ class BarcodeReader(Node):
             elif id == "3":
                 self.barcode_publisher3.publish(msg_send)
 
-        self.barcode_list.append(msg.data)
+        self.barcode_list.append(id)
         
 
 if __name__ == '__main__':
