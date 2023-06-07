@@ -6,10 +6,10 @@ scan_to_scan_filter_chain:
       params:
         box_frame: laser
         max_x: 0.5
-        max_y: 0.25
+        max_y: 0.40
         max_z: 0.6
         min_x: -0.05
-        min_y: -0.25
+        min_y: -0.40
         min_z: -0.6
         
         invert: false # activate to remove all points outside of the box
